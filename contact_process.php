@@ -13,9 +13,9 @@
 	$headers .= "MIME-Version: 1.0\r\n";
 	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
-    $subject = "You have a message from your Creative Agency.";
+    $subject = "You have a message from your Website Stellaxius.";
 
-    $logo = 'http://wethemez.com/test-html/consultplus/img/logo-black.png';
+    $logo = 'http://www.stellaxius.com/resource/1482413351000/stellaxius_logo';
     $link = '#';
 
 	$body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Express Mail</title></head><body>";

@@ -76,6 +76,9 @@
     .main_menu_area .navbar .navbar-nav li a {
         padding: 0px 20px;
     }
+    .navbar-brand img {
+        max-width: 200px;
+    }
     .c_box_item {
         margin-bottom: 20px;
     }
@@ -92,7 +95,9 @@
         max-width: 100%;
         margin-top: 50px;
     }
-    
+    .tp-parallax-wrap .sub_text {
+        display: none;
+    }
     .left_indus {
         width: 100%;
         float: none;

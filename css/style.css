@@ -4,10 +4,8 @@
 @URL: https://www.linkedin.com/in/alexandrecgd/
 Author E-mail: alexandrecgduarte@gmail.com
 
-This file contains the styling for the actual theme, this
-is the file you need to edit to change the look of the
-theme.
 ---------------------------------------------------- */
+
 /*=====================================================================
 @Template Name: Stellaxius
 @Author: Alexandre Duarte
@@ -31,16 +29,24 @@ Table of Content:
 11/ contact 
 12/ footer 
 =====================================================================*/
+
+
 /*----------------------------------------------------*/
+
+
 /*font Variables*/
 /*Color Variables*/
+
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display|Poppins:300,400,500,600,700,800,900");
-.col-md-offset-right-1, .col-lg-offset-right-1 {
+.col-md-offset-right-1,
+.col-lg-offset-right-1 {
   margin-right: 8.33333333%;
 }
 
+
 /*---------------------------------------------------- */
-/*----------------------------------------------------*/
+
+
 ul {
   list-style: none;
   margin: 0px;
@@ -51,7 +57,8 @@ a {
   text-decoration: none;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   text-decoration: none;
   outline: none;
 }
@@ -70,7 +77,14 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-body, p, h1, h2, h3, h4, h5, h6 {
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0px;
   padding: 0px;
 }
@@ -109,18 +123,24 @@ i:before {
   margin-left: 0px !important;
 }
 
+
 /* Container Custome Code css
 ============================================================================================ */
+
 @media (min-width: 1200px) {
   .container {
     max-width: 1200px;
   }
 }
 
+
 /* End Container Custome Code css
 ============================================================================================ */
+
+
 /* Main title css
 ============================================================================================ */
+
 .main_title h2 {
   font-size: 40px;
   line-height: 48px;
@@ -172,12 +192,20 @@ i:before {
   color: #51545f;
 }
 
+
 /* Main title css
 ============================================================================================ */
+
+
 /*---------------------------------------------------- */
+
+
 /*----------------------------------------------------*/
+
+
 /* Main Menu Area css
 ============================================================================================ */
+
 .navbar-light .navbar-nav .nav-link {
   color: #fff;
 }
@@ -235,8 +263,13 @@ i:before {
   margin-right: 0px;
 }
 
-.main_menu_area .navbar .navbar-nav li:hover a, .main_menu_area .navbar .navbar-nav li.active a {
-  color: #2bc0a4;
+.main_menu_area .navbar .navbar-nav li:hover a,
+.main_menu_area .navbar .navbar-nav li.active a {
+  color: #f5b6c4;
+}
+
+.navbar-brand img {
+  max-width: 260px;
 }
 
 @media (min-width: 992px) {
@@ -286,7 +319,7 @@ i:before {
 }
 
 .main_menu_area .navbar .navbar-nav li.submenu .dropdown-menu li:hover a {
-  color: #2bc0a4;
+  color: #d80f2c;
 }
 
 @media (min-width: 992px) {
@@ -335,10 +368,14 @@ i:before {
   line-height: 70px;
 }
 
+
 /* End Main Menu Area css
 ============================================================================================ */
+
+
 /* End Main Menu Area css
 ============================================================================================ */
+
 .search_area {
   position: fixed;
   top: -100px;
@@ -366,7 +403,7 @@ i:before {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  background: #2bc0a4;
+  background: #d80f2c;
 }
 
 .search_area .search_inner input {
@@ -419,7 +456,7 @@ i:before {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  color: #2bc0a4;
+  color: #d80f2c;
   font-size: 30px;
   cursor: pointer;
 }
@@ -428,14 +465,16 @@ i:before {
   top: 0px;
 }
 
+
 /* End Main Menu Area css
 ============================================================================================ */
-/*---------------------------------------------------- */
-/*----------------------------------------------------*/
+
+
 /* Banner Area css
 ============================================================================================ */
+
 .banner_area {
-  background: url(../img/banner/banner-1.jpg) no-repeat scroll center center;
+  background: url(../img/knowledge/banner/banner_imagem_1.png) no-repeat scroll center center;
   background-size: cover;
   position: relative;
   min-height: 400px;
@@ -485,7 +524,7 @@ i:before {
 }
 
 .banner_text_inner ul li:hover a {
-  color: #2bc0a4;
+  color: #d80f2c;
 }
 
 .banner_text_inner h5 {
@@ -493,11 +532,14 @@ i:before {
   color: #fff;
 }
 
+
 /* End Banner Area css
 ============================================================================================ */
 
+
 /* Slider Area css
 ============================================================================================ */
+
 .main_slider_area #main_slider ul li .slider_button .bg_btn {
   display: inline-block;
   line-height: 46px !important;
@@ -511,11 +553,14 @@ i:before {
   text-transform: uppercase;
 }
 
+
 /* End Slider Area css
 ============================================================================================ */
 
+
 /* Creative Feature Area css
 ============================================================================================ */
+
 .creative_feature_area {
   background: #f7f7f7;
 }
@@ -564,12 +609,17 @@ i:before {
 }
 
 .c_box_item h4 i {
+  background-image: -moz-linear-gradient(45deg, #ff416c 0%, #ff416c 38%, #8c2424 100%);
+  background-image: -webkit-linear-gradient(45deg, #ff416c 0%, #ff416c 38%, #8c2424 100%);
+  background-image: -ms-linear-gradient(45deg, #ff416c 0%, #ff416c 38%, #8c2424 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
   padding-right: 10px;
-  color: #2bc0a4;
 }
 
 .c_box_item h4:hover {
-  color: #2bc0a4;
+  color: #d80f2c;
 }
 
 .c_box_item p {
@@ -589,7 +639,7 @@ i:before {
   padding-bottom: 12px;
 }
 
-.d_feature_text p + p {
+.d_feature_text p+p {
   padding-bottom: 0px;
 }
 
@@ -601,11 +651,14 @@ i:before {
   padding-left: 70px;
 }
 
+
 /* End Creative Feature Area css
 ============================================================================================ */
 
+
 /* Industries Area css
 ============================================================================================ */
+
 .industries_area {
   overflow: hidden;
   padding-top: 100px;
@@ -685,9 +738,9 @@ i:before {
 }
 
 .our_skill_inner .single_skill .progress .progress-bar {
-  background-image: -webkit-linear-gradient(180deg, #20d497 0%, #744fff 100%);
-  background-image: -moz-linear-gradient(180deg, #20d497 0%, #744fff 100%);
-  background-image: -ms-linear-gradient(180deg, #20d497 0%, #744fff 100%);
+  background-image: -moz-linear-gradient(45deg, #ff416c 0%, #ff416c 38%, #8c2424 100%);
+  background-image: -webkit-linear-gradient(45deg, #ff416c 0%, #ff416c 38%, #8c2424 100%);
+  background-image: -ms-linear-gradient(45deg, #ff416c 0%, #ff416c 38%, #8c2424 100%);
   position: relative;
   overflow: visible;
   background-color: transparent;
@@ -706,11 +759,14 @@ i:before {
   margin-bottom: 0px;
 }
 
+
 /* End Industries Area css
 ============================================================================================ */
 
+
 /* Project Area css
 ============================================================================================ */
+
 .project_area {
   background: url(../img/project-bg.jpg) no-repeat fixed center center;
   background-size: cover;
@@ -734,11 +790,14 @@ i:before {
   margin-top: 5px;
 }
 
+
 /* End Project Area css
 ============================================================================================ */
 
+
 /* Border Button Area css
 ============================================================================================ */
+
 .read_btn {
   height: 46px;
   width: 160px;
@@ -747,10 +806,9 @@ i:before {
   font-weight: 600;
   font-size: 13px;
   text-transform: uppercase;
-  background-image: -webkit-gradient(linear, left top, right top, from(#744fff), color-stop(51%, #21d397), to(#744fff));
-  background-image: -webkit-linear-gradient(left, #744fff 0%, #21d397 51%, #744fff 100%);
-  background-image: -o-linear-gradient(left, #744fff 0%, #21d397 51%, #744fff 100%);
-  background-image: linear-gradient(to right, #744fff 0%, #21d397 51%, #744fff 100%);
+  background-image: -moz-linear-gradient(45deg, #ff416c 0%, #ff416c 38%, #8c2424 100%);
+  background-image: -webkit-linear-gradient(45deg, #ff416c 0%, #ff416c 38%, #8c2424 100%);
+  background-image: -ms-linear-gradient(45deg, #ff416c 0%, #ff416c 38%, #8c2424 100%);
   text-align: center;
   position: relative;
   background-size: 200% auto;
@@ -787,10 +845,10 @@ i:before {
   color: #fff;
   border-width: 2px;
   border-style: solid;
-  border-image: -moz-linear-gradient(180deg, #20d497 0%, #744fff 100%);
-  -webkit-border-image: -webkit-linear-gradient(180deg, #20d497 0%, #744fff 100%);
-  border-image: -webkit-linear-gradient(180deg, #20d497 0%, #744fff 100%);
-  border-image: -ms-linear-gradient(180deg, #20d497 0%, #744fff 100%);
+  border-image: -moz-linear-gradient(45deg, #ff416c 1%, #8c2424 100%);
+  -webkit-border-image: -webkit-linear-gradient(45deg, #ff416c 1%,#8c2424 100%);
+  border-image: -webkit-linear-gradient(45deg, #ff416c 1%,#8c2424 100%);
+  border-image: -ms-linear-gradient(45deg, #ff416c 1%,#8c2424 100%);
   border-image-slice: 1;
   display: block;
   line-height: 42px;
@@ -813,10 +871,10 @@ i:before {
   top: -2px;
   border-width: 2px;
   border-style: solid;
-  border-image: -moz-linear-gradient(180deg, #744fff 0%, #20d497 100%);
-  -webkit-border-image: -webkit-linear-gradient(180deg, #744fff 0%, #20d497 100%);
-  border-image: -webkit-linear-gradient(180deg, #744fff 0%, #20d497 100%);
-  border-image: -ms-linear-gradient(180deg, #744fff 0%, #20d497 100%);
+  border-image: -moz-linear-gradient(45deg, #8c2424 0%, #ff416c 100%);
+  -webkit-border-image: -webkit-linear-gradient(45deg, #8c2424 0%, #ff416c 100%);
+  border-image: -webkit-linear-gradient(45deg, #8c2424 0%, #ff416c 100%);
+  border-image: -ms-linear-gradient(45deg, #8c2424 0%, #ff416c 100%);
   border-image-slice: 1;
   -webkit-transition: all 400ms ease-out;
   -o-transition: all 400ms ease-out;
@@ -842,10 +900,10 @@ i:before {
   width: 160px;
   height: 46px;
   line-height: 46px;
-  background-image: -webkit-gradient(linear, left top, right top, from(#744fff), color-stop(51%, #21d397), to(#744fff));
-  background-image: -webkit-linear-gradient(left, #744fff 0%, #21d397 51%, #744fff 100%);
-  background-image: -o-linear-gradient(left, #744fff 0%, #21d397 51%, #744fff 100%);
-  background-image: linear-gradient(to right, #744fff 0%, #21d397 51%, #744fff 100%);
+  background-image: -webkit-gradient(45deg, #ff416c -1%, #ff416c 0%, #8c2424 100%);
+  background-image: -webkit-linear-gradient(45deg, #ff416c -1%, #ff416c 0%, #8c2424 100%);
+  background-image: -o-linear-gradient(45deg, #ff416c -1%, #ff416c 0%, #8c2424 100%);
+  background-image: linear-gradient(45deg, #ff416c -1%, #ff416c 0%, #8c2424 100%);
   -webkit-transition: all 400ms ease-out !important;
   -o-transition: all 400ms ease-out !important;
   transition: all 400ms ease-out !important;
@@ -865,10 +923,10 @@ i:before {
 }
 
 .bg_btn:focus {
-  background-image: -webkit-gradient(linear, left top, right top, from(#744fff), color-stop(51%, #21d397), to(#744fff)) !important;
-  background-image: -webkit-linear-gradient(left, #744fff 0%, #21d397 51%, #744fff 100%) !important;
-  background-image: -o-linear-gradient(left, #744fff 0%, #21d397 51%, #744fff 100%) !important;
-  background-image: linear-gradient(to right, #744fff 0%, #21d397 51%, #744fff 100%) !important;
+  background-image: -webkit-gradient(45deg, #8c2424 0%,#ff416c 100%) !important;
+  background-image: -webkit-linear-gradient(45deg, #8c2424 0%,#ff416c 100%) !important;
+  background-image: -o-linear-gradient(45deg, #8c2424 0%,#ff416c 100%) !important;
+  background-image: linear-gradient(45deg, #8c2424 0%,#ff416c 100%) !important;
   -webkit-transition: all 400ms ease-out !important;
   -o-transition: all 400ms ease-out !important;
   transition: all 400ms ease-out !important;
@@ -876,7 +934,7 @@ i:before {
 }
 
 .more_btn {
-  color: #2bc0a4;
+  color: #d80f2c;
   font-size: 14px;
   text-decoration: underline;
   line-height: 26px;
@@ -887,7 +945,7 @@ i:before {
 
 .more_btn:hover {
   text-decoration: none;
-  color: #2bc0a4;
+  color: #9b0a26;
 }
 
 .submit_btn {
@@ -897,10 +955,10 @@ i:before {
   color: #fff;
   text-align: center;
   padding: 0px 10px;
-  background-image: -webkit-gradient(linear, left top, right top, from(#744fff), color-stop(51%, #21d397), to(#744fff));
-  background-image: -webkit-linear-gradient(left, #744fff 0%, #21d397 51%, #744fff 100%);
-  background-image: -o-linear-gradient(left, #744fff 0%, #21d397 51%, #744fff 100%);
-  background-image: linear-gradient(to right, #744fff 0%, #21d397 51%, #744fff 100%);
+  background-image: -webkit-gradient(45deg, #ff416c -1%, #ff416c 0%, #8c2424 100%);
+  background-image: -webkit-linear-gradient(45deg, #ff416c -1%, #ff416c 0%, #8c2424 100%);
+  background-image: -o-linear-gradient(45deg, #ff416c -1%, #ff416c 0%, #8c2424 100%);
+  background-image: linear-gradient(45deg, #ff416c -1%, #ff416c 0%, #8c2424 100%);
   -webkit-transition: all 400ms ease-out;
   -o-transition: all 400ms ease-out;
   transition: all 400ms ease-out;
@@ -919,10 +977,10 @@ i:before {
 }
 
 .submit_btn:focus {
-  background-image: -webkit-gradient(linear, left top, right top, from(#744fff), color-stop(51%, #21d397), to(#744fff)) !important;
-  background-image: -webkit-linear-gradient(left, #744fff 0%, #21d397 51%, #744fff 100%) !important;
-  background-image: -o-linear-gradient(left, #744fff 0%, #21d397 51%, #744fff 100%) !important;
-  background-image: linear-gradient(to right, #744fff 0%, #21d397 51%, #744fff 100%) !important;
+  background-image: -webkit-gradient(45deg, #8c2424 0%, #ff416c 100%) !important;
+  background-image: -webkit-linear-gradient(45deg, #8c2424 0%, #ff416c 100%) !important;
+  background-image: -o-linear-gradient(45deg, #8c2424 0%, #ff416c 100%) !important;
+  background-image: linear-gradient(45deg, #8c2424 0%, #ff416c 100%) !important;
   -webkit-transition: all 400ms ease-out;
   -o-transition: all 400ms ease-out;
   transition: all 400ms ease-out;
@@ -937,10 +995,10 @@ i:before {
   font-weight: 600;
   font-size: 13px;
   text-transform: uppercase;
-  background-image: -webkit-gradient(linear, left top, right top, from(#744fff), color-stop(51%, #21d397), to(#744fff));
-  background-image: -webkit-linear-gradient(left, #744fff 0%, #21d397 51%, #744fff 100%);
-  background-image: -o-linear-gradient(left, #744fff 0%, #21d397 51%, #744fff 100%);
-  background-image: linear-gradient(to right, #744fff 0%, #21d397 51%, #744fff 100%);
+  background-image: -webkit-gradient(45deg, #ff416c -1%, #ff416c 0%, #8c2424 100%);
+  background-image: -webkit-linear-gradient(45deg, #ff416c -1%, #ff416c 0%, #8c2424 100%);
+  background-image: -o-linear-gradient(45deg, #ff416c -1%, #ff416c 0%, #8c2424 100%);
+  background-image: linear-gradient(45deg, #ff416c -1%, #ff416c 0%, #8c2424 100%);
   text-align: center;
   position: relative;
   background-size: 200% auto;
@@ -976,16 +1034,15 @@ i:before {
   color: #232d37;
 }
 
+
 /* End Border Button Area css
 ============================================================================================ */
 
+
 /* Our Service Area css
 ============================================================================================ */
+
 .service_area {
-  /*background: url(../img/service-bg.jpg) no-repeat fixed center center;
-  background-size: cover;
-  position: relative;
-  z-index: 2; */
   padding: 115px 0px 25px 0px;
 }
 
@@ -1014,9 +1071,9 @@ i:before {
 }
 
 .service_item i {
-  background-image: -moz-linear-gradient(180deg, #20d497 0%, #744fff 100%);
-  background-image: -webkit-linear-gradient(180deg, #20d497 0%, #744fff 100%);
-  background-image: -ms-linear-gradient(180deg, #20d497 0%, #744fff 100%);
+  background-image: -moz-linear-gradient(45deg, #ff416c 0%, #ff416c 38%, #8c2424 100%);
+  background-image: -webkit-linear-gradient(45deg, #ff416c 0%, #ff416c 38%, #8c2424 100%);
+  background-image: -ms-linear-gradient(45deg, #ff416c 0%, #ff416c 38%, #8c2424 100%);
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
@@ -1036,11 +1093,14 @@ i:before {
   margin: auto;
 }
 
+
 /* End Our Service Area css
 ============================================================================================ */
 
+
 /* Testimonials Area css
 ============================================================================================ */
+
 .testimonials_slider .item img {
   width: auto !important;
 }
@@ -1082,7 +1142,8 @@ i:before {
   font-weight: 500;
 }
 
-.testimonials_slider .owl-prev, .testimonials_slider .owl-next {
+.testimonials_slider .owl-prev,
+.testimonials_slider .owl-next {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -1102,11 +1163,14 @@ i:before {
   right: -80px;
 }
 
+
 /* End Testimonials Area css
 ============================================================================================ */
 
+
 /* Latest News Area css
 ============================================================================================ */
+
 .l_news_item {
   -webkit-transition: all 400ms linear 0s;
   -o-transition: all 400ms linear 0s;
@@ -1149,7 +1213,7 @@ i:before {
 }
 
 .l_news_item .l_news_content h4:hover {
-  color: #2bc0a4;
+  color: #d80f2c;
 }
 
 .l_news_item .l_news_content p {
@@ -1165,11 +1229,14 @@ i:before {
   box-shadow: 0px 25px 49px 0px rgba(58, 74, 88, 0.1);
 }
 
+
 /* Latest News Area css
 ============================================================================================ */
 
+
 /* Static Area css
 ============================================================================================ */
+
 .static_area {
   padding: 100px 0px;
 }
@@ -1254,7 +1321,7 @@ i:before {
 .media .d-flex h6 {
   font-family: "Playfair Display", serif;
   font-size: 100px;
-  color: #2bc0a4;
+  color: #d80f2c;
   line-height: 75px;
 }
 
@@ -1284,7 +1351,7 @@ i:before {
 }
 
 .media .media-body h5 a:hover {
-  color: #2bc0a4;
+  color: #d80f2c;
 }
 
 .right_sidebar_area {
@@ -1323,7 +1390,7 @@ i:before {
 }
 
 .r_news_widget .news_inner .news_item h4:hover {
-  color: #2bc0a4;
+  color: #d80f2c;
 }
 
 .r_news_widget .news_inner .news_item h6 {
@@ -1354,7 +1421,7 @@ i:before {
   height: 8px;
   width: 8px;
   border-radius: 50%;
-  background: #2bc0a4;
+  background: #d80f2c;
   position: absolute;
   left: 0px;
   top: 50%;
@@ -1367,7 +1434,7 @@ i:before {
 }
 
 .r_cat_widget ul li:hover a {
-  color: #2bc0a4;
+  color: #d80f2c;
 }
 
 .r_cat_widget ul li:hover a:before {
@@ -1403,14 +1470,17 @@ i:before {
 }
 
 .r_tag_widget ul li:hover a {
-  color: #2bc0a4;
+  color: #d80f2c;
 }
+
 
 /* End Static Area css
 ============================================================================================ */
 
+
 /* Contact Us Area css
 ============================================================================================ */
+
 .contact_us_area {
   padding: 110px 0px;
 }
@@ -1556,9 +1626,17 @@ i:before {
   margin-top: 10px;
 }
 
+.contact_us_form label{
+  color: #d80f2c;
+}
+
+
 /* End Contact Us Area css
 ============================================================================================ */
+
+
 /* start state */
+
 .my-mfp-zoom-in .zoom-anim-dialog {
   opacity: 0;
   -webkit-transition: all 0.2s ease-in-out;
@@ -1572,7 +1650,9 @@ i:before {
   transform: scale(0.8);
 }
 
+
 /* animate in */
+
 .my-mfp-zoom-in.mfp-ready .zoom-anim-dialog {
   opacity: 1;
   -webkit-transform: scale(1);
@@ -1582,7 +1662,9 @@ i:before {
   transform: scale(1);
 }
 
+
 /* animate out */
+
 .my-mfp-zoom-in.mfp-removing .zoom-anim-dialog {
   -webkit-transform: scale(0.8);
   -moz-transform: scale(0.8);
@@ -1592,7 +1674,9 @@ i:before {
   opacity: 0;
 }
 
+
 /* Dark overlay, start state */
+
 .my-mfp-zoom-in.mfp-bg {
   opacity: 0;
   -webkit-transition: opacity 0.3s ease-out;
@@ -1601,20 +1685,28 @@ i:before {
   transition: opacity 0.3s ease-out;
 }
 
+
 /* animate in */
+
 .my-mfp-zoom-in.mfp-ready.mfp-bg {
   opacity: 0.8;
 }
 
+
 /* animate out */
+
 .my-mfp-zoom-in.mfp-removing.mfp-bg {
   opacity: 0;
 }
 
+
 /**
  * Fade-move animation for second dialog
  */
+
+
 /* at start */
+
 .my-mfp-slide-bottom .zoom-anim-dialog {
   opacity: 0;
   -webkit-transition: all 0.2s ease-out;
@@ -1628,7 +1720,9 @@ i:before {
   transform: translateY(-20px) perspective(600px) rotateX(10deg);
 }
 
+
 /* animate in */
+
 .my-mfp-slide-bottom.mfp-ready .zoom-anim-dialog {
   opacity: 1;
   -webkit-transform: translateY(0) perspective(600px) rotateX(0);
@@ -1638,7 +1732,9 @@ i:before {
   transform: translateY(0) perspective(600px) rotateX(0);
 }
 
+
 /* animate out */
+
 .my-mfp-slide-bottom.mfp-removing .zoom-anim-dialog {
   opacity: 0;
   -webkit-transform: translateY(-10px) perspective(600px) rotateX(10deg);
@@ -1648,7 +1744,9 @@ i:before {
   transform: translateY(-10px) perspective(600px) rotateX(10deg);
 }
 
+
 /* Dark overlay, start state */
+
 .my-mfp-slide-bottom.mfp-bg {
   opacity: 0;
   -webkit-transition: opacity 0.3s ease-out;
@@ -1657,20 +1755,28 @@ i:before {
   transition: opacity 0.3s ease-out;
 }
 
+
 /* animate in */
+
 .my-mfp-slide-bottom.mfp-ready.mfp-bg {
   opacity: 0.8;
 }
 
+
 /* animate out */
+
 .my-mfp-slide-bottom.mfp-removing.mfp-bg {
   opacity: 0;
 }
 
+
 /* End Search Popup Area css
 ============================================================================================ */
+
+
 /* Contact Success and error Area css
 ============================================================================================ */
+
 .modal-message .modal-dialog {
   position: absolute;
   top: 36%;
@@ -1704,7 +1810,7 @@ i:before {
 .modal-message .modal-dialog .modal-content .modal-header h2 {
   display: block;
   text-align: center;
-  color: #2bc0a4;
+  color: #d80f2c;
   padding-bottom: 10px;
 }
 
@@ -1712,11 +1818,14 @@ i:before {
   display: block;
 }
 
+
 /* End Contact Success and error Area css
 ============================================================================================ */
 
+
 /* Footer Area css
 ============================================================================================ */
+
 .footer_widgets_area {
   background: #131627;
   overflow: hidden;
@@ -1792,7 +1901,7 @@ i:before {
 }
 
 .subscribe_widget ul li:hover a {
-  color: #2bc0a4;
+  color: #d80f2c;
 }
 
 .subscribe_widget ul li:last-child {
@@ -1811,7 +1920,7 @@ i:before {
 
 .twitter_widget .tweets_feed ul .owl-item .tw_content .tweet_text i {
   padding-right: 5px;
-  color: #2bc0a4;
+  color: #d80f2c;
 }
 
 .twitter_widget .tweets_feed ul .owl-item .tw_content .tweet_text a {
@@ -1824,7 +1933,7 @@ i:before {
 }
 
 .twitter_widget .tweets_feed ul .owl-item .tw_content .tweet_text a:hover {
-  color: #2bc0a4;
+  color: #d80f2c;
 }
 
 .twitter_widget .tweets_feed ul .owl-item .tw_content .tweet_date {
@@ -1837,7 +1946,7 @@ i:before {
 .twitter_widget .tweets_feed ul .owl-item .footer .tweet_time.fright a {
   font-size: 14px;
   line-height: 26px;
-  color: #2bc0a4;
+  color: #d80f2c;
 }
 
 .categories_widget {
@@ -1875,7 +1984,7 @@ i:before {
 
 .categories_widget ul li:hover a {
   padding-left: 15px;
-  color: #2bc0a4;
+  color: #d80f2c;
 }
 
 .categories_widget ul li:hover a i {
@@ -1886,7 +1995,9 @@ i:before {
   margin-left: 50px;
 }
 
-.contact_widget a, .contact_widget p, .contact_widget h6 {
+.contact_widget a,
+.contact_widget p,
+.contact_widget h6 {
   font-size: 14px;
   color: #b5aec4;
   -webkit-transition: all 400ms linear 0s;
@@ -1894,8 +2005,10 @@ i:before {
   transition: all 400ms linear 0s;
 }
 
-.contact_widget a:hover, .contact_widget p:hover, .contact_widget h6:hover {
-  color: #2bc0a4;
+.contact_widget a:hover,
+.contact_widget p:hover,
+.contact_widget h6:hover {
+  color: #d80f2c;
 }
 
 .contact_widget p {
@@ -1923,7 +2036,7 @@ i:before {
 }
 
 .copy_right_area .float-md-left h5 a:hover {
-  color: #2bc0a4;
+  color: #d80f2c;
 }
 
 .copy_right_area .float-md-right .nav li {
@@ -1945,11 +2058,15 @@ i:before {
 }
 
 .copy_right_area .float-md-right .nav li:hover a {
-  color: #2bc0a4;
+  color: #d80f2c;
 }
+
 
 /* End Footer Area css
 ============================================================================================ */
+
+
 /*---------------------------------------------------- */
+
 
 /*# sourceMappingURL=style.css.map */
