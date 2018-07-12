@@ -124,6 +124,7 @@
                 items: 1,
                 nav:true,
                 autoplay: true,
+                autoplayHoverPause: true,
                 smartSpeed: 1500,
                 dots:false,
                 navContainer: '.testimonials_slider',
@@ -132,6 +133,39 @@
         }
     }
     testimoninals_carousel();
+
+    /*----------------------------------------------------*/
+    /*  Explor Room Slider
+    /*----------------------------------------------------*/
+    function clients_carousel(){
+        if ( $('.clients_slider').length ){
+            $('.clients_slider').owlCarousel({
+                loop:true,
+                margin: 50,
+                items: 5,
+                nav:true,
+                autoWidth:true,
+                autoplay: false,
+                smartSpeed: 1500,
+                dots:false,
+                responsiveClass:true,
+                responsive:{
+                    0:{
+                        items:1,
+                    },
+                    600:{
+                        items:3,
+                    },
+                    1000:{
+                        items:5,
+                    }
+                },
+                navContainer: '.clients_slider',
+                navText: ['<i class="ti-angle-left" aria-hidden="true"></i>','<i class="ti-angle-right" aria-hidden="true"></i>'],
+            })
+        }
+    }
+    clients_carousel();
     
     /*----------------------------------------------------*/
     /* Offcanvas Menu js

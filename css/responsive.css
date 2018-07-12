@@ -257,26 +257,33 @@
         font-size: 28px;
         line-height: 40px;
     }
-    .testimonials_area .testimonials_slider{
+    .testimonials_area .testimonials_slider,
+    .clients_area .clients_slider{
         padding: 0px 0px;
         padding-bottom: 30px;
     }
-    .testimonials_slider .owl-prev, .testimonials_slider .owl-next {
+    .testimonials_slider .owl-prev, .testimonials_slider .owl-next,
+    .clients_slider .owl-prev, .clients_slider .owl-next {
         position: absolute;
         top: auto;
         bottom: 0px;
         transform: translateY(0%);
     }
-    .testimonials_slider .owl-prev{
+    .testimonials_slider .owl-prev,
+    .clients_slider .owl-prev {
         left: 50%;
         transform: translateX(-50%);
         margin-left: -10px;
     }
-    .testimonials_slider .owl-next {
+    .testimonials_slider .owl-next,
+    .clients_slider .owl-next {
         right: auto;
         left: 50%;
         transform: translateX(-50%);
         margin-left: 20px;
+    }
+    .clients_slider .item {
+        opacity: 1;
     }
     .copy_right_area .float-md-left h5 {
         font-size: 12px;
