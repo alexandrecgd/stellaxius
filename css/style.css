@@ -115,6 +115,19 @@ h6 {
   padding: 100px 0px;
 }
 
+.p_50 {
+  padding: 50px 0px;
+}
+
+.p_100_0 {
+  padding: 100px 0px 0px 0px;
+}
+
+.center_item {
+  margin: auto;
+  margin-top: 50px;
+}
+
 iframe {
   border: none;
 }
@@ -265,7 +278,7 @@ i:before {
 
 .main_menu_area .navbar .navbar-nav li:hover a,
 .main_menu_area .navbar .navbar-nav li.active a {
-  color: #f5b6c4;
+  color: #F41E3D;
 }
 
 .navbar-brand img {
@@ -558,10 +571,10 @@ i:before {
 ============================================================================================ */
 
 
-/* Creative Feature Area css
+/* Methodology Feature Area css
 ============================================================================================ */
 
-.creative_feature_area {
+.methodology_feature_area {
   background: #f7f7f7;
 }
 
@@ -576,7 +589,7 @@ i:before {
   position: relative;
 }
 
-.c_feature_box .col-lg-4:last-child .c_box_item:before {
+.c_feature_box .col-lg-3:last-child .c_box_item:before {
   display: none;
 }
 
@@ -589,7 +602,7 @@ i:before {
 .c_box_item:before {
   content: "";
   background: #e5e5e5;
-  height: 145px;
+  height: 98px;
   width: 1px;
   position: absolute;
   right: -15px;
@@ -633,14 +646,8 @@ i:before {
 }
 
 .d_feature_text p {
-  font-size: 14px;
-  color: #51545f;
-  line-height: 26px;
-  padding-bottom: 12px;
-}
-
-.d_feature_text p+p {
-  padding-bottom: 0px;
+  font-weight: 500;
+  padding-top: 15px;
 }
 
 .d_feature_text .read_btn {
@@ -655,6 +662,32 @@ i:before {
 /* End Creative Feature Area css
 ============================================================================================ */
 
+/* Creative Area css
+============================================================================================ */
+
+.creative_area {
+  overflow: hidden;
+  padding-top: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* Certifield Area css
+============================================================================================ */
+
+.certifield_area{
+  border-bottom: 0.5px solid #ECF0F1;
+}
+
+.certifield_area .row{
+  text-align: center;
+}
+
+.certifield_area .row img{
+  padding-left: 5px;
+}
 
 /* Industries Area css
 ============================================================================================ */
@@ -712,7 +745,7 @@ i:before {
 
 .indus_text .read_btn {
   width: 180px;
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
 .our_skill_inner {
@@ -768,7 +801,7 @@ i:before {
 ============================================================================================ */
 
 .project_area {
-  background: url(../img/project-bg.jpg) no-repeat fixed center center;
+  background: url(../img/home/project-bg.jpg) no-repeat fixed center center;
   background-size: cover;
   position: relative;
   z-index: 3;
@@ -786,8 +819,12 @@ i:before {
   background: rgba(4, 8, 29, 0.7);
 }
 
-.project_inner .tp_btn {
-  margin-top: 5px;
+.project_inner {
+  text-align: center;
+}
+
+.project_inner .bg_btn {
+  width: 200px;
 }
 
 
@@ -1542,6 +1579,11 @@ i:before {
   padding-bottom: 40px;
 }
 
+
+iframe form.form p label!important{
+      color: #ff0000;
+}
+
 .contact_us_form .form-group {
   margin-bottom: 20px;
 }
@@ -1842,121 +1884,39 @@ i:before {
   font-size: 16px;
 }
 
-.subscribe_widget p {
-  font-size: 14px;
-  line-height: 26px;
-  color: #b5aec4;
-  font-weight: 300;
-  padding-bottom: 20px;
+.input-group {
+  padding-left: 0;
+  padding-top: 20px;
 }
 
-.subscribe_widget .input-group input {
-  background: #2b2e3d;
-  border: none;
+.d_feature_text .input-group input {
   outline: none;
   -webkit-box-shadow: none;
   box-shadow: none;
-  height: 40px;
+  height: 50px;
   border-radius: 3px;
-  font-size: 12px;
   color: #b5aec4;
   padding: 0px 15px;
 }
 
-.subscribe_widget .input-group input.placeholder {
-  font-size: 12px;
+.d_feature_text .input-group input.placeholder {
   color: #b5aec4;
 }
 
-.subscribe_widget .input-group input:-moz-placeholder {
-  font-size: 12px;
+.d_feature_text .input-group input:-moz-placeholder {
   color: #b5aec4;
 }
 
-.subscribe_widget .input-group input::-moz-placeholder {
-  font-size: 12px;
+.d_feature_text .input-group input::-moz-placeholder {
   color: #b5aec4;
 }
 
-.subscribe_widget .input-group input::-webkit-input-placeholder {
-  font-size: 12px;
+.d_feature_text .input-group input::-webkit-input-placeholder {
   color: #b5aec4;
 }
 
-.subscribe_widget ul {
-  padding-top: 30px;
-}
-
-.subscribe_widget ul li {
-  display: inline-block;
-  margin-right: 32px;
-}
-
-.subscribe_widget ul li a {
-  font-size: 14px;
-  color: #b5aec4;
-  -webkit-transition: all 400ms linear 0s;
-  -o-transition: all 400ms linear 0s;
-  transition: all 400ms linear 0s;
-}
-
-.subscribe_widget ul li:hover a {
-  color: #d80f2c;
-}
-
-.subscribe_widget ul li:last-child {
-  margin-right: 0px;
-}
-
-.twitter_widget {
-  margin-left: 55px;
-}
-
-.twitter_widget .tweets_feed ul .owl-item .tw_content .tweet_text {
-  font-size: 14px;
-  line-height: 26px;
-  color: #b5aec4;
-}
-
-.twitter_widget .tweets_feed ul .owl-item .tw_content .tweet_text i {
-  padding-right: 5px;
-  color: #d80f2c;
-}
-
-.twitter_widget .tweets_feed ul .owl-item .tw_content .tweet_text a {
-  font-size: 14px;
-  line-height: 26px;
-  color: #b5aec4;
-  -webkit-transition: all 400ms linear 0s;
-  -o-transition: all 400ms linear 0s;
-  transition: all 400ms linear 0s;
-}
-
-.twitter_widget .tweets_feed ul .owl-item .tw_content .tweet_text a:hover {
-  color: #d80f2c;
-}
-
-.twitter_widget .tweets_feed ul .owl-item .tw_content .tweet_date {
-  font-size: 14px;
-  line-height: 26px;
-  color: #b5aec4;
-  padding-top: 15px;
-}
-
-.twitter_widget .tweets_feed ul .owl-item .footer .tweet_time.fright a {
-  font-size: 14px;
-  line-height: 26px;
-  color: #d80f2c;
-}
-
-.categories_widget {
-  margin-left: 30px;
-}
-
-.categories_widget ul {
-  /* width: calc(100% / 2); */
-  float: left;
-  margin-top: -4px;
+.d_feature_text .input-group input:focus {
+  border-color: #7f7f7f;
 }
 
 .categories_widget ul li a {

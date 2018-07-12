@@ -1,0 +1,8 @@
+User-Agent: *
+Allow: /
+Disallow: /StellaxiusWebCandidateApplication?ref=JOB/0000
+Disallow: /StellaxiusWebCandidateApplication?ref=JOB/0002	
+Disallow: /StellaxiusWebCandidateApplication?ref=JOB/0003	
+Disallow: /StellaxiusWebCandidateApplication?ref=JOB/0004	
+Disallow: /StellaxiusWebCandidateApplication?ref=JOB/0005	
+Disallow: /StellaxiusWebCandidateApplication?ref=JOB/0001	

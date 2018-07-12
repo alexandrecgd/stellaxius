@@ -30,10 +30,10 @@
             $("#main_slider").revolution({
                 sliderType:"standard",
                 sliderLayout:"auto",
-                delay:5000,
+                delay:500000,
                 disableProgressBar:"on",
                 navigation: {
-                    onHoverStop: 'off',
+                    onHoverStop: 'on',
                     touch:{
                         touchenabled:"on"
                     },
@@ -166,7 +166,7 @@
         scaleControl: true,
         streetViewControl: false,
         panControl: true,
-        disableDoubleClickZoom: true,
+        disableDoubleClickZoom: false,
         mapTypeControl: false,
         zoom: $zoom,
             styles: [
