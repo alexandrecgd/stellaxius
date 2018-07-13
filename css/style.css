@@ -535,6 +535,26 @@ i:before {
   color: #969696; 
 }
 
+/* Cookie Banner css
+============================================================================================ */
+
+#cookie-bar{
+  background: rgba(0, 0, 0, 0.78)!important;
+}
+#cookie-bar p a {
+    color: #F41E3D!important;
+}
+#cookie-bar-button {
+  color: #fff!important;
+  font-size: 12px;
+  text-transform: uppercase!important;
+  background-image: -webkit-gradient(45deg, #ff416c -1%, #ff416c 0%, #8c2424 100%)!important;
+  background-image: -webkit-linear-gradient(45deg, #ff416c -1%, #ff416c 0%, #8c2424 100%)!important;
+  background-image: -o-linear-gradient(45deg, #ff416c -1%, #ff416c 0%, #8c2424 100%)!important;
+  background-image: linear-gradient(45deg, #ff416c -1%, #ff416c 0%, #8c2424 100%)!important;
+  text-shadow: none!important;
+}
+
 
 /* Banner Area css
 ============================================================================================ */
