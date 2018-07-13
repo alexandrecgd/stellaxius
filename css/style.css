@@ -486,6 +486,55 @@ i:before {
 /* End Main Menu Area css
 ============================================================================================ */
 
+/* Scroll Top css
+============================================================================================ */
+
+.scrolltop {
+  display:none;
+  width:100%;
+  margin:0 auto;
+  position:fixed;
+  bottom:20px;
+  right:10px;
+  z-index: 5;
+}
+.scroll {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  background: rgba(178, 178, 178, 0.51);
+  border-radius: 100px;
+  text-align: center;
+  margin: 0 0 0 0;
+  cursor: pointer;
+  transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  width: 50px;
+  height: 50px;   
+}
+.scroll:hover {
+  background:rgba(178,178,178,1.0);
+  transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;    
+}
+.scroll:hover .fa {
+  padding-top:-10px;
+  color: #fff;
+}
+.scroll .fa {
+  font-size: 30px;
+  margin-top: 8px;
+  transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  color: #969696; 
+}
+
 
 /* Banner Area css
 ============================================================================================ */
