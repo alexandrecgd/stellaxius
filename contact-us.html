@@ -6,8 +6,9 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
       <link rel="canonical" href="https://stellaxius.com/" />
-      <title>Contact Us - Stellaxius</title>
-      <meta name="description" content="A page's description, usually one or two sentences."/>
+      <link rel=”alternate” href=” https://www.stellaxius.com” hreflang=”en-us” />
+      <title>STELLAXIUS | Contact Us</title>
+      <meta name="description" content="Thanks for your interest in Stellaxius! Contact Stellaxius through the contact details on this page. We are happy to help you find the right solution."/>
       <!-- Icon css link -->
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
       <link href="vendors/elegant-icon/style.css" rel="stylesheet">
@@ -40,7 +41,9 @@
          </div>
       </section>
       <!--================End Search Area =================-->
+
       <!--================Header Menu Area =================-->
+      <div id="top"></div>
       <header class="main_menu_area">
          <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="index.html"><img src="img/logotipo_stellaxius_atual.svg" alt="Stellaxius - Warp speed ahead"></a>
@@ -53,10 +56,33 @@
                <ul class="navbar-nav mr-auto">
                   <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                   <li class="nav-item"><a class="nav-link" href="#">Who we are</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#">What we do</a></li>
+                  <li class="nav-item mega-dropdown active"><a class="" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">What we do</a>
+                  <!-- Mega Menu -->
+                  <div class="dropdown-menu mega-menu v-2 row z-depth-1 special-color" aria-labelledby="navbarDropdownMenuLink1">
+                    <div class="row mx-md-4 mx-1">
+                           <div class="col-md-6 col-xl-3 sub-menu my-xl-5 mt-5 mb-4">
+                               <h6 class="sub-title text-uppercase font-weight-bold white-text">Serviço 1</h6>
+                               <p>Conteúdo 1</p>
+                           </div>
+                           <div class="col-md-6 col-xl-3 sub-menu my-xl-5 mt-md-5 mt-4 mb-4">
+                               <h6 class="sub-title text-uppercase font-weight-bold white-text">Serviço 2</h6>
+                               <p>Conteúdo 2</p>
+                           </div>
+                           <div class="col-md-6 col-xl-3 sub-menu my-xl-5 mt-4 mb-4">
+                               <h6 class="sub-title text-uppercase font-weight-bold white-text">Serviço 3</h6>
+                               <p>Conteúdo 3</p>
+                           </div>
+                           <div class="col-md-6 col-xl-3 sub-menu my-xl-5 mt-4 mb-5">
+                               <h6 class="sub-title text-uppercase font-weight-bold white-text">Serviço 4</h6>
+                               <p>Conteúdo 4</p>
+                           </div>
+                       </div>
+                   </div>
+                   <!-- End Mega Menu -->
+                  </li>
                   <li class="nav-item"><a class="nav-link" href="#">Success Stories</a></li>
-                  <li class="nav-item"><a  href="static.html">Knowledge Center</a></li>
-                  <li class="nav-item active"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">Knowledge Center</a></li>
+                  <li class="nav-item active"><a class="nav-link" href="#">Contact Us</a></li>
                </ul>
                <ul class="navbar-nav justify-content-end">
                   <li><a href="#"><i class="icon_search"></i></a></li>
@@ -65,28 +91,27 @@
          </nav>
       </header>
       <!--================End Header Menu Area =================-->
+
       <!--================Banner Area =================-->
-      <section class="banner_area">
+      <section class="banner_area banner_contact">
          <div class="container">
             <div class="banner_text_inner">
-               <h4>Contact Us</h4>
-               <h5>Tell us about your story and your project.</h5>
+               <h1>Contact Us</h1>
+               <h2>We are ready to leverage your business with salesforce technology</h2>
             </div>
          </div>
       </section>
       <!--================End Banner Area =================-->
+
+      <!--================ Scroll Top =================-->
+      <div class='scrolltop'>
+          <div class='scroll icon'><i class="fa fa-4x fa-angle-up"></i></div>
+      </div>
+      <!--================ End Scroll Top =================-->
+
       <!--================Contact Us Area =================-->
       <section class="contact_us_area">
          <div class="container">
-            <div id="mapBox" class="mapBox row m0"
-               data-lat="38.7430709"
-               data-lon="-9.1488591"
-               data-zoom="15"
-               data-marker="img/map-marker.png"
-               data-info="Stellaxius"
-               data-mlat="38.7430709"
-               data-mlon="-9.1488591">
-            </div>
             <div class="contact_details_inner">
                <div class="row">
                   <div class="col-lg-6">
@@ -102,9 +127,6 @@
                            </div>
                            <div class="contact_d_list_item">
                               <p>Avenida António Serpa, nº 36 - 6º e 9º piso<br /> 1050-027 Lisboa, Portugal</p>
-                           </div>
-                           <div class="contact_d_list_item">
-                              <p>Open hours: <b>9.00-18.00 Mon-Fri</b> <br />Saturday and Sunday: <b>Closed</b></p>
                            </div>
                         </div>
                         <div class="static_social">
@@ -144,15 +166,27 @@
                   </div>
                </div>
             </div>
+
+            <div id="mapBox" class="mapBox row m0"
+               data-lat="38.7430709"
+               data-lon="-9.1488591"
+               data-zoom="15"
+               data-marker="img/map-marker.png"
+               data-info="<h5>Stellaxius</h5></br><i class='fas fa-location-arrow'></i> Avenida António Serpa, nº 36 - 6º e 9º piso</br>
+               1050-027 Lisboa, Portugal</br></br><i class='fas fa-phone'></i> +351 21 012 6195"
+               data-mlat="38.7430709"
+               data-mlon="-9.1488591">
+            </div>
          </div>
       </section>
       <!--================End Contact Us Area =================-->
+
       <!--================Footer Area =================-->
       <footer class="footer_area">
          <div class="footer_widgets_area">
             <div class="container">
                <div class="f_widgets_inner row">
-                  <div class="col-lg-3 col-md-6">
+                  <div class="col-lg-2 col-md-6">
                      <aside class="f_widget categories_widget">
                         <div class="f_w_title">
                            <h3>Popular Content</h3>
@@ -181,16 +215,16 @@
                         </ul>
                      </aside>
                   </div>
-                  <div class="col-lg-2 col-md-6">
+                  <div class="col-lg-3 col-md-6">
                      <aside class="f_widget categories_widget">
                         <div class="f_w_title">
                            <h3>What we do</h3>
                         </div>
                         <ul>
-                           <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Overview</a></li>
-                           <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>App Development</a></li>
-                           <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Simple Service</a></li>
-                           <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Smart Sales</a></li>
+                           <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Salesforce Consulting & Implementation</a></li>
+                           <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Software Development & System Integration</a></li>
+                           <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Process and Business Analysis</a></li>
+                           <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Program & Project Management</a></li>
                         </ul>
                      </aside>
                   </div>
@@ -202,7 +236,6 @@
                         <a href="tel:+351210126195"><i class="fas fa-phone"></i> +351 21 012 6195</a>  -  
                         <a href="contact-us.html"><i class="fas fa-envelope"></i> global@stellaxius.com</a>
                         <p><a href="https://goo.gl/maps/WuJgw5foW4G2" target="_blank"><i class="fas fa-location-arrow"></i> Avenida António Serpa, 36 - 6º and 9º floor. Lisbon, Portugal</a></p>
-                        <h6><i class="fas fa-clock"></i> Open hours: 9.00-18.00 Mon-Fri</h6>
                      </aside>
                   </div>
                </div>
@@ -230,9 +263,6 @@
                         <a class="nav-link" href="#">Privacy</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="#">Advertisement</a>
-                     </li>
-                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact Us</a>
                      </li>
                   </ul>
@@ -241,6 +271,7 @@
          </div>
       </footer>
       <!--================End Footer Area =================-->
+
       <!--================Contact Success and Error message Area =================-->
       <div id="success" class="modal modal-message fade" role="dialog">
          <div class="modal-dialog">
@@ -276,15 +307,7 @@
       <!-- Include all compiled plugins (below), or include individual files as needed -->
       <script src="js/popper.min.js"></script>
       <script src="js/bootstrap.min.js"></script>
-      <!-- Rev slider js -->
-      <script src="vendors/revolution/js/jquery.themepunch.tools.min.js"></script>
-      <script src="vendors/revolution/js/jquery.themepunch.revolution.min.js"></script>
-      <script src="vendors/revolution/js/extensions/revolution.extension.actions.min.js"></script>
-      <script src="vendors/revolution/js/extensions/revolution.extension.video.min.js"></script>
-      <script src="vendors/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-      <script src="vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-      <script src="vendors/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-      <script src="vendors/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/cookie-bar/cookiebar-latest.min.js?tracking=1&thirdparty=1&always=1"></script>
       <!-- Extra plugin css -->
       <script src="vendors/counterup/jquery.waypoints.min.js"></script>
       <script src="vendors/counterup/jquery.counterup.min.js"></script>

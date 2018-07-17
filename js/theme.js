@@ -257,7 +257,7 @@
         lng: $lon,
         scrollwheel: false,
         scaleControl: true,
-        streetViewControl: false,
+        streetViewControl: true,
         panControl: true,
         disableDoubleClickZoom: false,
         mapTypeControl: false,

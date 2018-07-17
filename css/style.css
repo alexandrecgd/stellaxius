@@ -560,10 +560,17 @@ i:before {
 ============================================================================================ */
 
 .banner_area {
-  background: url(../img/knowledge/banner/banner_imagem_1.png) no-repeat scroll center center;
   background-size: cover;
   position: relative;
   min-height: 400px;
+}
+
+.banner_contact {
+  background: url(../img/contact/banner/banner_imagem_1.png) no-repeat scroll center center;
+}
+
+.banner_knowledg_post {
+  background: url(../img/knowledge/banner/banner_imagem_1.png) no-repeat scroll center center;
 }
 
 .banner_area:before {
@@ -582,7 +589,7 @@ i:before {
   padding-top: 200px;
 }
 
-.banner_text_inner h4 {
+.banner_text_inner h1 {
   color: #fff;
   font-size: 48px;
   font-weight: 500;
@@ -613,7 +620,7 @@ i:before {
   color: #d80f2c;
 }
 
-.banner_text_inner h5 {
+.banner_text_inner h2 {
   font-size: 18px;
   color: #fff;
 }
@@ -1636,7 +1643,7 @@ i:before {
 }
 
 .contact_details_inner {
-  padding-top: 75px;
+  padding-bottom: 100px;
 }
 
 .contact_text .contact_d_list {
@@ -2135,5 +2142,15 @@ iframe form.form p label!important{
 
 /*---------------------------------------------------- */
 
+.navbar .mega-dropdown {
+     position: static !important;
+}
+.navbar .dropdown-menu.mega-menu {
+     width: 100%;
+     border: none;
+     border-radius: 0;
+}
+.navbar .dropdown-menu.mega-menu.v-2 a {
+     padding: 15px 10px 10px 35px;
+}
 
-/*# sourceMappingURL=style.css.map */
