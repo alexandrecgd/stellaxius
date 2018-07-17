@@ -52,33 +52,49 @@
             <span></span>
             <span></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" data-hover="dropdown" id="navbarSupportedContent">
                <ul class="navbar-nav mr-auto">
                   <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#">Who we are</a></li>
-                  <li class="nav-item mega-dropdown active"><a class="" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">What we do</a>
+                  <li class="nav-item"><a class="nav-link" href="#">Who We Are</a></li>
+                  <li class="nav-item mega-dropdown"><a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">What We Do<i class="fas fa-caret-up"></i></a>
                   <!-- Mega Menu -->
-                  <div class="dropdown-menu mega-menu v-2 row z-depth-1 special-color" aria-labelledby="navbarDropdownMenuLink1">
-                    <div class="row mx-md-4 mx-1">
-                           <div class="col-md-6 col-xl-3 sub-menu my-xl-5 mt-5 mb-4">
-                               <h6 class="sub-title text-uppercase font-weight-bold white-text">Serviço 1</h6>
-                               <p>Conteúdo 1</p>
+                  <div class="dropdown-menu mega-menu v-2 row z-depth-1 special-color">
+                     <div class="row mx-md-4 mx-1">
+                           <div class="col-md-6 col-xl-3 sub-menu mt-4">
+                              <div class="service_item_submenu">
+                                 <i class=""><img src="img/icons/icon-cloud-eye.svg" alt="Salesforce Consulting & Implementation"></i>
+                                 <h4>Salesforce Consulting & Implementation</h4>
+                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et facilisis urna.</p>
+                                 <a class="more_btn" href="#">Learn More</a>
+                              </div>
                            </div>
-                           <div class="col-md-6 col-xl-3 sub-menu my-xl-5 mt-md-5 mt-4 mb-4">
-                               <h6 class="sub-title text-uppercase font-weight-bold white-text">Serviço 2</h6>
-                               <p>Conteúdo 2</p>
+                           <div class="col-md-6 col-xl-3 sub-menu mt-md-4 mt-4">
+                              <div class="service_item_submenu">
+                                 <i class=""><img src="img/icons/icon-cloud-code.svg" alt="Software Development & System Integration<"></i>
+                                 <h4>Software Development & System Integration</h4>
+                                 <p>Duis maximus metus ut felis accumsan tincidunt. Nullam ullamcorper neque magna.</p>
+                                 <a class="more_btn" href="#">Learn More</a>
+                              </div>
                            </div>
-                           <div class="col-md-6 col-xl-3 sub-menu my-xl-5 mt-4 mb-4">
-                               <h6 class="sub-title text-uppercase font-weight-bold white-text">Serviço 3</h6>
-                               <p>Conteúdo 3</p>
+                           <div class="col-md-6 col-xl-3 sub-menu mt-4">
+                              <div class="service_item_submenu">
+                                 <i class=""><img src="img/icons/icon-cloud-search.svg" alt="Process and Business Analysis"></i>
+                                 <h4>Process and Business Analysis</h4>
+                                 <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                                 <a class="more_btn" href="#">Learn More</a>
+                              </div>
                            </div>
-                           <div class="col-md-6 col-xl-3 sub-menu my-xl-5 mt-4 mb-5">
-                               <h6 class="sub-title text-uppercase font-weight-bold white-text">Serviço 4</h6>
-                               <p>Conteúdo 4</p>
+                           <div class="col-md-6 col-xl-3 sub-menu mt-4">
+                              <div class="service_item_submenu">
+                                 <i class=""><img src="img/icons/icon-cloud-proc.svg" alt="Program & Project Management"></i>
+                                 <h4>Program & Project Management</h4>
+                                 <p>Aliquam ac leo sit amet diam bibendum fermentum vitae vitae arcu. Vivamus laoreet felis sed.</p>
+                                 <a class="more_btn" href="#">Learn More</a>
+                              </div>
                            </div>
-                       </div>
-                   </div>
-                   <!-- End Mega Menu -->
+                        </div>
+                     </div>
+                     <!-- End Mega Menu -->
                   </li>
                   <li class="nav-item"><a class="nav-link" href="#">Success Stories</a></li>
                   <li class="nav-item"><a class="nav-link" href="#">Knowledge Center</a></li>
@@ -118,7 +134,7 @@
                      <div class="contact_text">
                         <div class="main_title">
                            <h2>Contact Us</h2>
-                           <p>There are many ways to contact us. You may drop us a line, give us a call or send an email, choose what suits you the most</p>
+                           <p>ThWant to work together? You can tell us a bit more about your project by filling out the form, calling or sending an email. We will contact you as soon as possible.</p>
                         </div>
                         <div class="contact_d_list">
                            <div class="contact_d_list_item">
@@ -126,7 +142,7 @@
                               <a href="mailto:global@stellaxius.com">global@stellaxius.com</a>
                            </div>
                            <div class="contact_d_list_item">
-                              <p>Avenida António Serpa, nº 36 - 6º e 9º piso<br /> 1050-027 Lisboa, Portugal</p>
+                              <p>Avenida António Serpa, 36 - 6º and 9º floor</br>1050-027 Lisbon, Portugal</p>
                            </div>
                         </div>
                         <div class="static_social">
@@ -143,25 +159,8 @@
                      <div class="contact_form">
                         <div class="main_title">
                            <h2>Get In Touch With Us!</h2>
-                           <p>Fill out the form below to recieve a free and confidential.</p>
                         </div>
-                        <form class="contact_us_form row" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
-                           <div class="form-group col-lg-12">
-                              <input type="text" class="form-control" id="name" name="name" placeholder="Name">
-                           </div>
-                           <div class="form-group col-lg-12">
-                              <input type="email" class="form-control" id="email" name="email" placeholder="Email">
-                           </div>
-                           <div class="form-group col-lg-12">
-                              <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
-                           </div>
-                           <div class="form-group col-lg-12">
-                              <textarea class="form-control" name="message" id="message" rows="1" placeholder="Message"></textarea>
-                           </div>
-                           <div class="form-group col-md-12">
-                              <button type="submit" value="submit" class="btn submit_btn2 form-control">Send Messages</button>
-                           </div>
-                        </form>
+                        <iframe id="form-iframe" src="https://go.pardot.com/l/461752/2018-07-05/9n843n" width="100%" height="620" type="text/html" frameborder="0" allowTransparency="true" style="border: 0; overflow:hidden;"></iframe>
                      </div>
                   </div>
                </div>
