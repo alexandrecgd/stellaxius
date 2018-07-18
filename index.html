@@ -52,14 +52,53 @@
             <span></span>
             <span></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" data-hover="dropdown" id="navbarSupportedContent">
                <ul class="navbar-nav mr-auto">
-                  <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                   <li class="nav-item"><a class="nav-link" href="#">Who We Are</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#">What We Do</a></li>
+                  <li class="nav-item mega-dropdown"><a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">What We Do<i class="fas fa-caret-up"></i></a>
+                  <!-- Mega Menu -->
+                  <div class="dropdown-menu mega-menu v-2 row z-depth-1 special-color">
+                     <div class="row mx-md-4 mx-1">
+                           <div class="col-md-6 col-xl-3 sub-menu mt-4">
+                              <div class="service_item_submenu">
+                                 <i class=""><img src="img/icons/icon-cloud-eye.svg" alt="Salesforce Consulting & Implementation"></i>
+                                 <h4>Salesforce Consulting & Implementation</h4>
+                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et facilisis urna.</p>
+                                 <a class="more_btn" href="#">Learn More</a>
+                              </div>
+                           </div>
+                           <div class="col-md-6 col-xl-3 sub-menu mt-md-4 mt-4">
+                              <div class="service_item_submenu">
+                                 <i class=""><img src="img/icons/icon-cloud-code.svg" alt="Software Development & System Integration<"></i>
+                                 <h4>Software Development & System Integration</h4>
+                                 <p>Duis maximus metus ut felis accumsan tincidunt. Nullam ullamcorper neque magna.</p>
+                                 <a class="more_btn" href="#">Learn More</a>
+                              </div>
+                           </div>
+                           <div class="col-md-6 col-xl-3 sub-menu mt-4">
+                              <div class="service_item_submenu">
+                                 <i class=""><img src="img/icons/icon-cloud-search.svg" alt="Process and Business Analysis"></i>
+                                 <h4>Process and Business Analysis</h4>
+                                 <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                                 <a class="more_btn" href="#">Learn More</a>
+                              </div>
+                           </div>
+                           <div class="col-md-6 col-xl-3 sub-menu mt-4">
+                              <div class="service_item_submenu">
+                                 <i class=""><img src="img/icons/icon-cloud-proc.svg" alt="Program & Project Management"></i>
+                                 <h4>Program & Project Management</h4>
+                                 <p>Aliquam ac leo sit amet diam bibendum fermentum vitae vitae arcu. Vivamus laoreet felis sed.</p>
+                                 <a class="more_btn" href="#">Learn More</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- End Mega Menu -->
+                  </li>
                   <li class="nav-item"><a class="nav-link" href="#">Success Stories</a></li>
                   <li class="nav-item"><a class="nav-link" href="#">Knowledge Center</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+                  <li class="nav-item active"><a class="nav-link" href="#">Contact Us</a></li>
                </ul>
                <ul class="navbar-nav justify-content-end">
                   <li><a href="#"><i class="icon_search"></i></a></li>
