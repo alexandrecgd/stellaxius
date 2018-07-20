@@ -1,0 +1,13 @@
+<svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="path-1-inside-1" fill="white">
+<rect width="70" height="70" rx="2"/>
+</mask>
+<rect width="70" height="70" rx="2" fill="#95A5A6" stroke="#7F9394" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" mask="url(#path-1-inside-1)"/>
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="70" height="70">
+<rect width="70" height="70" rx="2" fill="#3498DB"/>
+</mask>
+<g mask="url(#mask0)">
+<rect opacity="0.1" width="110.6" height="57.4" transform="translate(-2.80005 72.6061) rotate(-45)" fill="white"/>
+</g>
+<path d="M23.5529 1.81176H21.7412V0H1.81176V1.81176H5.43529V3.62354H3.62353V5.4353H1.81176V1.81176H0V23.5529H1.81176V25.3647H10.8706V23.5529H12.6824V18.1176H14.4941V19.9294H16.3059V21.7412H18.1176V23.5529H19.9294V25.3647H23.5529V23.5529H25.3647V16.3059H23.5529V14.4941H21.7412V12.6824H23.5529V10.8706H25.3647V3.62354H23.5529V1.81176ZM18.1176 9.05881H12.6824V5.4353H18.1176V9.05881Z" transform="translate(22.4 23.6353)" fill="white"/>
+</svg>

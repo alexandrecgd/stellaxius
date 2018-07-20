@@ -1,0 +1,232 @@
+<svg width="300" height="420" viewBox="0 0 300 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="path-1-inside-1" fill="white">
+<rect width="30" height="30" rx="2"/>
+</mask>
+<rect width="30" height="30" rx="2" transform="translate(0 360)" fill="#1E1E27" stroke="black" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" mask="url(#path-1-inside-1)"/>
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="360" width="30" height="30">
+<rect width="30" height="30" rx="2" transform="translate(0 360)" fill="#2ECC71"/>
+</mask>
+<g mask="url(#mask0)">
+<rect opacity="0.1" width="47.4" height="24.6" transform="translate(-1.20001 391.117) rotate(-45)" fill="white"/>
+</g>
+<mask id="path-4-inside-2" fill="white">
+<rect width="30" height="30" rx="2"/>
+</mask>
+<rect width="30" height="30" rx="2" transform="translate(210 390)" fill="#1E1E27" stroke="black" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" mask="url(#path-4-inside-2)"/>
+<mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="210" y="390" width="30" height="30">
+<rect width="30" height="30" rx="2" transform="translate(210 390)" fill="#2ECC71"/>
+</mask>
+<g mask="url(#mask1)">
+<rect opacity="0.1" width="47.4" height="24.6" transform="translate(208.8 421.117) rotate(-45)" fill="white"/>
+</g>
+<mask id="path-7-inside-3" fill="white">
+<rect width="30" height="30" rx="2"/>
+</mask>
+<rect width="30" height="30" rx="2" transform="translate(60 390)" fill="#1E1E27" stroke="black" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" mask="url(#path-7-inside-3)"/>
+<mask id="mask2" mask-type="alpha" maskUnits="userSpaceOnUse" x="60" y="390" width="30" height="30">
+<rect width="30" height="30" rx="2" transform="translate(60 390)" fill="#2ECC71"/>
+</mask>
+<g mask="url(#mask2)">
+<rect opacity="0.1" width="47.4" height="24.6" transform="translate(58.8 421.117) rotate(-45)" fill="white"/>
+</g>
+<mask id="path-10-inside-4" fill="white">
+<rect width="30" height="30" rx="2"/>
+</mask>
+<rect width="30" height="30" rx="2" transform="translate(120 259)" fill="#1E1E27" stroke="black" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" mask="url(#path-10-inside-4)"/>
+<mask id="mask3" mask-type="alpha" maskUnits="userSpaceOnUse" x="120" y="259" width="30" height="30">
+<rect width="30" height="30" rx="2" transform="translate(120 259)" fill="#2ECC71"/>
+</mask>
+<g mask="url(#mask3)">
+<rect opacity="0.1" width="47.4" height="24.6" transform="translate(118.8 290.117) rotate(-45)" fill="white"/>
+</g>
+<mask id="path-13-inside-5" fill="white">
+<rect width="30" height="30" rx="2"/>
+</mask>
+<rect width="30" height="30" rx="2" transform="translate(270 298)" fill="#95A5A6" stroke="#7F9394" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" mask="url(#path-13-inside-5)"/>
+<mask id="mask4" mask-type="alpha" maskUnits="userSpaceOnUse" x="270" y="298" width="30" height="30">
+<rect width="30" height="30" rx="2" transform="translate(270 298)" fill="#2ECC71"/>
+</mask>
+<g mask="url(#mask4)">
+<rect opacity="0.1" width="47.4" height="24.6" transform="translate(268.8 329.117) rotate(-45)" fill="white"/>
+</g>
+<mask id="path-16-inside-6" fill="white">
+<rect width="30" height="30" rx="2"/>
+</mask>
+<rect width="30" height="30" rx="2" transform="translate(180 390)" fill="#95A5A6" stroke="#7F9394" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" mask="url(#path-16-inside-6)"/>
+<mask id="mask5" mask-type="alpha" maskUnits="userSpaceOnUse" x="180" y="390" width="30" height="30">
+<rect width="30" height="30" rx="2" transform="translate(180 390)" fill="#2ECC71"/>
+</mask>
+<g mask="url(#mask5)">
+<rect opacity="0.1" width="47.4" height="24.6" transform="translate(178.8 421.117) rotate(-45)" fill="white"/>
+</g>
+<mask id="path-19-inside-7" fill="white">
+<rect width="30" height="30" rx="2"/>
+</mask>
+<rect width="30" height="30" rx="2" transform="translate(120 390)" fill="#95A5A6" stroke="#7F9394" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" mask="url(#path-19-inside-7)"/>
+<mask id="mask6" mask-type="alpha" maskUnits="userSpaceOnUse" x="120" y="390" width="30" height="30">
+<rect width="30" height="30" rx="2" transform="translate(120 390)" fill="#2ECC71"/>
+</mask>
+<g mask="url(#mask6)">
+<rect opacity="0.1" width="47.4" height="24.6" transform="translate(118.8 421.117) rotate(-45)" fill="white"/>
+</g>
+<mask id="path-22-inside-8" fill="white">
+<rect width="30" height="30" rx="2"/>
+</mask>
+<rect width="30" height="30" rx="2" transform="translate(270 330)" fill="#E74C3C" stroke="#D23E2F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" mask="url(#path-22-inside-8)"/>
+<mask id="mask7" mask-type="alpha" maskUnits="userSpaceOnUse" x="270" y="330" width="30" height="30">
+<rect width="30" height="30" rx="2" transform="translate(270 330)" fill="#2ECC71"/>
+</mask>
+<g mask="url(#mask7)">
+<rect opacity="0.1" width="47.4" height="24.6" transform="translate(268.8 361.117) rotate(-45)" fill="white"/>
+</g>
+<mask id="path-25-inside-9" fill="white">
+<rect width="30" height="30" rx="2"/>
+</mask>
+<rect width="30" height="30" rx="2" transform="translate(150 390)" fill="#E74C3C" stroke="#D23E2F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" mask="url(#path-25-inside-9)"/>
+<mask id="mask8" mask-type="alpha" maskUnits="userSpaceOnUse" x="150" y="390" width="30" height="30">
+<rect width="30" height="30" rx="2" transform="translate(150 390)" fill="#2ECC71"/>
+</mask>
+<g mask="url(#mask8)">
+<rect opacity="0.1" width="47.4" height="24.6" transform="translate(148.8 421.117) rotate(-45)" fill="white"/>
+</g>
+<mask id="path-28-inside-10" fill="white">
+<rect width="30" height="30" rx="2"/>
+</mask>
+<rect width="30" height="30" rx="2" transform="translate(180 360)" fill="#E74C3C" stroke="#D23E2F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" mask="url(#path-28-inside-10)"/>
+<mask id="mask9" mask-type="alpha" maskUnits="userSpaceOnUse" x="180" y="360" width="30" height="30">
+<rect width="30" height="30" rx="2" transform="translate(180 360)" fill="#2ECC71"/>
+</mask>
+<g mask="url(#mask9)">
+<rect opacity="0.1" width="47.4" height="24.6" transform="translate(178.8 391.117) rotate(-45)" fill="white"/>
+</g>
+<mask id="path-31-inside-11" fill="white">
+<rect width="30" height="30" rx="2"/>
+</mask>
+<rect width="30" height="30" rx="2" transform="translate(60 259)" fill="#95A5A6" stroke="#7F9394" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" mask="url(#path-31-inside-11)"/>
+<mask id="mask10" mask-type="alpha" maskUnits="userSpaceOnUse" x="60" y="259" width="30" height="30">
+<rect width="30" height="30" rx="2" transform="translate(60 259)" fill="#2ECC71"/>
+</mask>
+<g mask="url(#mask10)">
+<rect opacity="0.1" width="47.4" height="24.6" transform="translate(58.8 290.117) rotate(-45)" fill="white"/>
+</g>
+<mask id="path-34-inside-12" fill="white">
+<rect width="30" height="30" rx="2"/>
+</mask>
+<rect width="30" height="30" rx="2" transform="translate(90 259)" fill="#E74C3C" stroke="#D23E2F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" mask="url(#path-34-inside-12)"/>
+<mask id="mask11" mask-type="alpha" maskUnits="userSpaceOnUse" x="90" y="259" width="30" height="30">
+<rect width="30" height="30" rx="2" transform="translate(90 259)" fill="#2ECC71"/>
+</mask>
+<g mask="url(#mask11)">
+<rect opacity="0.1" width="47.4" height="24.6" transform="translate(88.8 290.117) rotate(-45)" fill="white"/>
+</g>
+<mask id="path-37-inside-13" fill="white">
+<rect width="30" height="30" rx="2"/>
+</mask>
+<rect width="30" height="30" rx="2" transform="translate(270 360)" fill="#95A5A6" stroke="#7F9394" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" mask="url(#path-37-inside-13)"/>
+<mask id="mask12" mask-type="alpha" maskUnits="userSpaceOnUse" x="270" y="360" width="30" height="30">
+<rect width="30" height="30" rx="2" transform="translate(270 360)" fill="#2ECC71"/>
+</mask>
+<g mask="url(#mask12)">
+<rect opacity="0.1" width="47.4" height="24.6" transform="translate(268.8 391.117) rotate(-45)" fill="white"/>
+</g>
+<mask id="path-40-inside-14" fill="white">
+<rect width="30" height="30" rx="2"/>
+</mask>
+<rect width="30" height="30" rx="2" transform="translate(90 289)" fill="#ECF0F1" stroke="#CDD8DA" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" mask="url(#path-40-inside-14)"/>
+<mask id="mask13" mask-type="alpha" maskUnits="userSpaceOnUse" x="90" y="289" width="30" height="30">
+<rect width="30" height="30" rx="2" transform="translate(90 289)" fill="#2ECC71"/>
+</mask>
+<g mask="url(#mask13)">
+<rect opacity="0.3" width="47.4" height="24.6" transform="translate(88.8 320.117) rotate(-45)" fill="white"/>
+</g>
+<mask id="path-43-inside-15" fill="white">
+<rect width="30" height="30" rx="2"/>
+</mask>
+<rect width="30" height="30" rx="2" transform="translate(270 390)" fill="#ECF0F1" stroke="#CDD8DA" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" mask="url(#path-43-inside-15)"/>
+<mask id="mask14" mask-type="alpha" maskUnits="userSpaceOnUse" x="270" y="390" width="30" height="30">
+<rect width="30" height="30" rx="2" transform="translate(270 390)" fill="#2ECC71"/>
+</mask>
+<g mask="url(#mask14)">
+<rect opacity="0.3" width="47.4" height="24.6" transform="translate(268.8 421.117) rotate(-45)" fill="white"/>
+</g>
+<mask id="path-46-inside-16" fill="white">
+<rect width="30" height="30" rx="2"/>
+</mask>
+<rect width="30" height="30" rx="2" transform="translate(239 30)" fill="#1E1E27" stroke="black" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" mask="url(#path-46-inside-16)"/>
+<mask id="mask15" mask-type="alpha" maskUnits="userSpaceOnUse" x="239" y="30" width="30" height="30">
+<rect width="30" height="30" rx="2" transform="translate(239 30)" fill="#2ECC71"/>
+</mask>
+<g mask="url(#mask15)">
+<rect opacity="0.1" width="47.4" height="24.6" transform="translate(237.8 61.1169) rotate(-45)" fill="white"/>
+</g>
+<mask id="path-49-inside-17" fill="white">
+<rect width="30" height="30" rx="2"/>
+</mask>
+<rect width="30" height="30" rx="2" transform="translate(209)" fill="#1E1E27" stroke="black" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" mask="url(#path-49-inside-17)"/>
+<mask id="mask16" mask-type="alpha" maskUnits="userSpaceOnUse" x="209" y="0" width="30" height="30">
+<rect width="30" height="30" rx="2" transform="translate(209)" fill="#2ECC71"/>
+</mask>
+<g mask="url(#mask16)">
+<rect opacity="0.1" width="47.4" height="24.6" transform="translate(207.8 31.1168) rotate(-45)" fill="white"/>
+</g>
+<mask id="path-52-inside-18" fill="white">
+<rect width="30" height="30" rx="2"/>
+</mask>
+<rect width="30" height="30" rx="2" transform="translate(209 30)" fill="#E74C3C" stroke="#D23E2F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" mask="url(#path-52-inside-18)"/>
+<mask id="mask17" mask-type="alpha" maskUnits="userSpaceOnUse" x="209" y="30" width="30" height="30">
+<rect width="30" height="30" rx="2" transform="translate(209 30)" fill="#2ECC71"/>
+</mask>
+<g mask="url(#mask17)">
+<rect opacity="0.1" width="47.4" height="24.6" transform="translate(207.8 61.1169) rotate(-45)" fill="white"/>
+</g>
+<mask id="path-55-inside-19" fill="white">
+<rect width="30" height="30" rx="2"/>
+</mask>
+<rect width="30" height="30" rx="2" transform="translate(239 60)" fill="#ECF0F1" stroke="#CDD8DA" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" mask="url(#path-55-inside-19)"/>
+<mask id="mask18" mask-type="alpha" maskUnits="userSpaceOnUse" x="239" y="60" width="30" height="30">
+<rect width="30" height="30" rx="2" transform="translate(239 60)" fill="#2ECC71"/>
+</mask>
+<g mask="url(#mask18)">
+<rect opacity="0.3" width="47.4" height="24.6" transform="translate(237.8 91.1169) rotate(-45)" fill="white"/>
+</g>
+<mask id="path-58-inside-20" fill="white">
+<rect width="30" height="30" rx="2"/>
+</mask>
+<rect width="30" height="30" rx="2" transform="translate(150 360)" fill="#ECF0F1" stroke="#CDD8DA" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" mask="url(#path-58-inside-20)"/>
+<mask id="mask19" mask-type="alpha" maskUnits="userSpaceOnUse" x="150" y="360" width="30" height="30">
+<rect width="30" height="30" rx="2" transform="translate(150 360)" fill="#2ECC71"/>
+</mask>
+<g mask="url(#mask19)">
+<rect opacity="0.3" width="47.4" height="24.6" transform="translate(148.8 391.117) rotate(-45)" fill="white"/>
+</g>
+<mask id="path-61-inside-21" fill="white">
+<rect width="30" height="30" rx="2"/>
+</mask>
+<rect width="30" height="30" rx="2" transform="translate(0 390)" fill="#ECF0F1" stroke="#CDD8DA" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" mask="url(#path-61-inside-21)"/>
+<mask id="mask20" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="390" width="30" height="30">
+<rect width="30" height="30" rx="2" transform="translate(0 390)" fill="#2ECC71"/>
+</mask>
+<g mask="url(#mask20)">
+<rect opacity="0.3" width="47.4" height="24.6" transform="translate(-1.20001 421.117) rotate(-45)" fill="white"/>
+</g>
+<mask id="path-64-inside-22" fill="white">
+<rect width="30" height="30" rx="2"/>
+</mask>
+<rect width="30" height="30" rx="2" transform="translate(30 360)" fill="#ECF0F1" stroke="#CDD8DA" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" mask="url(#path-64-inside-22)"/>
+<mask id="mask21" mask-type="alpha" maskUnits="userSpaceOnUse" x="30" y="360" width="30" height="30">
+<rect width="30" height="30" rx="2" transform="translate(30 360)" fill="#2ECC71"/>
+</mask>
+<g mask="url(#mask21)">
+<rect opacity="0.3" width="47.4" height="24.6" transform="translate(28.8 391.117) rotate(-45)" fill="white"/>
+</g>
+<mask id="path-67-inside-23" fill="white">
+<rect width="30" height="30" rx="2"/>
+</mask>
+<rect width="30" height="30" rx="2" transform="translate(30 390)" fill="#ECF0F1" stroke="#CDD8DA" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" mask="url(#path-67-inside-23)"/>
+<mask id="mask22" mask-type="alpha" maskUnits="userSpaceOnUse" x="30" y="390" width="30" height="30">
+<rect width="30" height="30" rx="2" transform="translate(30 390)" fill="#2ECC71"/>
+</mask>
+<g mask="url(#mask22)">
+<rect opacity="0.3" width="47.4" height="24.6" transform="translate(28.8 421.117) rotate(-45)" fill="white"/>
+</g>
+</svg>

@@ -1,0 +1,42 @@
+<svg width="120" height="30" viewBox="0 0 120 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="path-1-inside-1" fill="white">
+<rect width="30" height="30" rx="2"/>
+</mask>
+<rect width="30" height="30" rx="2" fill="#E74C3C" stroke="#D23E2F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" mask="url(#path-1-inside-1)"/>
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="30" height="30">
+<rect width="30" height="30" rx="2" fill="#2ECC71"/>
+</mask>
+<g mask="url(#mask0)">
+<rect opacity="0.1" width="47.4" height="24.6" transform="translate(-1.20001 31.1169) rotate(-45)" fill="white"/>
+</g>
+<mask id="path-4-inside-2" fill="white">
+<rect width="30" height="30" rx="2"/>
+</mask>
+<rect width="30" height="30" rx="2" transform="translate(30)" fill="#95A5A6" stroke="#7F9394" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" mask="url(#path-4-inside-2)"/>
+<mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="30" y="0" width="30" height="30">
+<rect width="30" height="30" rx="2" transform="translate(30)" fill="#2ECC71"/>
+</mask>
+<g mask="url(#mask1)">
+<rect opacity="0.1" width="47.4" height="24.6" transform="translate(28.8 31.1169) rotate(-45)" fill="white"/>
+</g>
+<mask id="path-7-inside-3" fill="white">
+<rect width="30" height="30" rx="2"/>
+</mask>
+<rect width="30" height="30" rx="2" transform="translate(90)" fill="#ECF0F1" stroke="#CDD8DA" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" mask="url(#path-7-inside-3)"/>
+<mask id="mask2" mask-type="alpha" maskUnits="userSpaceOnUse" x="90" y="0" width="30" height="30">
+<rect width="30" height="30" rx="2" transform="translate(90)" fill="#2ECC71"/>
+</mask>
+<g mask="url(#mask2)">
+<rect opacity="0.3" width="47.4" height="24.6" transform="translate(88.8 31.1169) rotate(-45)" fill="white"/>
+</g>
+<mask id="path-10-inside-4" fill="white">
+<rect width="30" height="30" rx="2"/>
+</mask>
+<rect width="30" height="30" rx="2" transform="translate(60)" fill="#1E1E27" stroke="black" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" mask="url(#path-10-inside-4)"/>
+<mask id="mask3" mask-type="alpha" maskUnits="userSpaceOnUse" x="60" y="0" width="30" height="30">
+<rect width="30" height="30" rx="2" transform="translate(60)" fill="#2ECC71"/>
+</mask>
+<g mask="url(#mask3)">
+<rect opacity="0.1" width="47.4" height="24.6" transform="translate(58.8 31.1169) rotate(-45)" fill="white"/>
+</g>
+</svg>

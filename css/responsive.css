@@ -15,11 +15,6 @@
     }
 }
 @media (max-width: 1199px){
-/*
-    .digital_feature{
-        overflow: hidden;
-    }
-*/
     .digital_feature{
         overflow: hidden;
     }
@@ -229,9 +224,6 @@
         max-width: 369px;
         margin: 0px auto 30px;
     }
-    .twitter_widget {
-        margin-left: 0px;
-    }
     .contact_widget {
         margin-left: 0px;
     }
@@ -244,6 +236,18 @@
     }
     .banner_area {
         min-height: auto;
+    }
+    .center_title h2 {
+        font-size: 30px;
+    }
+    .infos_photo_team ul li a {
+        font-size: 16px;
+    }
+    .text_team_member .txt_tm_body p {
+        font-size: 16px;
+    }
+    .metodology-who .row .col-md-3 img {
+      padding-top: 20px;
     }
 }
 @media(max-width: 575px){
