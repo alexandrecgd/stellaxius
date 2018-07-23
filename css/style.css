@@ -918,7 +918,7 @@ i:before {
 }
 
 .project_who {
-  padding: 50px 0px;
+  padding: 100px 0px 50px 0px;
   text-align: center; 
 }
 
@@ -2045,6 +2045,10 @@ iframe form.form p label!important{
 
 /* Team Area css
 ============================================================================================ */
+
+.team_container {
+  padding-top: 50px;
+}
 
 .team_container .row {
   margin-top: 20px;
