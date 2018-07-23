@@ -117,6 +117,10 @@ p {
   padding: 50px 0px;
 }
 
+.p_50_0 {
+  padding: 50px 0px 0px 0px;
+}
+
 .p_100_0 {
   padding: 100px 0px 0px 0px;
 }
@@ -177,10 +181,10 @@ i:before {
 .center_title {
   color: #fff;
   text-align: center;
-  padding-bottom: 40px;
+  padding: 0 10px 40px 10px;
 }
 
-.center_title h2 {
+.project_who .center_title h2 {
   font-size: 40px;
   font-weight: 500;
 }
@@ -581,6 +585,11 @@ i:before {
   background-size: cover;
 }
 
+.banner_what_we_do {
+  background: url(../img/what-we-do/banner/banner_imagem_1.jpg) no-repeat scroll center -190px;
+  background-size: cover;
+}
+
 .banner_area:before {
   content: "";
   background: rgba(4, 8, 29, 0.7);
@@ -667,9 +676,6 @@ i:before {
 }
 
 .c_feature_box {
-  -webkit-box-shadow: 0px 25px 49px 0px rgba(58, 74, 88, 0.1);
-  box-shadow: 0px 25px 49px 0px rgba(58, 74, 88, 0.1);
-  border-radius: 2px;
   background: #fff;
   padding: 30px 0px;
   margin-top: -100px;
@@ -837,7 +843,7 @@ i:before {
 
 @media (min-width: 1500px) {
   .indus_text {
-    padding-top: 50px;
+    padding-top: 20px;
   }
 }
 
@@ -858,7 +864,7 @@ i:before {
   color: #232d37;
   font-weight: 500;
   font-size: 14px;
-  padding-bottom: 6px;
+  padding-bottom: 20px;
 }
 
 .our_skill_inner .single_skill .progress {
@@ -1259,7 +1265,8 @@ i:before {
   color: #fff;
 }
 
-.service_item i {
+.service_item i,
+.service_item_2 i {
   background-image: -moz-linear-gradient(45deg, #ff416c 0%, #ff416c 38%, #8c2424 100%);
   background-image: -webkit-linear-gradient(45deg, #ff416c 0%, #ff416c 38%, #8c2424 100%);
   background-image: -ms-linear-gradient(45deg, #ff416c 0%, #ff416c 38%, #8c2424 100%);
@@ -1282,6 +1289,65 @@ i:before {
   margin: auto;
 }
 
+.services_itens {
+  padding: 20px 0;
+}
+
+.img_service2 {
+  background: url(../img/what-we-do/services/img_graph_help_us.svg) no-repeat scroll center center;
+  background-size: cover;
+  height: 549px;
+  margin-top: 30px;
+}
+
+.img_service2 h5 {
+  font-size: 22px;
+}
+
+.img_service2 p {
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.img_service2 .row .col-md-4 {
+  height: 254px;
+  margin-bottom: 40px;
+  padding-top: 15px;
+}
+
+.img_service2 .row .col-md-4 .align-right-service {
+  padding-left: 60px;
+}
+
+.img_service2 .row .col-md-4 .align-left-service {
+  padding-right: 60px;
+}
+
+.services_itens img {
+  max-width: 80%;
+  height: 80px;
+}
+
+.service_text h2 {
+  font-size: 1.5rem;
+}
+
+.service_text h4 {
+  font-size: 2rem;
+}
+
+.service_item_2{
+  text-align: center;
+}
+
+.service_item_2 p{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.end_services {
+  margin-top: 40px;
+}
 
 /* End Our Service Area css
 ============================================================================================ */
@@ -1704,10 +1770,6 @@ i:before {
   min-height: 520px;
   -webkit-box-shadow: 0px 27px 51.33px 7.67px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 27px 51.33px 7.67px rgba(0, 0, 0, 0.15);
-}
-
-.contact_details_inner {
-  padding-bottom: 100px;
 }
 
 .contact_text .contact_d_list {
@@ -2387,6 +2449,7 @@ iframe form.form p label!important{
 
 .service_item_submenu {
   text-align: center;
+  margin-bottom: 15px;
 }
 
 .service_item_submenu i img{
@@ -2397,6 +2460,11 @@ iframe form.form p label!important{
   font-weight: 500;
   padding: 18px 0px 12px 0px;
 }
+
+.navbar .dropdown-menu.mega-menu.v-2 .service_item_submenu .more_btn {
+  line-height: 40px;
+}
+
 .service_item_submenu p {
   font-size: 14px;
 }
