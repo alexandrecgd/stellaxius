@@ -2298,6 +2298,11 @@ iframe form.form p label!important{
   color: #51545f;
   font-size: 14px;
   line-height: 50px;
+  margin-bottom: 0;
+}
+
+.copy_right_area .float-md-right .fa-linkedin-in {
+  margin-top: 17px;
 }
 
 .copy_right_area .float-md-left h5 a {
