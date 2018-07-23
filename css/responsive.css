@@ -13,6 +13,9 @@
     .tp-mask-wrap .sub_text{
         margin-top: 133px!important;
     }
+    .main_menu_area .navbar .navbar-nav.justify-content-end {
+        margin-left: 55px;
+    }
 }
 @media (max-width: 1230px){
     .industries_area{
