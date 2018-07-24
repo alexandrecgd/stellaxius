@@ -184,7 +184,7 @@ i:before {
   padding: 0 10px 40px 10px;
 }
 
-.project_who .center_title h2 {
+.center_title h2 {
   font-size: 40px;
   font-weight: 500;
 }
@@ -604,6 +604,12 @@ i:before {
   background: url(../img/what-we-do/banner/banner_imagem_4.jpg) no-repeat scroll center -410px;
   background-size: cover;
 }
+
+.banner_privacy {
+  background: url(../img/privacy/banner/banner_imagem_1.jpg) no-repeat scroll center -70px;
+  background-size: cover;
+}
+
 
 .banner_area:before {
   content: "";
@@ -1371,6 +1377,10 @@ i:before {
 /* Testimonials Area css
 ============================================================================================ */
 
+.clients_area {
+  display: none;
+}
+
 .testimonials_slider .item img,
 .clients_slider .item img {
   width: auto !important;
@@ -1474,6 +1484,10 @@ i:before {
 
 /* Latest News Area css
 ============================================================================================ */
+
+.latest_news_area {
+  display: none;
+}
 
 .l_news_item {
   -webkit-transition: all 400ms linear 0s;
