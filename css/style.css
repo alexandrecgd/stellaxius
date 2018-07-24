@@ -590,6 +590,21 @@ i:before {
   background-size: cover;
 }
 
+.banner_what_we_do2 {
+  background: url(../img/what-we-do/banner/banner_imagem_2.jpg) no-repeat scroll center -370px;
+  background-size: cover;
+}
+
+.banner_what_we_do3 {
+  background: url(../img/what-we-do/banner/banner_imagem_3.jpg) no-repeat scroll center -190px;
+  background-size: cover;
+}
+
+.banner_what_we_do4 {
+  background: url(../img/what-we-do/banner/banner_imagem_4.jpg) no-repeat scroll center -410px;
+  background-size: cover;
+}
+
 .banner_area:before {
   content: "";
   background: rgba(4, 8, 29, 0.7);
