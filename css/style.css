@@ -2145,7 +2145,7 @@ iframe form.form p label!important{
 
 .photo_infos_team {
   position: relative;
-  background: #1E1E27;
+  
   border-radius: 5px;
   -webkit-transition: all 400ms linear 0s;
   -o-transition: all 400ms linear 0s;
@@ -2153,10 +2153,14 @@ iframe form.form p label!important{
   overflow: hidden;
 }
 
+.photo_infos_team:hover {
+  background: #1E1E27;
+}
+
 .tetris_img,
 .tetris_img2 {
   position: absolute;
-  max-width: 50px;
+  width: inherit!important;
   bottom: 0px;
   left: 0px;
 }
@@ -2173,7 +2177,7 @@ iframe form.form p label!important{
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  width: 85%;
+  width: 90%;
   color: #fff;
 }
 
@@ -2187,10 +2191,12 @@ iframe form.form p label!important{
 
 .infos_photo_team ul li {
   margin-bottom: 5px;
+  line-height: 20px;
 }
 
 .infos_photo_team ul li a {
   font-size: 14px;
+  display: block;
 }
 
 .infos_photo_team ul li:hover a {
