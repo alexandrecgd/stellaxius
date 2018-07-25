@@ -224,6 +224,12 @@
     .testimonials_slider .item .media .media-body {
         display: block;
     }
+    .metodology-joinus .row .col-md-11 {
+        margin: 0;
+    }
+    .metodology-joinus .row .col-md-11 p {
+        margin: 0 0 20px 0;
+    }
     .p_100{
         padding: 60px 0px;
     }

@@ -610,6 +610,11 @@ i:before {
   background-size: cover;
 }
 
+.banner_joinus {
+  background: url(../img/join-us/banner/banner_imagem_1.png) no-repeat scroll center -390px;
+  background-size: cover;
+}
+
 
 .banner_area:before {
   content: "";
@@ -1314,6 +1319,24 @@ i:before {
   padding: 20px 0;
 }
 
+.services_itens {
+  text-align: center;
+}
+
+.service_feature_area {
+  background: #f7f7f7;
+  padding: 50px 0px;
+}
+
+.static_service_area {
+  padding: 50px 0px;
+}
+
+.service_feature_area h2,
+.static_service_area h2 {
+  text-align: center;
+}
+
 .img_service2 {
   background: url(../img/what-we-do/services/img_graph_help_us.svg) no-repeat scroll center center;
   background-size: cover;
@@ -1349,12 +1372,9 @@ i:before {
   height: 80px;
 }
 
-.service_text h2 {
-  font-size: 1.5rem;
-}
-
 .service_text h4 {
   font-size: 2rem;
+  text-align: center;
 }
 
 .service_item_2{
@@ -2084,6 +2104,57 @@ iframe form.form p label!important{
 /* End Search Popup Area css
 ============================================================================================ */
 
+/* Join Us Area css
+============================================================================================ */
+
+.metodology-joinus {
+  margin-bottom: 50px;
+}
+
+.metodology-joinus .row img {
+  max-width: 52px;
+}
+
+.metodology-joinus .row {
+  margin: 0;
+}
+
+.metodology-joinus .row h5 {
+  margin: 6px 0 0 0;
+  width: 100%;
+  font-size: 18px;
+}
+
+.metodology-joinus .row h5 span {
+    color: #E74C3C;
+}
+
+.metodology-joinus .row .col-md-11 p {
+    line-height: 20px;
+    font-size: 14px;
+    margin: 0;
+}
+
+.metodology-joinus .row .col-md-1,
+.metodology-joinus .row .col-md-11 {
+  padding: 0;
+}
+
+.metodology-joinus .row .col-md-11 {
+  margin: 0 0 0 -26px;
+}
+
+.card-body {
+  background: rgba(236, 240, 241, 0.20);
+}
+
+.card-deck .card {
+  border: 1px solid #ECF0F1;
+}
+
+.card-columns .col-md-4 {
+  padding:0;
+}
 
 /* Contact Success and error Area css
 ============================================================================================ */
