@@ -280,7 +280,8 @@
     .banner_what_we_do4,
     .banner_who_we_are,
     .banner_knowledg_post,
-    .banner_contact {
+    .banner_contact,
+    .banner_joinus {
         background-position: center center;
         background-size: cover;
     }
@@ -313,6 +314,13 @@
     .main_title h2 {
         font-size: 28px;
         line-height: 40px;
+    }
+    .static_area h2 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .l_news_item .l_news_content {
+        padding: 20px 25px;
     }
     .testimonials_area .testimonials_slider,
     .clients_area .clients_slider{

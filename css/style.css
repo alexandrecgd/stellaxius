@@ -1397,10 +1397,6 @@ i:before {
 /* Testimonials Area css
 ============================================================================================ */
 
-.clients_area {
-  display: none;
-}
-
 .testimonials_slider .item img,
 .clients_slider .item img {
   width: auto !important;
@@ -1505,14 +1501,14 @@ i:before {
 /* Latest News Area css
 ============================================================================================ */
 
-.latest_news_area {
-  display: none;
-}
-
 .l_news_item {
   -webkit-transition: all 400ms linear 0s;
   -o-transition: all 400ms linear 0s;
   transition: all 400ms linear 0s;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+  margin-bottom: 20px;
 }
 
 .l_news_item .l_news_img {
@@ -1527,6 +1523,8 @@ i:before {
   -webkit-transition: all 400ms linear 0s;
   -o-transition: all 400ms linear 0s;
   transition: all 400ms linear 0s;
+  border-top-left-radius: calc(.25rem - 1px);
+  border-top-right-radius: calc(.25rem - 1px);
 }
 
 .l_news_item .l_news_img img:hover {
@@ -1536,8 +1534,6 @@ i:before {
 }
 
 .l_news_item .l_news_content {
-  border: 1px solid #ebebeb;
-  border-top: 0px;
   padding: 30px 35px;
 }
 
@@ -2130,8 +2126,7 @@ iframe form.form p label!important{
 }
 
 .metodology-joinus .row .col-md-11 p {
-    line-height: 20px;
-    font-size: 14px;
+    line-height: 23px;
     margin: 0;
 }
 
@@ -2144,16 +2139,30 @@ iframe form.form p label!important{
   margin: 0 0 0 -26px;
 }
 
-.card-body {
-  background: rgba(236, 240, 241, 0.20);
+.empty-joinus {
+  max-width: 440px;
+  background: #f7f7fd;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+  padding: 20px;
 }
 
-.card-deck .card {
-  border: 1px solid #ECF0F1;
+.empty-joinus img {
+  max-width: 300px;
+  margin-top: -48px;
 }
 
-.card-columns .col-md-4 {
-  padding:0;
+.empty-joinus h3 {
+  font-size: 22px;
+  padding: 40px 0px 0px 0px;
+  font-weight: 100;
+  color: #858585;
+}
+
+.empty-joinus p {
+  color: #a3a3a3;
 }
 
 /* Contact Success and error Area css
