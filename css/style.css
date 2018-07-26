@@ -2147,6 +2147,7 @@ iframe form.form p label!important{
   margin-top: 50px;
   text-align: center;
   padding: 20px;
+  display: none;
 }
 
 .empty-joinus img {
@@ -2156,13 +2157,14 @@ iframe form.form p label!important{
 
 .empty-joinus h3 {
   font-size: 22px;
-  padding: 40px 0px 0px 0px;
+  padding: 20px 0px 0px 0px;
   font-weight: 100;
   color: #858585;
 }
 
 .empty-joinus p {
   color: #a3a3a3;
+  margin: 0;
 }
 
 /* Contact Success and error Area css

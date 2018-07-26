@@ -21,6 +21,19 @@
     };
     navbarFixed();
     
+
+    function cards(){
+        if ($('#cards').text().trim().length == 0){
+            $('#cards').hide();
+            $('#empty').show()
+        } else {
+            $('#cards').show();
+            $('#empty').hide()
+        }
+
+    }
+    cards();
+
     
     /*----------------------------------------------------*/
     /*  Main Slider js
