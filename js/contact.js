@@ -12,7 +12,11 @@ $(document).ready(function(){
     $(function() {
         $('#contactForm').validate({
             rules: {
-                name: {
+                fname: {
+                    required: true,
+                    minlength: 2
+                },
+                lname: {
                     required: true,
                     minlength: 2
                 },
@@ -20,7 +24,7 @@ $(document).ready(function(){
                     required: true,
                     minlength: 4
                 },
-                number: {
+                phone: {
                     required: true,
                     minlength: 5
                 },
@@ -28,26 +32,36 @@ $(document).ready(function(){
                     required: true,
                     email: true
                 },
+                cvfile: {
+                    required: true
+                },
                 message: {
-                    required: true,
+                    required: false,
                     minlength: 20
                 }
             },
             messages: {
-                name: {
-                    required: "Come on, you have a name, don't you?",
+                fname: {
+                    required: "Come on, you have a first name, don't you?",
                     minlength: "Your name must consist of at least 2 characters"
+                },
+                lname: {
+                    required: "Come on, you have a last name, don't you?",
+                    minlength: "Your last name must consist of at least 2 characters"
                 },
                 subject: {
                     required: "Come on, you have a subject, don't you?",
                     minlength: "Your subject must consist of at least 4 characters"
                 },
-                number: {
-                    required: "Come on, you have a number, don't you?",
-                    minlength: "Your Number must consist of at least 5 characters"
+                phone: {
+                    required: "You have a number?",
+                    minlength: "Your Phone Number must consist of at least 5 characters"
                 },
                 email: {
                     required: "No email, no message"
+                },
+                cvfile: {
+                    required: "No CV, no job"
                 },
                 message: {
                     required: "Um...yea, you have to write something to send this form.",

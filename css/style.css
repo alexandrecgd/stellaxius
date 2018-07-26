@@ -1869,6 +1869,11 @@ iframe form.form p label!important{
       color: #ff0000;
 }
 
+.contact_us_form {
+  margin-top: 20px;
+  text-align: left;
+}
+
 .contact_us_form .form-group {
   margin-bottom: 20px;
 }
@@ -1882,6 +1887,19 @@ iframe form.form p label!important{
   box-shadow: none;
   outline: none;
   padding: 0px 20px;
+  font-size: 16px;
+  color: #7f7f7f;
+}
+
+.contact_us_form .form-group .form-control-file {
+  height: 33px;
+  width: 100%;
+  border: none;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+  padding: 0;
   font-size: 16px;
   color: #7f7f7f;
 }
@@ -1954,7 +1972,12 @@ iframe form.form p label!important{
 }
 
 .contact_us_form label{
-  color: #d80f2c;
+  color: #ff417c;
+  font-size: 16px;
+}
+
+.contact_us_form .inputcvfile{
+  color: #858585!important;
 }
 
 
@@ -2140,7 +2163,7 @@ iframe form.form p label!important{
 }
 
 .empty-joinus {
-  max-width: 440px;
+  max-width: 600px;
   background: #f7f7fd;
   border-radius: 10px;
   margin: 0 auto;
