@@ -21,7 +21,40 @@
     };
     navbarFixed();
     
+    /*-------------------------------------------------------------------------------
+      Focus Input 
+    -------------------------------------------------------------------------------*/
 
+    function focusBtn(){
+        $(".read_btn").click(function(e){
+            e.preventDefault();
+            $("#fname").focus();
+        });
+    };
+    focusBtn();
+
+    /*-------------------------------------------------------------------------------
+      Fix Widget 
+    -------------------------------------------------------------------------------*/
+
+    function widgetFixed(){
+        if ( $('.r_cv_widget').length){ 
+            $(window).scroll(function() {
+                var scroll = $(window).scrollTop();   
+                if (scroll > 447 ) {
+                    $(".r_cv_widget").addClass("widget_fixed");
+                } else {
+                    $(".r_cv_widget").removeClass("widget_fixed");
+                }
+            });
+        };
+    };
+    widgetFixed();
+
+
+    /*----------------------------------------------------*/
+    /*  Show Hide Empty State js
+    /*----------------------------------------------------*/
     function cards(){
         if ($('#cards').text().trim().length == 0){
             $('#cards').hide();
@@ -30,7 +63,6 @@
             $('#cards').show();
             $('#empty').hide()
         }
-
     }
     cards();
 

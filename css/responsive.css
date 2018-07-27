@@ -213,6 +213,13 @@
     .contact_form{
         margin-top: 50px;
     }
+    .r_cv_widget.widget_fixed {
+      position: relative;
+      top: 0;
+    }
+    .r_cv_widget {
+        max-width: 100%;
+    }
 }
 @media(max-width: 767px){
     .testimonials_slider .item .media {
@@ -321,6 +328,13 @@
     }
     .l_news_item .l_news_content {
         padding: 20px 25px;
+    }
+    .r_cv_widget.widget_fixed{
+        position: relative;
+        top: 0;
+    }
+    .r_cv_widget {
+        max-width: 100%;
     }
     .testimonials_area .testimonials_slider,
     .clients_area .clients_slider{
