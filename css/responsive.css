@@ -1,4 +1,12 @@
-@media (max-width: 1330px){
+/*=====================================================================
+@Template Name: Stellaxius
+@Author: Alexandre Duarte
+@Developed By: Stellaxius
+@Developer URL: http://stellaxius.com
+Author E-mail: alexandre.duarte@stellaxius.com
+=====================================================================*/
+
+@media (max-width: 1330px) {
     .testimonials_slider .owl-prev,
     .clients_slider .owl-prev {
         left: -30px;
@@ -7,18 +15,19 @@
     .clients_slider .owl-next {
         right: 0px;
     }
-    .main_menu_area{
+    .main_menu_area {
         padding: 0px 40px;
     }
-    .tp-mask-wrap .sub_text{
+    .tp-mask-wrap .sub_text {
         margin-top: 133px!important;
     }
     .main_menu_area .navbar .navbar-nav.justify-content-end {
         margin-left: 55px;
     }
 }
-@media (max-width: 1230px){
-    .industries_area{
+
+@media (max-width: 1230px) {
+    .industries_area {
         padding-bottom: 100px;
         padding-top: 30px;
     }
@@ -26,30 +35,32 @@
         padding-right: 0px;
     }
 }
-@media (max-width: 1199px){
-    .digital_feature{
+
+@media (max-width: 1199px) {
+    .digital_feature {
         overflow: hidden;
     }
     .indus_text {
         padding-right: 15px;
     }
 }
-@media (max-width: 991px){
+
+@media (max-width: 991px) {
     .main_menu_area {
         padding: 0px 0px;
     }
-    .main_menu_area .navbar .navbar-toggler{
+    .main_menu_area .navbar .navbar-toggler {
         border: none;
         padding: 0px;
         padding-right: 15px;
         cursor: pointer;
     }
-    .main_menu_area .navbar .navbar-brand{
+    .main_menu_area .navbar .navbar-brand {
         padding-top: 18px;
         padding-bottom: 18px;
         padding-left: 15px;
     }
-    .main_menu_area .navbar .navbar-toggler span{
+    .main_menu_area .navbar .navbar-toggler span {
         height: 3px;
         background: #fff;
         width: 25px;
@@ -60,7 +71,7 @@
     .main_menu_area.navbar_fixed .navbar .navbar-nav li a {
         line-height: 50px;
     }
-    .main_menu_area .navbar .navbar-toggler span:last-child{
+    .main_menu_area .navbar .navbar-toggler span:last-child {
         margin-bottom: 0px;
     }
     .main_menu_area .navbar .navbar-nav li {
@@ -98,7 +109,7 @@
     .d_feature_img {
         padding-left: 0px;
     }
-    .d_feature_img img{
+    .d_feature_img img {
         max-width: 100%;
         margin-top: 50px;
     }
@@ -132,13 +143,13 @@
     .service_item {
         margin-bottom: 30px;
     }
-    .service_item_inner{
+    .service_item_inner {
         margin-bottom: -30px;
     }
     .service_area {
         padding: 100px 0px 50px 0;
     }
-    .testimonials_area .testimonials_slider{
+    .testimonials_area .testimonials_slider {
         padding: 0px 40px;
     }
     .testimonials_slider .item .media .media-body {
@@ -146,7 +157,7 @@
         padding-right: 0px;
         margin-top: 10px;
     }
-    .testimonials_slider .owl-prev{
+    .testimonials_slider .owl-prev {
         left: 0px;
     }
     .testimonials_slider .owl-next {
@@ -158,36 +169,36 @@
     .l_news_item {
         margin-bottom: 30px;
     }
-    .l_news_inner{
+    .l_news_inner {
         margin-bottom: -30px;
     }
     .categories_widget {
-        margin-left: 0px; 
+        margin-left: 0px;
     }
     .footer_widgets_area {
         padding: 40px 0px 0px 0px;
     }
-    .f_widgets_inner .col-md-6{
+    .f_widgets_inner .col-md-6 {
         margin-bottom: 40px;
     }
-    .f_widgets_inner{
+    .f_widgets_inner {
         margin-bottom: -40px;
     }
-    .copy_right_area{
+    .copy_right_area {
         text-align: center;
         padding-bottom: 10px;
     }
-    .copy_right_area .float-md-right{
+    .copy_right_area .float-md-right {
         float: none !important;
     }
-    .copy_right_area .float-md-right .nav{
+    .copy_right_area .float-md-right .nav {
         display: block;
     }
-    .copy_right_area .float-md-right .nav li{
+    .copy_right_area .float-md-right .nav li {
         display: inline-block;
         margin-right: 25px;
     }
-    .copy_right_area .float-md-left{
+    .copy_right_area .float-md-left {
         float: none !important;
     }
     .static_main_content .static_social {
@@ -210,18 +221,19 @@
         padding-left: 0px;
         margin-top: 50px;
     }
-    .contact_form{
+    .contact_form {
         margin-top: 50px;
     }
     .r_cv_widget.widget_fixed {
-      position: relative;
-      top: 0;
+        position: relative;
+        top: 0;
     }
     .r_cv_widget {
         max-width: 100%;
     }
 }
-@media(max-width: 767px){
+
+@media(max-width: 767px) {
     .testimonials_slider .item .media {
         display: block;
     }
@@ -237,7 +249,7 @@
     .metodology-joinus .row .col-md-11 p {
         margin: 0 0 20px 0;
     }
-    .p_100{
+    .p_100 {
         padding: 60px 0px;
     }
     .project_area {
@@ -253,10 +265,10 @@
     .img_service2 .row .col-md-4 {
         text-align: left!important;
     }
-    .img_service2 .row .col-md-4 .align-right-service{
+    .img_service2 .row .col-md-4 .align-right-service {
         padding: 0;
     }
-    .img_service2 .row .col-md-4{
+    .img_service2 .row .col-md-4 {
         height: auto;
         margin-bottom: 20px;
         padding-top: 20px;
@@ -295,7 +307,7 @@
     .services_itens .col-md-4 {
         margin-bottom: 50px;
     }
-    .end_services .col-md-3{
+    .end_services .col-md-3 {
         margin-bottom: 50px;
     }
     .center_title h2 {
@@ -308,10 +320,11 @@
         font-size: 16px;
     }
     .metodology-who .row .col-md-3 img {
-      padding-top: 20px;
+        padding-top: 20px;
     }
 }
-@media(max-width: 575px){
+
+@media(max-width: 575px) {
     .c_feature_box {
         margin-top: 0px;
     }
@@ -329,7 +342,7 @@
     .l_news_item .l_news_content {
         padding: 20px 25px;
     }
-    .r_cv_widget.widget_fixed{
+    .r_cv_widget.widget_fixed {
         position: relative;
         top: 0;
     }
@@ -337,12 +350,14 @@
         max-width: 100%;
     }
     .testimonials_area .testimonials_slider,
-    .clients_area .clients_slider{
+    .clients_area .clients_slider {
         padding: 0px 0px;
         padding-bottom: 30px;
     }
-    .testimonials_slider .owl-prev, .testimonials_slider .owl-next,
-    .clients_slider .owl-prev, .clients_slider .owl-next {
+    .testimonials_slider .owl-prev,
+    .testimonials_slider .owl-next,
+    .clients_slider .owl-prev,
+    .clients_slider .owl-next {
         position: absolute;
         top: auto;
         bottom: 0px;
@@ -385,11 +400,12 @@
         display: none !important;
     }
 }
-@media(max-width: 480px){
-    .static_main_content .media{
+
+@media(max-width: 480px) {
+    .static_main_content .media {
         display: block;
     }
-    .static_main_content .media .d-flex{
+    .static_main_content .media .d-flex {
         margin-bottom: -10px;
     }
     .media .media-body {

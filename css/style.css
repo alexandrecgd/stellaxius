@@ -6,12 +6,13 @@ Author E-mail: alexandrecgduarte@gmail.com
 
 ---------------------------------------------------- */
 
+
 /*=====================================================================
 @Template Name: Stellaxius
 @Author: Alexandre Duarte
 @Developed By: Stellaxius
 @Developer URL: http://stellaxius.com
-Author E-mail: contato@stellaxius.com
+Author E-mail: alexandre.duarte@stellaxius.com
 
 @Default Styles
 
@@ -31,9 +32,6 @@ Table of Content:
 =====================================================================*/
 
 
-/*----------------------------------------------------*/
-
-
 /*Font Variables*/
 
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display|Poppins:300,400,500,600,700,800,900");
@@ -44,7 +42,6 @@ Table of Content:
 
 
 /*---------------------------------------------------- */
-
 
 ul {
   list-style: none;
@@ -157,10 +154,6 @@ i:before {
 }
 
 
-/* End Container Custome Code css
-============================================================================================ */
-
-
 /* Main title css
 ============================================================================================ */
 
@@ -214,16 +207,6 @@ i:before {
   padding-top: 10px;
   color: #51545f;
 }
-
-
-/* Main title css
-============================================================================================ */
-
-
-/*---------------------------------------------------- */
-
-
-/*----------------------------------------------------*/
 
 
 /* Main Menu Area css
@@ -392,19 +375,36 @@ i:before {
   line-height: 70px;
 }
 
+
 /* Hide & Show nav links */
 
-.nav-link-1 { display: inline-block; }
-.nav-link-2 { display: inline-block; }
-.nav-link-3 { display: inline-block; }
-.nav-link-4 { display: none!important; }
-.nav-link-5 { display: none!important; }
-.nav-link-6 { display: inline-block; }
-.nav-link-7 { display: none!important; }
+.nav-link-1 {
+  display: inline-block;
+}
 
+.nav-link-2 {
+  display: inline-block;
+}
 
-/* End Main Menu Area css
-============================================================================================ */
+.nav-link-3 {
+  display: inline-block;
+}
+
+.nav-link-4 {
+  display: none!important;
+}
+
+.nav-link-5 {
+  display: none!important;
+}
+
+.nav-link-6 {
+  display: inline-block;
+}
+
+.nav-link-7 {
+  display: none!important;
+}
 
 
 /* End Main Menu Area css
@@ -500,21 +500,19 @@ i:before {
 }
 
 
-/* End Main Menu Area css
-============================================================================================ */
-
 /* Scroll Top css
 ============================================================================================ */
 
 .scrolltop {
-  display:none;
-  width:100%;
-  margin:0 auto;
-  position:fixed;
-  bottom:20px;
-  right:10px;
+  display: none;
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
   z-index: 5;
 }
+
 .scroll {
   position: absolute;
   right: 20px;
@@ -529,19 +527,22 @@ i:before {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   width: 50px;
-  height: 50px;   
+  height: 50px;
 }
+
 .scroll:hover {
-  background:rgba(178,178,178,1.0);
+  background: rgba(178, 178, 178, 1.0);
   transition: 0.5s;
   -moz-transition: 0.5s;
   -webkit-transition: 0.5s;
-  -o-transition: 0.5s;    
+  -o-transition: 0.5s;
 }
+
 .scroll:hover .fa {
-  padding-top:-10px;
+  padding-top: -10px;
   color: #fff;
 }
+
 .scroll .fa {
   font-size: 30px;
   margin-top: 8px;
@@ -549,18 +550,21 @@ i:before {
   -moz-transition: 0.5s;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
-  color: #969696; 
+  color: #969696;
 }
+
 
 /* Cookie Banner css
 ============================================================================================ */
 
-#cookie-bar{
+#cookie-bar {
   background: rgba(0, 0, 0, 0.78)!important;
 }
+
 #cookie-bar p a {
-    color: #F41E3D!important;
+  color: #F41E3D!important;
 }
+
 #cookie-bar-button {
   color: #fff!important;
   font-size: 12px;
@@ -625,7 +629,6 @@ i:before {
   background-size: cover;
 }
 
-
 .banner_area:before {
   content: "";
   background: rgba(4, 8, 29, 0.7);
@@ -656,6 +659,7 @@ i:before {
 .menu-breadcrumbie ul {
   margin-left: 10px;
 }
+
 .menu-breadcrumbie ul li {
   display: inline-block;
   margin-right: 15px;
@@ -686,10 +690,6 @@ i:before {
 }
 
 
-/* End Banner Area css
-============================================================================================ */
-
-
 /* Slider Area css
 ============================================================================================ */
 
@@ -705,10 +705,6 @@ i:before {
   display: inline-block;
   text-transform: uppercase;
 }
-
-
-/* End Slider Area css
-============================================================================================ */
 
 
 /* Methodology Feature Area css
@@ -803,9 +799,6 @@ i:before {
 }
 
 
-/* End Creative Feature Area css
-============================================================================================ */
-
 /* Creative Area css
 ============================================================================================ */
 
@@ -818,21 +811,23 @@ i:before {
   display: flex;
 }
 
+
 /* Certifield Area css
 ============================================================================================ */
 
-.certifield_area{
+.certifield_area {
   border-bottom: 0.5px solid #ECF0F1;
 }
 
-.certifield_area .row{
+.certifield_area .row {
   text-align: center;
 }
 
-.certifield_area .row img{
+.certifield_area .row img {
   padding-left: 5px;
   height: 67px;
 }
+
 
 /* Industries Area css
 ============================================================================================ */
@@ -940,10 +935,6 @@ i:before {
 }
 
 
-/* End Industries Area css
-============================================================================================ */
-
-
 /* Project Area css
 ============================================================================================ */
 
@@ -968,7 +959,7 @@ i:before {
 
 .project_who {
   padding: 100px 0px 50px 0px;
-  text-align: center; 
+  text-align: center;
 }
 
 .project_who h2 {
@@ -1029,9 +1020,6 @@ i:before {
 }
 
 
-/* End Project Area css
-============================================================================================ */
-
 /* Border Button Area css
 ============================================================================================ */
 
@@ -1083,9 +1071,9 @@ i:before {
   border-width: 2px;
   border-style: solid;
   border-image: -moz-linear-gradient(45deg, #ff416c 1%, #8c2424 100%);
-  -webkit-border-image: -webkit-linear-gradient(45deg, #ff416c 1%,#8c2424 100%);
-  border-image: -webkit-linear-gradient(45deg, #ff416c 1%,#8c2424 100%);
-  border-image: -ms-linear-gradient(45deg, #ff416c 1%,#8c2424 100%);
+  -webkit-border-image: -webkit-linear-gradient(45deg, #ff416c 1%, #8c2424 100%);
+  border-image: -webkit-linear-gradient(45deg, #ff416c 1%, #8c2424 100%);
+  border-image: -ms-linear-gradient(45deg, #ff416c 1%, #8c2424 100%);
   border-image-slice: 1;
   display: block;
   line-height: 42px;
@@ -1161,10 +1149,10 @@ i:before {
 }
 
 .bg_btn:focus {
-  background-image: -webkit-gradient(45deg, #8c2424 0%,#ff416c 100%) !important;
-  background-image: -webkit-linear-gradient(45deg, #8c2424 0%,#ff416c 100%) !important;
-  background-image: -o-linear-gradient(45deg, #8c2424 0%,#ff416c 100%) !important;
-  background-image: linear-gradient(45deg, #8c2424 0%,#ff416c 100%) !important;
+  background-image: -webkit-gradient(45deg, #8c2424 0%, #ff416c 100%) !important;
+  background-image: -webkit-linear-gradient(45deg, #8c2424 0%, #ff416c 100%) !important;
+  background-image: -o-linear-gradient(45deg, #8c2424 0%, #ff416c 100%) !important;
+  background-image: linear-gradient(45deg, #8c2424 0%, #ff416c 100%) !important;
   -webkit-transition: all 400ms ease-out !important;
   -o-transition: all 400ms ease-out !important;
   transition: all 400ms ease-out !important;
@@ -1271,10 +1259,6 @@ i:before {
   background-position: right center;
   color: #232d37;
 }
-
-
-/* End Border Button Area css
-============================================================================================ */
 
 
 /* Our Service Area css
@@ -1394,11 +1378,11 @@ i:before {
   text-align: center;
 }
 
-.service_item_2{
+.service_item_2 {
   text-align: center;
 }
 
-.service_item_2 p{
+.service_item_2 p {
   text-align: center;
   margin-top: 20px;
 }
@@ -1406,9 +1390,6 @@ i:before {
 .end_services {
   margin-top: 40px;
 }
-
-/* End Our Service Area css
-============================================================================================ */
 
 
 /* Testimonials Area css
@@ -1507,12 +1488,7 @@ i:before {
   -webkit-transition: all 400ms linear 0s;
   -o-transition: all 400ms linear 0s;
   transition: all 400ms linear 0s;
-
 }
-
-
-/* End Testimonials Area css
-============================================================================================ */
 
 
 /* Latest News Area css
@@ -1523,7 +1499,7 @@ i:before {
   -o-transition: all 400ms linear 0s;
   transition: all 400ms linear 0s;
   background-clip: border-box;
-  border: 1px solid rgba(0,0,0,.125);
+  border: 1px solid rgba(0, 0, 0, .125);
   border-radius: .25rem;
   margin-bottom: 20px;
 }
@@ -1583,7 +1559,6 @@ i:before {
 
 /* Latest News Area css
 ============================================================================================ */
-
 
 /* Static Area css
 ============================================================================================ */
@@ -1806,7 +1781,7 @@ i:before {
   margin-bottom: 0px;
 }
 
-.right_widget .news_inner .read_btn{
+.right_widget .news_inner .read_btn {
   width: 100%;
 }
 
@@ -1846,7 +1821,7 @@ i:before {
   margin-bottom: 0px;
 }
 
-.right_widget .cv_inner .read_btn{
+.right_widget .cv_inner .read_btn {
   width: 100%;
 }
 
@@ -1922,10 +1897,6 @@ i:before {
 }
 
 
-/* End Static Area css
-============================================================================================ */
-
-
 /* Contact Us Area css
 ============================================================================================ */
 
@@ -1986,9 +1957,8 @@ i:before {
   padding-bottom: 20px;
 }
 
-
-iframe form.form p label!important{
-      color: #ff0000;
+iframe form.form p label!important {
+  color: #ff0000;
 }
 
 .contact_us_form {
@@ -2093,18 +2063,14 @@ iframe form.form p label!important{
   margin-top: 10px;
 }
 
-.contact_us_form label{
+.contact_us_form label {
   color: #ff417c;
   font-size: 16px;
 }
 
-.contact_us_form .inputcvfile{
+.contact_us_form .inputcvfile {
   color: #858585!important;
 }
-
-
-/* End Contact Us Area css
-============================================================================================ */
 
 
 /* start state */
@@ -2242,9 +2208,6 @@ iframe form.form p label!important{
 }
 
 
-/* End Search Popup Area css
-============================================================================================ */
-
 /* Join Us Area css
 ============================================================================================ */
 
@@ -2267,12 +2230,12 @@ iframe form.form p label!important{
 }
 
 .metodology-joinus .row h5 span {
-    color: #E74C3C;
+  color: #E74C3C;
 }
 
 .metodology-joinus .row .col-md-11 p {
-    line-height: 23px;
-    margin: 0;
+  line-height: 23px;
+  margin: 0;
 }
 
 .metodology-joinus .row .col-md-1,
@@ -2311,6 +2274,7 @@ iframe form.form p label!important{
   color: #a3a3a3;
   margin: 0;
 }
+
 
 /* Contact Success and error Area css
 ============================================================================================ */
@@ -2357,10 +2321,6 @@ iframe form.form p label!important{
 }
 
 
-/* End Contact Success and error Area css
-============================================================================================ */
-
-
 /* Team Area css
 ============================================================================================ */
 
@@ -2401,7 +2361,6 @@ iframe form.form p label!important{
 
 .photo_infos_team {
   position: relative;
-  
   border-radius: 5px;
   -webkit-transition: all 400ms linear 0s;
   -o-transition: all 400ms linear 0s;
@@ -2437,7 +2396,7 @@ iframe form.form p label!important{
   color: #fff;
 }
 
-.infos_photo_team h5{
+.infos_photo_team h5 {
   color: #fff;
   font-size: 16px;
   text-transform: uppercase;
@@ -2459,7 +2418,7 @@ iframe form.form p label!important{
   color: #fff;
 }
 
-.text_team_member{
+.text_team_member {
   margin: 50px 0px 0px 0px;
 }
 
@@ -2468,21 +2427,21 @@ iframe form.form p label!important{
 }
 
 .text_team_member .txt_tm_flex h6 {
-    font-family: "Playfair Display", serif;
-    font-size: 80px;
-    color: #d80f2c;
-    line-height: 5px;
+  font-family: "Playfair Display", serif;
+  font-size: 80px;
+  color: #d80f2c;
+  line-height: 5px;
 }
 
 .text_team_member .txt_tm_body {
-    padding-left: 10px;
-    float: left;
+  padding-left: 10px;
+  float: left;
 }
 
 .text_team_member .txt_tm_body p {
-    font-size: 14px;
-    line-height: 26px;
-    color: #fff;
+  font-size: 14px;
+  line-height: 26px;
+  color: #fff;
 }
 
 .photo_infos_team img {
@@ -2496,9 +2455,10 @@ iframe form.form p label!important{
 
 .photo_infos_team:hover img {
   opacity: 0.5;
-  webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+  webkit-filter: blur(4px);
+  /* Chrome, Safari, Opera */
   filter: blur(4px);
-    -webkit-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
   transform: scale(1.05);
 }
@@ -2506,6 +2466,7 @@ iframe form.form p label!important{
 .photo_infos_team:hover .infos_photo_team {
   opacity: 1;
 }
+
 
 /* Footer Area css
 ============================================================================================ */
@@ -2673,8 +2634,6 @@ iframe form.form p label!important{
 ============================================================================================ */
 
 
-/*---------------------------------------------------- */
-
 .mega-dropdown:hover .dropdown-menu.mega-menu {
   display: block;
 }
@@ -2682,7 +2641,8 @@ iframe form.form p label!important{
 .navbar .mega-dropdown {
   position: static !important;
 }
-.mega-dropdown i.fa-caret-up{
+
+.mega-dropdown i.fa-caret-up {
   display: none;
   position: absolute;
   color: #fff;
@@ -2690,9 +2650,11 @@ iframe form.form p label!important{
   right: 33px;
   font-size: 24px;
 }
-.mega-dropdown:hover i.fa-caret-up{
+
+.mega-dropdown:hover i.fa-caret-up {
   display: block;
 }
+
 .navbar .dropdown-menu.mega-menu {
   width: 100%;
   border: none;
@@ -2700,8 +2662,8 @@ iframe form.form p label!important{
   background: #fff;
   -webkit-box-shadow: 0px 25px 49px 0px rgba(58, 74, 88, 0.1);
   box-shadow: 0px 25px 49px 0px rgba(58, 74, 88, 0.1);
-  padding:0;
-  margin:0;
+  padding: 0;
+  margin: 0;
   border-radius: 0 0 5px 5px;
 }
 
@@ -2714,9 +2676,10 @@ iframe form.form p label!important{
   margin-bottom: 15px;
 }
 
-.service_item_submenu i img{
+.service_item_submenu i img {
   width: 50px;
 }
+
 .service_item_submenu h4 {
   font-size: 16px;
   font-weight: 500;
@@ -2731,6 +2694,6 @@ iframe form.form p label!important{
   font-size: 14px;
 }
 
-form.form input.text{
+form.form input.text {
   width: 10px!important;
 }
