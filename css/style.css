@@ -2569,6 +2569,19 @@ iframe form.form p label!important {
   padding: 23px 0px;
 }
 
+.widget_footer_1 {
+  display: none;
+}
+.widget_footer_2 {
+  display: block;
+}
+.widget_footer_3 {
+  display: block;
+}
+.widget_footer_4 {
+  display: block;
+}
+
 .copy_right_area {
   background: #04081d;
   overflow: hidden;
