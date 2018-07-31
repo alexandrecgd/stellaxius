@@ -1333,10 +1333,6 @@ i:before {
   padding: 50px 0px;
 }
 
-.service_feature_area h2,
-.static_service_area h2 {
-  text-align: center;
-}
 
 .img_service2 {
   background: url(../img/what-we-do/services/img_graph_help_us.svg) no-repeat scroll center center;
