@@ -147,7 +147,7 @@ Author E-mail: alexandre.duarte@stellaxius.com
         margin-bottom: -30px;
     }
     .service_area {
-        padding: 100px 0px 50px 0;
+        padding: 50px 0px 50px 0;
     }
     .testimonials_area .testimonials_slider {
         padding: 0px 40px;
@@ -380,6 +380,9 @@ Author E-mail: alexandre.duarte@stellaxius.com
         transform: translateX(-50%);
         margin-left: 20px;
     }
+    .testimonials_area {
+        background: #ffffff;
+    }
     .clients_slider .item {
         opacity: 1;
     }
@@ -409,6 +412,9 @@ Author E-mail: alexandre.duarte@stellaxius.com
     .metodology-who .media .media-body p {
         font-size: 14px;
         line-height: 20px;
+    }
+    .copy_right_area .float-md-right .nav li i {
+        line-height: 0px;
     }
 }
 

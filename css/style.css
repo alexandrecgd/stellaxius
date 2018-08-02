@@ -1394,6 +1394,9 @@ i:before {
 
 /* Testimonials Area css
 ============================================================================================ */
+.testimonials_area{
+  background: #f7f7f7;
+}
 
 .testimonials_slider .item img,
 .clients_slider .item img {
@@ -1650,6 +1653,10 @@ i:before {
   margin-bottom: 12px;
 }
 
+ul li a {
+  display: block;
+}
+
 .static_text2 ul li a {
   font-size: 16px;
   color: #1e1e27;
@@ -1658,7 +1665,6 @@ i:before {
   transition: all 400ms linear 0s;
   padding-left: 20px;
   position: relative;
-  display: block;
 }
 
 .static_text2 ul li a:before {
@@ -2654,6 +2660,12 @@ iframe form.form p label!important {
 
 .copy_right_area .float-md-right .nav li:hover a {
   color: #d80f2c;
+}
+
+.copy_right_area .float-md-right .nav li i{
+  font-size: 24px;
+  line-height: 50px;
+  color: #fff;
 }
 
 
