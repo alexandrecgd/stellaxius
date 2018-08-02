@@ -587,7 +587,8 @@ i:before {
 }
 
 .banner_contact {
-  background: url(../img/contact/banner/banner_imagem_1.png) no-repeat scroll center center;
+  background: url(../img/contact/banner/banner_imagem_1.jpg) no-repeat scroll center 33%;
+  background-size: cover;
 }
 
 .banner_knowledg_post {
@@ -600,17 +601,17 @@ i:before {
 }
 
 .banner_what_we_do {
-  background: url(../img/what-we-do/banner/banner_imagem_1.jpg) no-repeat scroll center 20%;
+  background: url(../img/what-we-do/banner/banner_imagem_1.png) no-repeat scroll center 53%;
   background-size: cover;
 }
 
 .banner_what_we_do2 {
-  background: url(../img/what-we-do/banner/banner_imagem_2.jpg) no-repeat scroll center 50%;
+  background: url(../img/what-we-do/banner/banner_imagem_2.jpg) no-repeat scroll center 30%;
   background-size: cover;
 }
 
 .banner_what_we_do3 {
-  background: url(../img/what-we-do/banner/banner_imagem_3.jpg) no-repeat scroll center 20%;
+  background: url(../img/what-we-do/banner/banner_imagem_3.jpg) no-repeat scroll center 15%;
   background-size: cover;
 }
 
@@ -620,12 +621,12 @@ i:before {
 }
 
 .banner_privacy {
-  background: url(../img/privacy/banner/banner_imagem_1.jpg) no-repeat scroll center 7%;
+  background: url(../img/privacy/banner/banner_imagem_1.jpg) no-repeat scroll center 27%;
   background-size: cover;
 }
 
 .banner_joinus {
-  background: url(../img/join-us/banner/banner_imagem_1.png) no-repeat scroll center 50%;
+  background: url(../img/join-us/banner/banner_imagem_1.jpg) no-repeat scroll center 40%;
   background-size: cover;
 }
 
