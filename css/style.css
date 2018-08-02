@@ -984,39 +984,48 @@ i:before {
   text-align: center;
 }
 
-.metodology-who .row .col-md-8,
+.metodology-who .row .col-md-9,
 .metodology-who .row .col-md-3 {
   padding: 0;
 }
 
-.metodology-who .row .col-md-8 h5 {
-  margin: 10px 0 0 0;
-  width: 100%;
-  font-size: 18px;
-}
 
-.metodology-who .row .col-md-8 h5 span {
-  color: #E74C3C;
-}
-
-.metodology-who .row .col-md-8 p,
-.metodology-who .col-md-1 .row,
 .metodology-who .row {
   margin: 0;
-}
-
-.metodology-who .col-md-8 .row {
-  min-height: 70px;
-}
-
-.metodology-who .row .col-md-8 p {
-  line-height: 20px;
-  font-size: 14px;
 }
 
 .metodology-who .row .col-md-3 img {
   max-width: 292px;
   text-align: center;
+}
+
+.metodology-who .media {
+  margin: 0;
+}
+
+.metodology-who .media .media-body {
+  padding-left: 0;
+}
+
+.metodology-who .media .media-body h5 {
+  font-size: 1.25rem;
+  color: inherit;
+  padding-top: 0;
+  margin: 0;
+}
+
+.metodology-who .media .media-body p {
+  font-size: 16px;
+  margin: 0;
+  line-height: 23px;
+}
+
+.metodology-who .media img {
+  width: 80px;
+}
+
+.metodology-who .row h5 span {
+    color: #E74C3C;
 }
 
 

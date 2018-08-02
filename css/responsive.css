@@ -403,6 +403,13 @@ Author E-mail: alexandre.duarte@stellaxius.com
         text-align: center;
         display: none !important;
     }
+    .metodology-who .media {
+        margin: 0 0 20px 0;
+    }
+    .metodology-who .media .media-body p {
+        font-size: 14px;
+        line-height: 20px;
+    }
 }
 
 @media(max-width: 480px) {
