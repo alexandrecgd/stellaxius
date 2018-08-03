@@ -2674,25 +2674,21 @@ iframe form.form p label!important {
 ============================================================================================ */
 
 
-.mega-dropdown:hover .dropdown-menu.mega-menu {
+/*.mega-dropdown:hover .dropdown-menu.mega-menu {
   display: block;
-}
+}*/
 
 .navbar .mega-dropdown {
   position: static !important;
 }
 
 .mega-dropdown i.fa-caret-up {
-  display: none;
+  display: block;
   position: absolute;
   color: #fff;
-  top: 45px;
-  right: 33px;
+  top: -16px;
+  right: 172px;
   font-size: 24px;
-}
-
-.mega-dropdown:hover i.fa-caret-up {
-  display: block;
 }
 
 .navbar .dropdown-menu.mega-menu {
