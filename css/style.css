@@ -1600,14 +1600,9 @@ i:before {
 }
 
 .static_social ul li a {
-  height: 30px;
-  width: 30px;
-  text-align: center;
-  background: #4c65a8;
-  color: #fff;
+  color: #4c65a8;
   display: block;
-  border-radius: 50%;
-  line-height: 30px;
+  font-size: 30px;
 }
 
 .static_social ul li:nth-child(2) a {
