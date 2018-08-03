@@ -1170,7 +1170,7 @@ i:before {
 }
 
 .more_btn {
-  color: #d80f2c;
+  color: #d80f2c!important;
   font-size: 14px;
   text-decoration: underline;
   line-height: 26px;
@@ -2680,10 +2680,10 @@ iframe form.form p label!important {
 
 .navbar .mega-dropdown {
   position: static !important;
+  cursor: pointer;
 }
 
 .mega-dropdown i.fa-caret-up {
-  display: block;
   position: absolute;
   color: #fff;
   top: -16px;
