@@ -28,7 +28,7 @@ Author E-mail: alexandre.duarte@stellaxius.com
 
 @media (max-width: 1230px) {
     .industries_area {
-        padding-bottom: 100px;
+        padding-bottom: 50px;
         padding-top: 30px;
     }
     .indus_img {
@@ -48,6 +48,9 @@ Author E-mail: alexandre.duarte@stellaxius.com
 @media (max-width: 991px) {
     .main_menu_area {
         padding: 0px 0px;
+    }
+    .b_center_title h2 {
+        font-size: 30px;
     }
     .main_menu_area .navbar .navbar-toggler {
         border: none;
@@ -140,8 +143,11 @@ Author E-mail: alexandre.duarte@stellaxius.com
         padding-top: 40px;
         margin: auto;
     }
+    .p_0_100 {
+        padding: 0px 0px 50px 0px;
+    }
     .service_item {
-        margin-bottom: 30px;
+        margin-bottom: 50px;
     }
     .service_item_inner {
         margin-bottom: -30px;
@@ -239,6 +245,11 @@ Author E-mail: alexandre.duarte@stellaxius.com
     }
     .testimonials_slider .item .media .d-flex {
         display: block;
+        max-width: 100px;
+        margin: 0 auto;
+    }
+    .testimonials_slider .item img {
+        max-width: 30px;
     }
     .testimonials_slider .item .media .media-body {
         display: block;
@@ -362,16 +373,18 @@ Author E-mail: alexandre.duarte@stellaxius.com
     .testimonials_slider .owl-next,
     .clients_slider .owl-prev,
     .clients_slider .owl-next {
-        position: absolute;
-        top: auto;
-        bottom: 0px;
-        transform: translateY(0%);
+        display: none;
     }
-    .testimonials_slider .owl-prev,
-    .clients_slider .owl-prev {
-        left: 50%;
-        transform: translateX(-50%);
-        margin-left: -10px;
+    .testimonials_slider .item .media .media-body p,
+    .clients_slider .item .media .media-body p {
+      font-size: 16px;
+      padding: 10px 0px 20px 0px;
+    }
+    .testimonials_slider .item .media .media-body {
+        padding: 0;
+    }
+    .p_100_0 {
+      padding: 50px 0px 0px 0px;
     }
     .testimonials_slider .owl-next,
     .clients_slider .owl-next {
@@ -394,7 +407,7 @@ Author E-mail: alexandre.duarte@stellaxius.com
     }
     .copy_right_area .float-md-right .nav li a {
         line-height: 30px;
-        font-size: 12px;
+        font-size: 14px;
     }
     .main_slider_area #main_slider ul li .slider_button .bg_btn {
         display: block;
