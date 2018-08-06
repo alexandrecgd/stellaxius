@@ -906,12 +906,11 @@ i:before {
   color: #232d37;
   font-weight: 500;
   font-size: 14px;
-  padding-bottom: 20px;
 }
 
 .our_skill_inner .single_skill .progress {
-  height: 8px;
-  border-radius: 0px;
+  height: 16px;
+  border-radius: 10px;
   background: #e5e5e5;
   overflow: visible;
 }
@@ -923,21 +922,16 @@ i:before {
   position: relative;
   overflow: visible;
   background-color: transparent;
+  border-radius: 10px;
 }
 
-.our_skill_inner .single_skill .progress .progress-bar .progress_parcent {
-  position: absolute;
-  right: 0px;
-  top: -25px;
-  color: #232d37;
+.our_skill_inner .single_skill .progress .progress-bar .count {
   font-size: 14px;
-  font-weight: 500;
 }
 
 .our_skill_inner .single_skill:last-child {
   margin-bottom: 0px;
 }
-
 
 /* Project Area css
 ============================================================================================ */
@@ -1403,17 +1397,17 @@ i:before {
 }
 
 .testimonials_slider .item img,
-.clients_slider .item img {
+.certifications_slider .item img {
   width: auto !important;
 }
 
 .testimonials_slider .item .media,
-.clients_slider .item .media {
+.certifications_slider .item .media {
   vertical-align: middle;
 }
 
 .testimonials_slider .item .media .d-flex,
-.clients_slider .item .media .d-flex {
+.certifications_slider .item .media .d-flex {
   vertical-align: middle;
   -webkit-align-self: center;
   -ms-flex-item-align: center;
@@ -1421,14 +1415,14 @@ i:before {
 }
 
 .testimonials_slider .item .media .media-body,
-.clients_slider .item .media .media-body {
+.certifications_slider .item .media .media-body {
   padding-left: 100px;
   vertical-align: middle;
   padding-right: 40px;
 }
 
 .testimonials_slider .item .media .media-body p,
-.clients_slider .item .media .media-body p {
+.certifications_slider .item .media .media-body p {
   font-size: 18px;
   color: #51545f;
   line-height: 30px;
@@ -1437,14 +1431,14 @@ i:before {
 }
 
 .testimonials_slider .item .media .media-body h4,
-.clients_slider .item .media .media-body h4 {
+.certifications_slider .item .media .media-body h4 {
   font-size: 14px;
   color: #b5aec4;
   font-weight: 400;
 }
 
 .testimonials_slider .item .media .media-body h4 a,
-.clients_slider .item .media .media-body h4 a {
+.certifications_slider .item .media .media-body h4 a {
   font-size: 16px;
   color: #232d37;
   font-weight: 500;
@@ -1452,8 +1446,8 @@ i:before {
 
 .testimonials_slider .owl-prev,
 .testimonials_slider .owl-next,
-.clients_slider .owl-prev,
-.clients_slider .owl-next {
+.certifications_slider .owl-prev,
+.certifications_slider .owl-next {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -1466,12 +1460,12 @@ i:before {
 }
 
 .testimonials_slider .owl-prev,
-.clients_slider .owl-prev {
+.certifications_slider .owl-prev {
   left: -80px;
 }
 
 .testimonials_slider .owl-next,
-.clients_slider .owl-next {
+.certifications_slider .owl-next {
   right: -80px;
 }
 
@@ -1479,22 +1473,8 @@ i:before {
   width: 180px;
 }
 
-.clients_slider img {
+.certifications_slider img {
   width: auto!important;
-}
-
-.clients_slider .item {
-  opacity: 0.4;
-  -webkit-transition: all 400ms linear 0s;
-  -o-transition: all 400ms linear 0s;
-  transition: all 400ms linear 0s;
-}
-
-.clients_slider .item:hover {
-  opacity: 1;
-  -webkit-transition: all 400ms linear 0s;
-  -o-transition: all 400ms linear 0s;
-  transition: all 400ms linear 0s;
 }
 
 

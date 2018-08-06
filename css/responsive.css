@@ -8,11 +8,11 @@ Author E-mail: alexandre.duarte@stellaxius.com
 
 @media (max-width: 1330px) {
     .testimonials_slider .owl-prev,
-    .clients_slider .owl-prev {
+    .certifications_slider .owl-prev {
         left: -30px;
     }
     .testimonials_slider .owl-next,
-    .clients_slider .owl-next {
+    .certifications_slider .owl-next {
         right: 0px;
     }
     .main_menu_area {
@@ -23,6 +23,16 @@ Author E-mail: alexandre.duarte@stellaxius.com
     }
     .main_menu_area .navbar .navbar-nav.justify-content-end {
         margin-left: 55px;
+    }
+    .scroll {
+        right: 10px;
+        bottom: 10px;
+        width: 40px;
+        height: 40px;
+    }
+    .scroll .fa {
+        margin-top: 6px;
+        font-size: 25px;
     }
 }
 
@@ -364,19 +374,22 @@ Author E-mail: alexandre.duarte@stellaxius.com
     .r_cv_widget {
         max-width: 100%;
     }
+    .certifications_slider {
+        margin-top: 20px;
+    }
     .testimonials_area .testimonials_slider,
-    .clients_area .clients_slider {
+    .clients_area .certifications_slider {
         padding: 0px 0px;
         padding-bottom: 30px;
     }
     .testimonials_slider .owl-prev,
     .testimonials_slider .owl-next,
-    .clients_slider .owl-prev,
-    .clients_slider .owl-next {
+    .certifications_slider .owl-prev,
+    .certifications_slider .owl-next {
         display: none;
     }
     .testimonials_slider .item .media .media-body p,
-    .clients_slider .item .media .media-body p {
+    .certifications_slider .item .media .media-body p {
       font-size: 16px;
       padding: 10px 0px 20px 0px;
     }
@@ -387,7 +400,7 @@ Author E-mail: alexandre.duarte@stellaxius.com
       padding: 50px 0px 0px 0px;
     }
     .testimonials_slider .owl-next,
-    .clients_slider .owl-next {
+    .certifications_slider .owl-next {
         right: auto;
         left: 50%;
         transform: translateX(-50%);
@@ -396,7 +409,7 @@ Author E-mail: alexandre.duarte@stellaxius.com
     .testimonials_area {
         background: #ffffff;
     }
-    .clients_slider .item {
+    .certifications_slider .item {
         opacity: 1;
     }
     .copy_right_area .float-md-left h5 {

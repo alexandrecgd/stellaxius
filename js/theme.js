@@ -112,36 +112,28 @@
       Smooth Scroll 
     -------------------------------------------------------------------------------*/
     function SmoothScroll() {
-        // Select all links with hashes
         $('a[href*="#"]')
-            // Remove links that don't actually link to anything
             .not('[href="#"]')
             .not('[href="#0"]')
             .click(function(event) {
-                // On-page links
                 if (
                     location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') &&
                     location.hostname == this.hostname
                 ) {
-                    // Figure out element to scroll to
                     var target = $(this.hash);
                     target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                    // Does a scroll target exist?
                     if (target.length) {
-                        // Only prevent default if animation is actually gonna happen
                         event.preventDefault();
                         $('html, body').animate({
                             scrollTop: target.offset().top
                         }, 1000, function() {
-                            // Callback after animation
-                            // Must change focus!
                             var $target = $(target);
                             $target.focus();
-                            if ($target.is(":focus")) { // Checking if the target was focused
+                            if ($target.is(":focus")) {
                                 return false;
                             } else {
-                                $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
-                                $target.focus(); // Set focus again
+                                $target.attr('tabindex', '-1'); 
+                                $target.focus(); 
                             };
                         });
                     }
@@ -190,7 +182,8 @@
                     Self.find('.number').countTo({
                         from: 0,
                         to: progressValue,
-                        speed: 1000
+                        speed: 1000,
+                        refreshInterval: 50
                     });
                 });
             })
@@ -198,18 +191,17 @@
     }
     progressBarConfig();
 
-    $('.counter').counterUp({
-        delay: 10,
-        time: 1000
-    });
 
+    /*----------------------------------------------------*/
+    /*  Parallax
+    /*----------------------------------------------------*/
     if ($(window).width() > 992) {
         $('.service_area').parallax("50%", 0.4);
         $('.project_area').parallax("50%", 0.4);
     }
 
     /*----------------------------------------------------*/
-    /*  Explor Room Slider
+    /*  Slider Testemunhos
     /*----------------------------------------------------*/
     function testimoninals_carousel() {
         if ($('.testimonials_slider').length) {
@@ -230,37 +222,37 @@
     testimoninals_carousel();
 
     /*----------------------------------------------------*/
-    /*  Explor Room Slider
+    /*  Slider Clientes
     /*----------------------------------------------------*/
-    function clients_carousel() {
-        if ($('.clients_slider').length) {
-            $('.clients_slider').owlCarousel({
+    function certifications_carousel() {
+        if ($('.certifications_slider').length) {
+            $('.certifications_slider').owlCarousel({
                 loop: true,
-                margin: 50,
+                margin: 9,
                 items: 5,
                 nav: true,
                 autoWidth: true,
-                autoplay: false,
+                autoplay: true,
+                autoplayHoverPause: true,
                 smartSpeed: 1500,
                 dots: false,
                 responsiveClass: true,
                 responsive: {
-                    0: {
-                        items: 1,
+                    0:{
+                        items:1,
+                        nav:false
                     },
-                    600: {
-                        items: 3,
-                    },
-                    1000: {
-                        items: 5,
+                    1000:{
+                        items:5,
+                        nav:true,
                     }
                 },
-                navContainer: '.clients_slider',
+                navContainer: '.certifications_slider',
                 navText: ['<i class="ti-angle-left" aria-hidden="true"></i>', '<i class="ti-angle-right" aria-hidden="true"></i>'],
             })
         }
     }
-    clients_carousel();
+    certifications_carousel();
 
     /*----------------------------------------------------*/
     /* Offcanvas Menu js
