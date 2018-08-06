@@ -213,7 +213,6 @@
                 autoplay: true,
                 autoplayHoverPause: true,
                 smartSpeed: 1500,
-                dots: false,
                 navContainer: '.testimonials_slider',
                 navText: ['<i class="ti-angle-left" aria-hidden="true"></i>', '<i class="ti-angle-right" aria-hidden="true"></i>'],
             })
@@ -225,32 +224,31 @@
     /*  Slider Clientes
     /*----------------------------------------------------*/
     function certifications_carousel() {
-        if ($('.certifications_slider').length) {
-            $('.certifications_slider').owlCarousel({
-                loop: true,
-                margin: 9,
-                items: 5,
-                nav: true,
-                autoWidth: true,
-                autoplay: true,
-                autoplayHoverPause: true,
-                smartSpeed: 1500,
-                dots: false,
-                responsiveClass: true,
-                responsive: {
-                    0:{
-                        items:1,
-                        nav:false
-                    },
-                    1000:{
-                        items:5,
-                        nav:true,
-                    }
+        $('.certifications_slider').owlCarousel({
+            loop:true,
+            margin:10,
+            nav: true,
+            autoplay: true,
+            autoplayHoverPause: true,
+            smartSpeed: 1500,
+            responsiveClass:true,
+            navContainer: '.certifications_slider',
+            navText: ['<i class="ti-angle-left" aria-hidden="true"></i>', '<i class="ti-angle-right" aria-hidden="true"></i>'],
+            responsive:{
+                0:{
+                    items:2,
                 },
-                navContainer: '.certifications_slider',
-                navText: ['<i class="ti-angle-left" aria-hidden="true"></i>', '<i class="ti-angle-right" aria-hidden="true"></i>'],
-            })
-        }
+                360:{
+                    items:3,
+                },
+                600:{
+                    items:4,
+                },
+                1000:{
+                    items:5,
+                }
+            }
+        })
     }
     certifications_carousel();
 

@@ -9,11 +9,11 @@ Author E-mail: alexandre.duarte@stellaxius.com
 @media (max-width: 1330px) {
     .testimonials_slider .owl-prev,
     .certifications_slider .owl-prev {
-        left: -30px;
+        left: -37px;
     }
     .testimonials_slider .owl-next,
     .certifications_slider .owl-next {
-        right: 0px;
+        right: -36px;
     }
     .main_menu_area {
         padding: 0px 40px;
@@ -376,6 +376,9 @@ Author E-mail: alexandre.duarte@stellaxius.com
     }
     .certifications_slider {
         margin-top: 20px;
+    }
+    .certifield_area .row .col-md-4 {
+        text-align: center;
     }
     .testimonials_area .testimonials_slider,
     .clients_area .certifications_slider {

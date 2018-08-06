@@ -827,6 +827,10 @@ i:before {
   text-align: center;
 }
 
+.certifield_area .row .col-md-4 {
+  text-align: left;
+}
+
 .certifield_area .row img {
   padding-left: 5px;
   height: 67px;
