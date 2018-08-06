@@ -40,6 +40,15 @@ Table of Content:
   margin-right: 8.33333333%;
 }
 
+body.en :lang(pt) {
+  display: none;
+}
+body.pt :lang(en) {
+  display: none;
+}
+
+
+
 
 /*---------------------------------------------------- */
 
