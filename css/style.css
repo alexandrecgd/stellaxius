@@ -853,12 +853,6 @@ i:before {
   padding-bottom: 20px;
 }
 
-.d_feature_text p {
-  font-weight: 500;
-  padding-top: 15px;
-  margin: 0px;
-}
-
 .d_feature_text .read_btn {
   margin-top: 34px;
 }
@@ -884,6 +878,7 @@ i:before {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  background: #f7f7f7;
 }
 
 
