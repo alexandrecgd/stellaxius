@@ -18,7 +18,69 @@
             });
         };
     };
+    /* Hamburguer menu animation */
+    $('#nav-icon3').click(function(){
+        $(this).toggleClass('open');
+    });
     navbarFixed();
+
+
+    function AnimateScroll() {
+      // Box 1
+      $('#img-fadeIn1').css('opacity', 0);
+      $('#img-fadeIn1').waypoint(function() {
+          $('#img-fadeIn1').addClass('fadeIn');
+      }, { offset: '100%' });
+      // Box 2
+      $('#img-fadeIn2').css('opacity', 0);
+      $('#img-fadeIn2').waypoint(function() {
+          $('#img-fadeIn2').addClass('fadeIn');
+      }, { offset: '100%' });
+      // Box 3
+      $('#img-fadeIn3').css('opacity', 0);
+      $('#img-fadeIn3').waypoint(function() {
+          $('#img-fadeIn3').addClass('fadeIn');
+      }, { offset: '100%' });
+      // Box 4
+      $('#img-fadeIn4').css('opacity', 0);
+      $('#img-fadeIn4').waypoint(function() {
+          $('#img-fadeIn4').addClass('fadeIn');
+      }, { offset: '100%' });
+
+      // Image 1
+      $('#img-fadeInRight').css('opacity', 0);
+      $('#img-fadeInRight').waypoint(function() {
+          $('#img-fadeInRight').addClass('fadeInRight');
+      }, { offset: '90%' });
+      // Image 2
+      $('#img-fadeInLeft').css('opacity', 0);
+      $('#img-fadeInLeft').waypoint(function() {
+          $('#img-fadeInLeft').addClass('fadeInLeft');
+      }, { offset: '90%' });
+    };
+    AnimateScroll();
+
+    /*-------------------------------------------------------------------------------
+      Block Scroll Body on Mobile Menu is open 
+    -------------------------------------------------------------------------------*/
+    function BlockBodyMenu() {
+        var clicked = "false";
+          
+          $('.navbar-toggler').click(function(e) {
+            e.preventDefault();
+            var overflowState = 'auto'
+
+            if (clicked == "false") {
+            overflowState = 'hidden';
+            clicked = "true";
+            } else {
+            overflowState = 'auto';
+            clicked = "false";
+            }
+            $('html, body').css('overflow', overflowState);
+        });
+    };
+    BlockBodyMenu();
 
     /*-------------------------------------------------------------------------------
       Fix Widget 

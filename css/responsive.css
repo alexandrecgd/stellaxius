@@ -91,12 +91,47 @@ Author E-mail: alexandre.duarte@stellaxius.com
         display: block;
         margin-right: 0px;
     }
-    .main_menu_area .navbar .navbar-nav {
+    .navbar_fixed .navbar .navbar-nav {
         display: block;
         text-align: left;
-        background: rgba(0, 0, 0, .7);
-        max-height: 250px;
+        background: rgba(0, 0, 0, 0.29);
+    }
+    .main_menu_area .navbar .navbar-nav {
+        background: rgba(0, 0, 0, 0.7);
+        display: block;
+        text-align: left;
+        height: 100vh;
         overflow-y: scroll;
+        padding-bottom: 20px;
+    }
+    .navbar_fixed .navbar {
+        background-color: rgba(0, 0, 0, .7)!important;
+        -webkit-box-shadow: 0px 7px 5px -3px rgba(0,0,0,0.15);
+        -moz-box-shadow: 0px 7px 5px -3px rgba(0,0,0,0.15);
+        box-shadow: 0px 7px 5px -3px rgba(0,0,0,0.15);
+    }
+    .mega-dropdown i.fa-caret-up {
+        top: 205px;
+        right: 244px;
+    }
+    .service_item_submenu {
+        margin-bottom: 0;
+        border: 0.5px solid #dfdfdf;
+        border-radius: 10px;
+        padding: 20px;
+    }
+    .service_item_submenu h4 {
+        padding: 0;
+    }
+    .navbar .dropdown-menu.mega-menu.v-2 .service_item_submenu .more_btn {
+        line-height: 20px;
+    }
+    .sub-menu {
+        padding: 10px;
+        margin-top: 0px!important;
+    }
+    .sub-menu:first-child {
+        margin-top: 10px!important;
     }
     .main_menu_area .navbar .navbar-nav li a {
         line-height: 50px;
