@@ -1028,20 +1028,8 @@ i:before {
 .project_area2 {
   background: url(../img/who-we-are/banner/ready-start-project.jpg) no-repeat fixed center center;
   background-size: cover;
-  position: relative;
   z-index: 3;
   padding: 115px 0px;
-}
-
-.project_area2:before {
-  content: "";
-  height: 100%;
-  width: 100%;
-  left: 0px;
-  top: 0px;
-  position: absolute;
-  z-index: -1;
-  background: rgba(4, 8, 29, 0.7);
 }
 
 .project_who {
