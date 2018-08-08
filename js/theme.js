@@ -84,26 +84,6 @@
     };
     BlockBodyMenu();
 
-    /*-------------------------------------------------------------------------------
-      Fix Widget 
-    -------------------------------------------------------------------------------*/
-    function widgetFixed() {
-        if ($('.r_cv_widget').length) {
-            $(window).scroll(function() {
-                var scroll = $(window).scrollTop();
-                if (scroll > 447) {
-                    $(".r_cv_widget").addClass("widget_fixed");
-                } else {
-                    $(".r_cv_widget").removeClass("widget_fixed");
-                }
-            });
-        };
-
-
-
-    };
-    widgetFixed();
-
     /*----------------------------------------------------*/
     /*  Show Hide Empty State js
     /*----------------------------------------------------*/
@@ -262,6 +242,7 @@
     if ($(window).width() > 992) {
         $('.service_area').parallax("50%", 0.4);
         $('.project_area').parallax("50%", 0.4);
+        $('.project_area2').parallax("50%", 0.4);
     }
 
     /*----------------------------------------------------*/

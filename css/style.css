@@ -45,7 +45,7 @@ Table of Content:
 ul {
   list-style: none;
   margin: 0px;
-  padding: 0px;
+  padding: 0px 0px 0px 10px;
 }
 
 a {
@@ -1025,6 +1025,25 @@ i:before {
   background: rgba(4, 8, 29, 0.7);
 }
 
+.project_area2 {
+  background: url(../img/who-we-are/banner/ready-start-project.jpg) no-repeat fixed center center;
+  background-size: cover;
+  position: relative;
+  z-index: 3;
+  padding: 115px 0px;
+}
+
+.project_area2:before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  z-index: -1;
+  background: rgba(4, 8, 29, 0.7);
+}
+
 .project_who {
   padding: 100px 0px 50px 0px;
   text-align: center;
@@ -1710,7 +1729,7 @@ ul li a {
 
 .static_text2 ul li a {
   font-size: 16px;
-  color: #1e1e27;
+  color: #51545f!important;
   -webkit-transition: all 400ms linear 0s;
   -o-transition: all 400ms linear 0s;
   transition: all 400ms linear 0s;
@@ -1726,7 +1745,7 @@ ul li a {
   background: #d80f2c;
   position: absolute;
   left: 0px;
-  top: 50%;
+  top: 13px;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -1805,11 +1824,11 @@ ul li a {
   padding-left: 20px;
   position: relative;
 }
-
-.right_widget {
-  margin-bottom: 45px;
+#sticky.stick {
+    position: fixed;
+    top: 0;
+    z-index: 10;
 }
-
 .r_w_title {
   border-bottom: 1px solid #eeeef0;
   padding-bottom: 14px;

@@ -246,7 +246,8 @@
                      </div>
                   </div>
                   <div class="col-lg-3">
-                     <div class="right_sidebar_area">
+                     <div id="sticky-anchor"></div>
+                     <div id="sticky" class="right_sidebar_area">
                         <aside class="right_widget r_cv_widget">
                            <div class="r_w_title">
                               <h3>Junior Business Analyst</h3>
@@ -273,7 +274,7 @@
       </section>
       <!--================End Static Area =================-->
       <!--================Footer Area =================-->
-      <footer class="footer_area">
+      <footer id="footer" class="footer_area">
          <div class="footer_widgets_area">
             <div class="container">
                <div class="f_widgets_inner row">
@@ -406,5 +407,30 @@
       <script src="js/contact.js"></script>
       <!-- Addthis - Share -->
       <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b4f43d6015f41a7"></script>
+      <!-- Fix Widget -->
+      <script type="text/javascript">
+          function sticky_relocate() {
+              var window_top = $(window).scrollTop();
+              var footer_top = $("#footer").offset().top;
+              var div_top = $('#sticky-anchor').offset().top;
+              var div_height = $("#sticky").height();
+              
+              var padding = 20;  // tweak here or get from margins etc
+              
+              if (window_top + div_height > footer_top - padding)
+                  $('#sticky').css({top: (window_top + div_height - footer_top + padding) * -1})
+              else if (window_top > div_top) {
+                  $('#sticky').addClass('stick');
+                  $('#sticky').css({top: 90})
+              } else {
+                  $('#sticky').removeClass('stick');
+              }
+          }
+
+          $(function () {
+              $(window).scroll(sticky_relocate);
+              sticky_relocate();
+          });
+      </script>
    </body>
 </html>
