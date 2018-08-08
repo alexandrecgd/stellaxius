@@ -666,16 +666,16 @@ i:before {
 }
 
 .banner_knowledg_post {
-  background: url(../img/knowledge/banner/banner_imagem_1.png) no-repeat scroll center center;
+  background: url(../img/knowledge/banner/banner_imagem_1.jpg) no-repeat scroll center center;
 }
 
 .banner_who_we_are {
-  background: url(../img/who-we-are/banner/banner_imagem_1.png) no-repeat scroll center 7%;
+  background: url(../img/who-we-are/banner/banner_imagem_1.jpg) no-repeat scroll center 7%;
   background-size: cover;
 }
 
 .banner_what_we_do {
-  background: url(../img/what-we-do/banner/banner_imagem_1.png) no-repeat scroll center 53%;
+  background: url(../img/what-we-do/banner/banner_imagem_1.jpg) no-repeat scroll center 53%;
   background-size: cover;
 }
 
