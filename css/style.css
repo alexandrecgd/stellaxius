@@ -1982,6 +1982,10 @@ ul li a {
   padding: 110px 0px;
 }
 
+.contact_form {
+  padding-bottom: 50px;
+}
+
 .mapBox {
   min-height: 520px;
   -webkit-box-shadow: 0px 27px 51.33px 7.67px rgba(0, 0, 0, 0.15);
