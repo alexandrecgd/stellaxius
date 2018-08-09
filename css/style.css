@@ -1663,6 +1663,10 @@ i:before {
   margin-bottom: 20px;
 }
 
+.static_social ul {
+  padding: 0px;
+}
+
 .static_social ul li a {
   color: #4c65a8;
   display: block;
