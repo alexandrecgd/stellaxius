@@ -1405,13 +1405,6 @@ i:before {
   padding: 18px 0px 12px 0px;
 }
 
-.service_item p {
-  font-size: 14px;
-  line-height: 20px;
-  max-width: 360px;
-  margin: auto;
-}
-
 .services_itens {
   padding: 20px 0;
 }
