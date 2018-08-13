@@ -346,6 +346,17 @@ Author E-mail: alexandre.duarte@stellaxius.com
     .img_service2 {
         background: none;
         height: auto;
+        width: auto;
+    }
+    .img_service2 h5,
+    .img_service2 p {
+        color: inherit;
+    }
+    .img_service2 .row .content-info-service,
+    .img_service2 .row .mrg-serv2-info,
+    .img_service2 .row .mrg-serv3-info,
+    .img_service2 .row .mrg-serv4-info {
+            margin: 20px 0px 10px 0;
     }
     .img_service2 .row .col-md-4 {
         text-align: left!important;
