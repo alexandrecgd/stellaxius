@@ -851,6 +851,10 @@ i:before {
   padding-right: 10px;
 }
 
+.c_box_item i img {
+  width: 31px;
+}
+
 .c_box_item h4:hover {
   color: #d80f2c;
 }
