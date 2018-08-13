@@ -807,6 +807,7 @@ i:before {
   margin-top: -100px;
   z-index: 22;
   position: relative;
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.1);
 }
 
 .c_feature_box .col-lg-3:last-child .c_box_item:before {
