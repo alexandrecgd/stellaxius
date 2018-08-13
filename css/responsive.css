@@ -41,8 +41,11 @@ Author E-mail: alexandre.duarte@stellaxius.com
         padding-bottom: 50px;
         padding-top: 30px;
     }
-    .indus_img {
+    .indus_img,
+    .service_feature_area .indus_img,
+    .service_feature_area2 .indus_img {
         padding-right: 0px;
+        padding-left: 0px;
     }
 }
 
@@ -50,7 +53,9 @@ Author E-mail: alexandre.duarte@stellaxius.com
     .digital_feature {
         overflow: hidden;
     }
-    .indus_text {
+    .indus_text,
+    .service_feature_area .indus_text,
+    .service_feature_area2 .indus_text {
         padding-right: 15px;
     }
 }
@@ -164,29 +169,53 @@ Author E-mail: alexandre.duarte@stellaxius.com
     .tp-parallax-wrap .sub_text {
         display: none;
     }
-    .left_indus {
+    .left_indus,
+    .service_feature_area .left_indus,
+    .service_feature_area2 .left_indus {
         width: 100%;
         float: none;
         display: block;
     }
-    .right_indus {
+    .right_indus,
+    .service_feature_area .right_indus,
+    .service_feature_area2 .right_indus {
         width: 100%;
         float: none;
     }
-    .industries_area {
+    .industries_area,
+    .service_feature_area,
+    .service_feature_area2 {
         display: block;
     }
     .indus_img {
         text-align: left;
     }
+    .service_feature_area .indus_img,
+    .service_feature_area2 .indus_img {
+        text-align: center;
+    }
     .indus_img img {
         max-width: none;
         width: 100%;
     }
-    .indus_text {
+    .service_feature_area .indus_img img,
+    .service_feature_area2 .indus_img img {
+        max-width: none;
+        width: 93%;
+    }
+    .indus_text,
+    .service_feature_area .indus_text,
+    .service_feature_area2 .indus_text {
         padding-left: 15px;
         padding-top: 40px;
         margin: auto;
+        position: unset;
+    }
+    .services_itens_sfci .row .itens_sfci {
+        margin-bottom: 10px
+    }
+    .services_itens_sfci .row .itens_sfci .service_item_box {
+        padding: 15px;
     }
     .p_0_100 {
         padding: 0px 0px 50px 0px;

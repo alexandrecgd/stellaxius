@@ -176,6 +176,16 @@ i:before {
   padding-top: 15px;
 }
 
+.static_service_area .center_title {
+  color: inherit;
+  text-align: center;
+  padding: 0 10px 40px 10px;
+}
+
+.static_service_area .center_title h2 {
+  margin-bottom: 40px;
+}
+
 .center_title {
   color: #fff;
   text-align: center;
@@ -788,7 +798,7 @@ i:before {
 ============================================================================================ */
 
 .methodology_feature_area {
-  background: #f7f7f7;
+  background: #F3FAFC;
 }
 
 .c_feature_box {
@@ -880,7 +890,7 @@ i:before {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  background: #f7f7f7;
+  background: #F3FAFC;
 }
 
 
@@ -1411,43 +1421,155 @@ i:before {
 }
 
 .service_feature_area {
-  background: #f7f7f7;
-  padding: 50px 0px;
+  background: #F3FAFC;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.service_feature_area2 {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.static_service_area {
-  padding: 50px 0px;
+.service_feature_area .left_indus {
+  width: calc(40% + 85px);
+  float: left;
+  text-align: right;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
+.service_feature_area2 .left_indus {
+  width: calc(40% + 85px);
+  float: left;
+  text-align: right;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.service_feature_area .right_indus {
+  width: calc(60% - 85px);
+  float: right;
+}
+
+.service_feature_area2 .right_indus {
+  width: calc(60% - 85px);
+  float: right;
+  position: relative;
+}
+
+.service_feature_area .indus_img {
+  text-align: right;
+  padding-right: 85px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.service_feature_area2 .indus_img {
+  text-align: left;
+  padding-right: 0;
+  padding-left: 85px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.service_feature_area .indus_img img,
+.service_feature_area2 .indus_img img {
+  max-width: 100%;
+  -webkit-filter: none;
+  filter: none;
+}
+
+.service_feature_area .indus_text {
+  max-width: 630px;
+}
+
+.service_feature_area2 .indus_text {
+  max-width: 630px;
+  position: absolute;
+  right: 0;
+  text-align: right;;
+}
+
+.services_itens_sfci .row .itens_sfci .service_item_box {
+  padding: 30px;
+  background: #fff;
+  border-radius: 10px;
+  text-align: center;
+  height: 100%;
+}
+
+.service_feature_area2 .services_itens_sfci .row .itens_sfci .service_item_box {
+  background: #F3FAFC;
+}
+
+.services_itens_sfci .row .itens_sfci h4 {
+  font-size: 20px;
+  margin: 20px 0 5px 0;
+}
+
+.services_itens_sfci .row .itens_sfci p {
+  font-size: 14px;
+  margin: 0;
+}
 
 .img_service2 {
-  background: url(../img/what-we-do/services/img_graph_help_us.svg) no-repeat scroll center center;
+  background: url(../img/what-we-do/services/img-services-infogra.svg) no-repeat scroll center center;
   background-size: cover;
-  height: 549px;
-  margin-top: 30px;
+  width: 1081px;
+  height: 820px;
+  margin: 0 auto;
 }
 
 .img_service2 h5 {
-  font-size: 22px;
+  font-size: 20px;
+  color: #fff;
 }
 
 .img_service2 p {
-  font-size: 15px;
-  line-height: 22px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+  margin: 0;
 }
 
-.img_service2 .row .col-md-4 {
-  height: 254px;
-  margin-bottom: 40px;
-  padding-top: 15px;
+.img_service2 .row .content-info-service {
+  max-width: 540px;
+  text-align: center;
+  margin: 37px 30px 0 0;
 }
 
-.img_service2 .row .col-md-4 .align-right-service {
-  padding-left: 60px;
+.img_service2 .row .mrg-serv2-info {
+  margin: 95px 0 0 30px;
 }
 
-.img_service2 .row .col-md-4 .align-left-service {
-  padding-right: 60px;
+.img_service2 .row .mrg-serv3-info {
+  margin: 78px 30px 0 0;
+}
+
+.img_service2 .row .mrg-serv4-info {
+  margin: 74px 0 0 30px;
 }
 
 .services_itens img {
@@ -1642,7 +1764,7 @@ i:before {
 ============================================================================================ */
 
 .static_area {
-  padding: 100px 0px;
+  padding: 50px 0px;
 }
 
 .static_main_content {
@@ -1985,7 +2107,7 @@ ul li a {
 ============================================================================================ */
 
 .contact_us_area {
-  padding: 110px 0px;
+  padding: 100px 0px;
 }
 
 .contact_form {
