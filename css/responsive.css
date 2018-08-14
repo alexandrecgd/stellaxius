@@ -389,6 +389,21 @@ Author E-mail: alexandre.duarte@stellaxius.com
     .banner_area {
         min-height: auto;
     }
+    .banner_404{
+        min-height: 71px;
+    }
+    .page_content_404 {
+        padding: 40px 0px;
+    }
+    .page_content_404 .service_item_inner {
+      margin-top: 10px;
+    }
+    .page_content_404 .service_item_inner .service_item {
+      margin-bottom: 20px;
+    }
+    .page_content_404 p {
+        font-size: 16px;
+    }
     .banner_what_we_do,
     .banner_what_we_do2,
     .banner_what_we_do3,

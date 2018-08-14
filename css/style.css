@@ -676,6 +676,10 @@ i:before {
   min-height: 400px;
 }
 
+.banner_404 {
+  min-height: 100px;
+}
+
 .banner_contact {
   background: url(../img/contact/banner/banner_imagem_1.jpg) no-repeat scroll center 33%;
   background-size: cover;
@@ -2960,4 +2964,45 @@ form.form input.text {
 #img-fadeIn4 {
   -webkit-animation-delay: 1s;
   animation-delay: 1s;
+}
+
+.page_content_404 {
+  text-align: center;
+}
+
+.page_content_404 h2 {
+  margin: 20px 0px;
+}
+
+.page_content_404 p {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.page_content_404 .service_item_inner {
+  margin-top: 40px;
+}
+
+.page_content_404 .service_item_inner .service_item p {
+  font-size: 14px;
+}
+
+.page_content_404 a {
+  color: #F41E3D;
+  -webkit-transition: all 400ms linear 0s;
+  -o-transition: all 400ms linear 0s;
+  transition: all 400ms linear 0s;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.page_content_404 a:hover {
+  color: #d80f2c;
+}
+
+.page_content_404 p.redirect {
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 40px;
+  display: block;
 }
