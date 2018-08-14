@@ -352,6 +352,10 @@ i:before {
   position: relative;
 }
 
+.main_menu_area .navbar .navbar-nav li a i {
+  line-height: normal;
+}
+
 .main_menu_area .navbar .navbar-nav li:last-child {
   margin-right: 0px;
 }
@@ -2903,10 +2907,30 @@ iframe form.form p label!important {
   width: 50px;
 }
 
-.service_item_submenu h4 {
+.service_item_submenu h4{
   font-size: 16px;
   font-weight: 500;
   padding: 18px 0px 12px 0px;
+  color: #212529;
+  -webkit-transition: all 400ms linear 0s;
+  -o-transition: all 400ms linear 0s;
+  transition: all 400ms linear 0s;
+}
+
+.service_item_submenu p,
+.service_item h4,
+.service_area p {
+  color: #212529;
+  -webkit-transition: all 400ms linear 0s;
+  -o-transition: all 400ms linear 0s;
+  transition: all 400ms linear 0s;
+}
+
+.service_item_submenu h4:hover,
+.service_item_submenu p:hover,
+.service_item h4:hover,
+.service_area p:hover {
+  color: #d80f2c;
 }
 
 .navbar .dropdown-menu.mega-menu.v-2 .service_item_submenu .more_btn {
