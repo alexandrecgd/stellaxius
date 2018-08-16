@@ -690,7 +690,7 @@ i:before {
 }
 
 .banner_who_we_are {
-  background: url(../img/who-we-are/banner/banner_imagem_1.jpg) no-repeat scroll center 7%;
+  background: url(../img/who-we-are/banner/banner_imagem_1.jpg) no-repeat scroll center 50%;
   background-size: cover;
 }
 
@@ -2116,12 +2116,8 @@ ul li a {
   padding: 100px 0px;
 }
 
-.contact_form {
-  padding-bottom: 50px;
-}
-
 .mapBox {
-  min-height: 520px;
+  min-height: 360px;
   -webkit-box-shadow: 0px 27px 51.33px 7.67px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 27px 51.33px 7.67px rgba(0, 0, 0, 0.15);
 }
@@ -2548,6 +2544,13 @@ iframe form.form p label!important {
   margin-top: 20px;
 }
 
+.team_container .card .row,
+.team_container .card .row .col-md-3,
+.team_container .card .row .col-md-6 {
+  margin: 0;
+  padding: 0;
+}
+
 .team_container .row .col-md-3 {
   padding-top: 20px;
 }
@@ -2681,6 +2684,12 @@ iframe form.form p label!important {
 
 .photo_infos_team:hover .infos_photo_team {
   opacity: 1;
+}
+
+.btn-filter {
+  color: #6c757d;
+  background-color: #fff;
+  border-color: #fff;
 }
 
 
