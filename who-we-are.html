@@ -27,12 +27,11 @@
       <meta property="business:contact_data:postal_code" content="1050-027">
       <meta property="business:contact_data:country_name" content="Portugal">
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-      <link href="vendors/elegant-icon/style.css" rel="stylesheet">
-      <link href="vendors/themify-icon/themify-icons.css" rel="stylesheet">
       <!-- Bootstrap -->
       <link href="css/bootstrap.min.css" rel="stylesheet">
       <!-- Extra plugin css -->
       <link href="vendors/owl-carousel/owl.carousel.min.css" rel="stylesheet">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
       <!-- Internal CSS -->
       <link href="css/style.min.css" rel="stylesheet">
       <link href="css/responsive.min.css" rel="stylesheet">
@@ -230,6 +229,61 @@
          <!--================ Team Area =================-->
          <div class="container team_container">
             <h3 class="text-center" id="knowteam">Get to know our team</h3>
+              <!-- Filter -->
+              <div class="filter_team">
+                <button class="btn btn-filter dropdown-toggle" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                  <b>Filter:</b> roles, certifications
+                </button>
+               <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                  <div class="row">
+                     <div class="col-md-6 to-right">
+
+                      <label for="id_label_single">
+                        Select an role
+                      </label>
+                      <select class="js-placeholder-single js-states form-control" id="id_label_single" name="filter1">
+                        <option value="role0">Select</option>
+                        <option value="role1">General Manager</option>
+                        <option value="role2">Senior Business Analyst</option>
+                        <option value="role3">Project Manager</option>
+                        <option value="role4">Technical Architect</option>
+                        <option value="role5">Senior Developer</option>
+                        <option value="role6">Developer</option>
+                        <option value="role7">Marketing Business Analyst</option>
+                        <option value="role8">Business Analyst</option>
+                        <option value="role8">Human Resources Manager</option>
+                        <option value="role10">Academy</option>
+                        <option value="role11">UX & UI Designer</option>
+                        <option value="role12">Executive Assistant</option>
+                      </select>
+                      
+
+                    </div>
+                     <div class="col-md-6 to-left">
+                      <label for="id_label_single2">
+                        Select an certification
+                        </label>
+                      <select class="js-placeholder-single js-states form-control" id="id_label_single2" name="filter2">
+                        <option value="cert0">Select</option>
+                        <option value="cert1">Salesforce Certified Administrator</option>
+                        <option value="cert2">Salesforce Advanced Administrator</option>
+                        <option value="cert3">Salesforce Platform App Builder</option>
+                        <option value="cert4">PMI Agile Certified Practitioner</option>
+                        <option value="cert5">Salesforce Pador Specialist</option>
+                        <option value="cert6">Salesforce Platform App Builder</option>
+                        <option value="cert7">Salesforce Service Cloud Consultant</option>
+                        <option value="cert8">PMI Professional in Business Analysis</option>
+                        <option value="cert9">Salesforce Administrator</option>
+                      </select>
+                      
+                    </div>
+                   </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Filter -->
+
             <!-- Row Team Member - 4 -->
             <div class="row" id="container_team_filter">
                <div class="col-md-3">
@@ -1015,12 +1069,20 @@
       <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
       <script src="vendors/parallaxer/jquery.parallax-1.1.3.js"></script>
       <script src="js/theme.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
       <!-- Select in Dropdown -->
-      <script type="text/javascript">
-         $(".dropdown-menu li button").click(function() {
-             $(this).parents(".dropdown").find('.btn').html($(this).text() + ' <span class="caret"></span>');
-             $(this).parents(".dropdown").find('.btn').val($(this).data('value'));
-         });
+      <script type="text/javascript"> 
+      $(".dropdown-menu a").click(function(){
+        $(this).parents(".dropdown").find('.btn').html($(this).text() + ' <span class="caret"></span>');
+        $(this).parents(".dropdown").find('.btn').val($(this).data('value'));
+      });
+
+      /* Select Filter */
+      $('select').select2({
+        placeholder: 'Select an filter',
+        allowClear: true,
+        width: 'resolve' 
+      });
       </script>
    </body>
 </html>

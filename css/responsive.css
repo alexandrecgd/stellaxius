@@ -86,6 +86,22 @@ Author E-mail: alexandre.duarte@stellaxius.com
         margin-bottom: 5px;
         cursor: pointer;
     }
+    .select2-container--default .select2-selection--single {
+        min-width: 270px;
+    }
+    .to-left {
+        text-align: center!important;
+        padding: 0;
+    }
+
+    .to-right {
+        text-align: center!important;
+        margin-bottom: 10px;
+        padding: 0;
+    }
+    .team_container .card {
+        padding: 10px;
+    }
     .main_menu_area.navbar_fixed .navbar .navbar-nav li a {
         line-height: 50px;
     }
