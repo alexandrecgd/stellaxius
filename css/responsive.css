@@ -143,6 +143,7 @@ Author E-mail: alexandre.duarte@stellaxius.com
     }
     .service_item_submenu h4 {
         padding: 0;
+        min-height: auto;
     }
     .navbar .dropdown-menu.mega-menu.v-2 .service_item_submenu .more_btn {
         line-height: 20px;

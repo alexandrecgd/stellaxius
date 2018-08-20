@@ -2982,11 +2982,12 @@ iframe form.form p label!important {
 .service_item_submenu h4{
   font-size: 18px;
   font-weight: 500;
-  padding: 18px 0px 12px 0px;
+  padding: 18px 0 0 0;
   color: #212529;
   -webkit-transition: all 400ms linear 0s;
   -o-transition: all 400ms linear 0s;
   transition: all 400ms linear 0s;
+  min-height: 60px;
 }
 
 .service_item_submenu p,
