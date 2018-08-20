@@ -1519,7 +1519,7 @@ i:before {
 }
 
 .services_itens_sfci .row .itens_sfci .service_item_box {
-  padding: 30px;
+  padding: 20px;
   background: #fff;
   border-radius: 10px;
   text-align: center;
@@ -1533,6 +1533,7 @@ i:before {
 .services_itens_sfci .row .itens_sfci h4 {
   font-size: 20px;
   margin: 20px 0 5px 0;
+  min-height: 48px;
 }
 
 .services_itens_sfci .row .itens_sfci p {
@@ -2979,7 +2980,7 @@ iframe form.form p label!important {
 }
 
 .service_item_submenu h4{
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   padding: 18px 0px 12px 0px;
   color: #212529;
@@ -3010,6 +3011,7 @@ iframe form.form p label!important {
 
 .service_item_submenu p {
   font-size: 14px;
+  font-weight: normal;
 }
 
 form.form input.text {
