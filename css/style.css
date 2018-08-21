@@ -1541,7 +1541,10 @@ i:before {
   margin: 0;
 }
 
-.img_service2 {
+/* Service 1 */
+
+.img_service2,
+.img_service3 {
   background: url(../img/what-we-do/services/img-services-infogra.svg) no-repeat scroll center center;
   background-size: cover;
   width: 1081px;
@@ -1577,6 +1580,38 @@ i:before {
 
 .img_service2 .row .mrg-serv4-info {
   margin: 74px 0 0 30px;
+}
+
+/* Service 2 */
+
+.img_service3 h5 {
+  font-size: 20px;
+  color: #fff;
+}
+
+.img_service3 p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+  margin: 0;
+}
+
+.img_service3 .row .content-info-service {
+  max-width: 540px;
+  text-align: center;
+  margin: 45px 30px 0 0;
+}
+
+.img_service3 .row .mrg-serv2-info {
+  margin: 109px 0 0 30px;
+}
+
+.img_service3 .row .mrg-serv3-info {
+  margin: 84px 30px 0 0;
+}
+
+.img_service3 .row .mrg-serv4-info {
+  margin: 85px 0 0 30px;
 }
 
 .services_itens img {
