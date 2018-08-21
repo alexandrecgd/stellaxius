@@ -1729,8 +1729,8 @@ i:before {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  font-size: 36px;
-  color: #b5aec4;
+  font-size: 28px;
+  color: #dddbe3;
   z-index: 4;
   cursor: pointer;
 }
@@ -2607,6 +2607,10 @@ iframe form.form p label!important {
 
 .team_container {
   padding-top: 50px;
+}
+
+#workus {
+  margin-bottom: 100px;
 }
 
 .team_container .row {
