@@ -259,7 +259,7 @@
                 autoplayHoverPause: true,
                 smartSpeed: 1500,
                 navContainer: '.testimonials_slider',
-                navText: ['<i class="ti-angle-left" aria-hidden="true"></i>', '<i class="ti-angle-right" aria-hidden="true"></i>'],
+                navText: ['<i class="fas fa-chevron-left" aria-hidden="true"></i>', '<i class="fas fa-chevron-right" aria-hidden="true"></i>'],
             })
         }
     }
@@ -278,7 +278,7 @@
             smartSpeed: 1500,
             responsiveClass:true,
             navContainer: '.certifications_slider',
-            navText: ['<i class="ti-angle-left" aria-hidden="true"></i>', '<i class="ti-angle-right" aria-hidden="true"></i>'],
+            navText: ['<i class="fas fa-chevron-left" aria-hidden="true"></i>', '<i class="fas fa-chevron-right" aria-hidden="true"></i>'],
             responsive:{
                 0:{
                     items:2,
