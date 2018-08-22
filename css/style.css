@@ -197,6 +197,10 @@ i:before {
   font-weight: 500;
 }
 
+.sub_text h1 {
+  font-size: 22px;
+}
+
 .center_title p {
   font-size: 16px;
   color: #fff;
