@@ -1754,11 +1754,15 @@ i:before {
   font-weight: 400;
 }
 
-.testimonials_slider .item .media .media-body span a,
-.certifications_slider .item .media .media-body span a {
+.testimonials_slider .item .media .media-body span p,
+.certifications_slider .item .media .media-body span p {
   font-size: 16px;
   color: #232d37;
   font-weight: 500;
+  line-height: normal;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
 }
 
 .testimonials_slider .owl-prev,
@@ -2539,6 +2543,11 @@ iframe form.form p label!important {
 
 .metodology-joinus {
   margin-bottom: 50px;
+}
+
+#form-join {
+  height: 75px;
+  display: block;
 }
 
 .metodology-joinus .row img {
