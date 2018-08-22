@@ -997,10 +997,14 @@ i:before {
   margin-bottom: 30px;
 }
 
-.our_skill_inner .single_skill h3 {
+.our_skill_inner .single_skill span {
   color: #232d37;
   font-weight: 500;
   font-size: 14px;
+}
+
+.our_skill_inner .single_skill .progress .progress-bar span {
+  color: #fff;
 }
 
 .our_skill_inner .single_skill .progress {
@@ -1706,15 +1710,15 @@ i:before {
   padding: 35px 0px 20px 0px;
 }
 
-.testimonials_slider .item .media .media-body h4,
-.certifications_slider .item .media .media-body h4 {
+.testimonials_slider .item .media .media-body span,
+.certifications_slider .item .media .media-body span {
   font-size: 14px;
   color: #b5aec4;
   font-weight: 400;
 }
 
-.testimonials_slider .item .media .media-body h4 a,
-.certifications_slider .item .media .media-body h4 a {
+.testimonials_slider .item .media .media-body span a,
+.certifications_slider .item .media .media-body span a {
   font-size: 16px;
   color: #232d37;
   font-weight: 500;
@@ -2841,7 +2845,7 @@ iframe form.form p label!important {
   padding-bottom: 25px;
 }
 
-.f_w_title h3 {
+.f_w_title span {
   color: #fff;
   font-weight: 600;
   font-size: 16px;
