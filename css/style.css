@@ -2993,7 +2993,7 @@ iframe form.form p label!important {
   overflow: hidden;
 }
 
-.copy_right_area .float-md-left h5 {
+.copy_right_area .float-md-left span {
   color: #51545f;
   font-size: 14px;
   line-height: 50px;
@@ -3004,7 +3004,7 @@ iframe form.form p label!important {
   margin-top: 17px;
 }
 
-.copy_right_area .float-md-left h5 a {
+.copy_right_area .float-md-left span a {
   -webkit-transition: all 400ms linear 0s;
   -o-transition: all 400ms linear 0s;
   transition: all 400ms linear 0s;
@@ -3013,7 +3013,7 @@ iframe form.form p label!important {
   line-height: 50px;
 }
 
-.copy_right_area .float-md-left h5 a:hover {
+.copy_right_area .float-md-left span a:hover {
   color: #d80f2c;
 }
 
