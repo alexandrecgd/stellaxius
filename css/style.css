@@ -1549,7 +1549,8 @@ i:before {
 
 .img_service2,
 .img_service3,
-.img_service4 {
+.img_service4,
+.img_service5 {
   background: url(../img/what-we-do/services/img-services-infogra.svg) no-repeat scroll center center;
   background-size: cover;
   width: 1081px;
@@ -1649,6 +1650,38 @@ i:before {
 
 .img_service4 .row .mrg-serv4-info {
   margin: 65px 0 0 30px;
+}
+
+/* Service 4 */
+
+.img_service5 h5 {
+  font-size: 20px;
+  color: #fff;
+}
+
+.img_service5 p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+  margin: 0;
+}
+
+.img_service5 .row .content-info-service {
+  max-width: 540px;
+  text-align: center;
+  margin: 47px 30px 0 0;
+}
+
+.img_service5 .row .mrg-serv2-info {
+  margin: 109px 0 0 30px;
+}
+
+.img_service5 .row .mrg-serv3-info {
+  margin: 83px 30px 0 0;
+}
+
+.img_service5 .row .mrg-serv4-info {
+  margin: 84px 0 0 30px;
 }
 
 .services_itens img {

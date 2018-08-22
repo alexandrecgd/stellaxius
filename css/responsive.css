@@ -366,7 +366,8 @@ Author E-mail: alexandre.duarte@stellaxius.com
     }
     .img_service2,
     .img_service3,
-    .img_service4 {
+    .img_service4,
+    .img_service5 {
         background: none;
         height: auto;
         width: auto;
@@ -376,7 +377,9 @@ Author E-mail: alexandre.duarte@stellaxius.com
     .img_service3 h5,
     .img_service3 p,
     .img_service4 h5,
-    .img_service4 p {
+    .img_service4 p,
+    .img_service5 h5,
+    .img_service5 p {
         color: inherit;
     }
     .img_service2 .row .content-info-service,
@@ -390,22 +393,29 @@ Author E-mail: alexandre.duarte@stellaxius.com
     .img_service4 .row .content-info-service,
     .img_service4 .row .mrg-serv2-info,
     .img_service4 .row .mrg-serv3-info,
-    .img_service4 .row .mrg-serv4-info {
+    .img_service4 .row .mrg-serv4-info,
+    .img_service5 .row .content-info-service,
+    .img_service5 .row .mrg-serv2-info,
+    .img_service5 .row .mrg-serv3-info,
+    .img_service5 .row .mrg-serv4-info {
             margin: 20px 0px 10px 0;
     }
     .img_service2 .row .col-md-4,
     .img_service3 .row .col-md-4,
-    .img_service4 .row .col-md-4 {
+    .img_service4 .row .col-md-4,
+    .img_service5 .row .col-md-4 {
         text-align: left!important;
     }
     .img_service2 .row .col-md-4 .align-right-service,
     .img_service3 .row .col-md-4 .align-right-service,
-    .img_service4 .row .col-md-4 .align-right-service {
+    .img_service4 .row .col-md-4 .align-right-service,
+    .img_service5 .row .col-md-4 .align-right-service {
         padding: 0;
     }
     .img_service2 .row .col-md-4,
     .img_service3 .row .col-md-4,
-    .img_service4 .row .col-md-4 {
+    .img_service4 .row .col-md-4,
+    .img_service5 .row .col-md-4 {
         height: auto;
         margin-bottom: 20px;
         padding-top: 20px;
