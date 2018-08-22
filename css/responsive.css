@@ -227,6 +227,7 @@ Author E-mail: alexandre.duarte@stellaxius.com
         padding-top: 40px;
         margin: auto;
         position: unset;
+        text-align: left;
     }
     .services_itens_sfci .row .itens_sfci {
         margin-bottom: 10px
@@ -363,28 +364,48 @@ Author E-mail: alexandre.duarte@stellaxius.com
     .static_area {
         padding: 60px 0px;
     }
-    .img_service2 {
+    .img_service2,
+    .img_service3,
+    .img_service4 {
         background: none;
         height: auto;
         width: auto;
     }
     .img_service2 h5,
-    .img_service2 p {
+    .img_service2 p,
+    .img_service3 h5,
+    .img_service3 p,
+    .img_service4 h5,
+    .img_service4 p {
         color: inherit;
     }
     .img_service2 .row .content-info-service,
     .img_service2 .row .mrg-serv2-info,
     .img_service2 .row .mrg-serv3-info,
-    .img_service2 .row .mrg-serv4-info {
+    .img_service2 .row .mrg-serv4-info,
+    .img_service3 .row .content-info-service,
+    .img_service3 .row .mrg-serv2-info,
+    .img_service3 .row .mrg-serv3-info,
+    .img_service3 .row .mrg-serv4-info,
+    .img_service4 .row .content-info-service,
+    .img_service4 .row .mrg-serv2-info,
+    .img_service4 .row .mrg-serv3-info,
+    .img_service4 .row .mrg-serv4-info {
             margin: 20px 0px 10px 0;
     }
-    .img_service2 .row .col-md-4 {
+    .img_service2 .row .col-md-4,
+    .img_service3 .row .col-md-4,
+    .img_service4 .row .col-md-4 {
         text-align: left!important;
     }
-    .img_service2 .row .col-md-4 .align-right-service {
+    .img_service2 .row .col-md-4 .align-right-service,
+    .img_service3 .row .col-md-4 .align-right-service,
+    .img_service4 .row .col-md-4 .align-right-service {
         padding: 0;
     }
-    .img_service2 .row .col-md-4 {
+    .img_service2 .row .col-md-4,
+    .img_service3 .row .col-md-4,
+    .img_service4 .row .col-md-4 {
         height: auto;
         margin-bottom: 20px;
         padding-top: 20px;
