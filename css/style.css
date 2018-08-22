@@ -1971,6 +1971,10 @@ ul li a {
   padding-top: 15px;
 }
 
+#errorEmail p {
+  padding-top: 0;
+}
+
 .media {
   margin: 30px 0px;
 }
