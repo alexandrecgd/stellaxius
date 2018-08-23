@@ -406,7 +406,6 @@
       <!-- Include all compiled plugins (below), or include individual files as needed -->
       <script src="js/popper.min.js"></script>
       <script src="js/bootstrap.min.js"></script>
-      <div id="sticky" class="right_sidebar_area">
       <!-- Extra plugin -->
       <script src="vendors/counterup/jquery.waypoints.min.js"></script>
       <script src="vendors/counterup/jquery.counterup.min.js"></script>
@@ -423,7 +422,10 @@
       <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b4f43d6015f41a7"></script>
       <!-- Fix Widget -->
       <script type="text/javascript">
-          function sticky_relocate() {
+         if ( $(window).width() <= 600 ) {
+            $('#sticky').removeClass('stick');
+          }else{
+            function sticky_relocate() {
               var window_top = $(window).scrollTop();
               var footer_top = $("#footer").offset().top;
               var div_top = $('#sticky-anchor').offset().top;
@@ -445,6 +447,7 @@
               $(window).scroll(sticky_relocate);
               sticky_relocate();
           });
+          }     
       </script>
    </body>
 </html>

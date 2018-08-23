@@ -78,6 +78,9 @@ Author E-mail: alexandre.duarte@stellaxius.com
         padding-bottom: 18px;
         padding-left: 15px;
     }
+    .right_widget .cv_inner .read_btn {
+        display: none;
+    }
     .main_menu_area .navbar .navbar-toggler span {
         height: 3px;
         background: #fff;
