@@ -879,6 +879,10 @@ i:before {
   margin-top: 34px;
 }
 
+.input-group .read_btn {
+  margin-top: 0px;
+}
+
 .d_feature_img {
   padding-left: 70px;
 }
