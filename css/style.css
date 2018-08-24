@@ -849,9 +849,6 @@ i:before {
   letter-spacing: -0.1px;
   line-height: 27px;
   padding-bottom: 10px;
-  -webkit-transition: all 400ms linear 0s;
-  -o-transition: all 400ms linear 0s;
-  transition: all 400ms linear 0s;
 }
 
 .c_box_item i {
@@ -866,10 +863,6 @@ i:before {
 
 .c_box_item i img {
   width: 31px;
-}
-
-.c_box_item h4:hover {
-  color: #d80f2c;
 }
 
 .c_box_item p {
@@ -1394,10 +1387,6 @@ i:before {
   z-index: -1;
   width: 100%;
   height: 100%;
-}
-
-.service_area p {
-  color: #51545f;
 }
 
 .service_area h4 {
@@ -2659,8 +2648,9 @@ iframe form.form p label!important {
 /* Team Area css
 ============================================================================================ */
 
-.team_container {
-  padding-top: 50px;
+#knowteam {
+  margin-bottom: 100px;
+  display: block;
 }
 
 #workus {
@@ -2837,6 +2827,7 @@ iframe form.form p label!important {
 
 .filter_team {
   text-align: center;
+  display: none;
 }
 
 .to-left {
@@ -3127,8 +3118,7 @@ iframe form.form p label!important {
 
 .service_item_submenu h4:hover,
 .service_item_submenu p:hover,
-.service_item h4:hover,
-.service_area p:hover {
+.service_item h4:hover {
   color: #d80f2c;
 }
 
