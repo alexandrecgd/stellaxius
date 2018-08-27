@@ -674,6 +674,42 @@ i:before {
 /* Banner Area css
 ============================================================================================ */
 
+.carousel-item {
+  height: 91vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.carousel-caption {
+  bottom: 60%;
+  top: 40%;
+  padding: 0;
+}
+
+.carousel-caption h1 {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.carousel-caption p {
+  font-size: 22px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.carousel-caption .btns_slider {
+  display: inline-flex;
+}
+
+.carousel-caption .btns_slider .bg_btn {
+  margin-right: 20px;
+}
+
 .banner_area {
   background-size: cover;
   position: relative;
@@ -1378,8 +1414,9 @@ i:before {
 /* Our Service Area css
 ============================================================================================ */
 
-.service_area {
+#content {
   padding: 115px 0px 0px 0px;
+  display: block;
 }
 
 .service_area:before {

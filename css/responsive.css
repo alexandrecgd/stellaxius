@@ -81,6 +81,34 @@ Author E-mail: alexandre.duarte@stellaxius.com
     .right_widget .cv_inner .read_btn {
         display: none;
     }
+    .carousel-item {
+      height: 100vh;
+    }
+    #content {
+        padding: 45px 0 0 0;
+    }
+    .carousel-caption {
+        bottom: 65%;
+        top: 35%;
+        padding: 0;
+        width: 90%;
+        left: 5%;
+        right: 5%;
+    }
+    .carousel-caption h1 {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    .carousel-caption p {
+        font-size: 16px;
+        font-weight: 500;
+        color: #fff;
+        margin-bottom: 30px;
+    }
+    .carousel-caption .btns_slider .bg_btn {
+        margin-right: 0;
+    }
     .main_menu_area .navbar .navbar-toggler span {
         height: 3px;
         background: #fff;
