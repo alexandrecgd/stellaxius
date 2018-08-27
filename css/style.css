@@ -2056,6 +2056,7 @@ ul li a {
 .right_sidebar_area {
   padding-left: 20px;
   position: relative;
+  top: 90px;
 }
 #sticky.stick {
     position: fixed;
@@ -2114,6 +2115,7 @@ ul li a {
   border-radius: 0.3rem;
   text-align: center;
   max-width: 250px;
+  margin-bottom: 65px;
 }
 
 .r_cv_widget.widget_fixed {
