@@ -2,5 +2,10 @@ User-Agent: *
 Allow: /
 Disallow: /PrivacyPolicy
 Disallow: /JoinUs/
+Disallow: /JoinUsPosition?position=TechnicalArchitectAndDeveloper
+Disallow: /JoinUsPosition?position=ITProjectManagerAndBusinessAnalyst
+Disallow: /JoinUsPosition?position=JuniorDeveloper
+Disallow: /JoinUsPosition?position=JuniorBusinessAnalyst
+Disallow: /JoinUsPosition?position=GeneralApplication
 
 Sitemap: https://www.stellaxius.com/sitemap.xml

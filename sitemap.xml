@@ -4,10 +4,43 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
 <url>
-  <loc>https://www.stellaxius.com/</loc>
-  <lastmod>2018-06-28T08:48:35+00:00</lastmod>
+  <loc>https://www.stellaxius.com</loc>
+  <lastmod>2018-08-24T10:00:29+00:00</lastmod>
   <priority>1.00</priority>
 </url>
+<url>
+  <loc>https://www.stellaxius.com/WhoWeAre</loc>
+  <lastmod>2018-08-24T10:00:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.stellaxius.com/SalesforceConsultingImplementation</loc>
+  <lastmod>2018-08-24T10:00:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.stellaxius.com/SoftwareDevelopmentSystemsIntegration</loc>
+  <lastmod>2018-08-24T10:00:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.stellaxius.com/ProcessAndBusinessAnalysis</loc>
+  <lastmod>2018-08-24T10:00:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.stellaxius.com/ProgramAndProjectManagement</loc>
+  <lastmod>2018-08-24T10:00:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.stellaxius.com/ContactUs</loc>
+  <lastmod>2018-08-24T10:00:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
 
 </urlset>
