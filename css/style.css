@@ -2888,10 +2888,18 @@ iframe form.form p label!important {
   padding-bottom: 25px;
 }
 
-.f_w_title span {
+.f_w_title span,
+.f_w_title span a {
   color: #fff;
   font-weight: 600;
   font-size: 16px;
+  -webkit-transition: all 400ms linear 0s;
+  -o-transition: all 400ms linear 0s;
+  transition: all 400ms linear 0s;
+}
+
+.f_w_title span a:hover {
+  color: #d80f2c;
 }
 
 .input-group {
