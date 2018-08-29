@@ -1215,6 +1215,7 @@ i:before {
   transition: all 400ms ease-out;
   font-size: 13px;
   font-weight: 600;
+  text-transform: uppercase;
   position: relative;
   z-index: 3;
   margin: auto;
@@ -2955,6 +2956,10 @@ iframe form.form p label!important {
 
 .d_feature_text .input-group input:focus {
   border-color: #7f7f7f;
+}
+
+.categories_widget ul {
+  padding: 0;
 }
 
 .categories_widget ul li a {

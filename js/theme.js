@@ -28,6 +28,26 @@
       Animations CSS 
     -------------------------------------------------------------------------------*/
     function AnimateScroll() {
+      // Slider 1
+      $('#h1-slider').css('opacity', 0);
+      $('#h1-slider').waypoint(function() {
+          $('#h1-slider').addClass('bounceIn');
+      }, { offset: '100%' });
+      // Slider 2
+      $('#p-slider').css('opacity', 0);
+      $('#p-slider').waypoint(function() {
+          $('#p-slider').addClass('fadeIn');
+      }, { offset: '100%' });
+      // BTN Slider 1
+      $('#btn-1-slider').css('opacity', 0);
+      $('#btn-1-slider').waypoint(function() {
+          $('#btn-1-slider').addClass('fadeIn');
+      }, { offset: '100%' });
+      // BTN Slider 2
+      $('#btn-2-slider').css('opacity', 0);
+      $('#btn-2-slider').waypoint(function() {
+          $('#btn-2-slider').addClass('fadeIn');
+      }, { offset: '100%' });
       // Box 1
       $('#img-fadeIn1').css('opacity', 0);
       $('#img-fadeIn1').waypoint(function() {
