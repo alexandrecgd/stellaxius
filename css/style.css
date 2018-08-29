@@ -1565,15 +1565,36 @@ i:before {
 
 /* Service 1 */
 
-.img_service2,
-.img_service3,
-.img_service4,
-.img_service5 {
-  background: url(../img/what-we-do/services/img-services-infogra.svg) no-repeat scroll center center;
+.img_service2 {
+  background: url(../img/what-we-do/services/infographics/img-services-infogra_1.svg) no-repeat scroll center center;
   background-size: cover;
   width: 1081px;
   height: 820px;
   margin: 0 auto;
+}
+
+.img_service2 .img-1-infographic-1 {
+    position: absolute;
+    right: 37px;
+    top: 65px;
+}
+
+.img_service2 .img-2-infographic-1 {
+    position: absolute;
+    left: 37px;
+    top: 106px;
+}
+
+.img_service2 .img-3-infographic-1 {
+    position: absolute;
+    right: 47px;
+    top: 93px;
+}
+
+.img_service2 .img-4-infographic-1 {
+    position: absolute;
+    left: 37px;
+    top: 65px;
 }
 
 .img_service2 h5 {
@@ -1608,15 +1629,60 @@ i:before {
 
 /* Service 2 */
 
+.container-infographic-2 {
+  margin: 168px 0 118px 0;
+}
+
+.img_service3 {
+  background: url(../img/what-we-do/services/infographics/img-services-infogra_2.svg) no-repeat scroll center center;
+  background-size: cover;
+  width: 1160px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.img_service3 .row {
+  position: relative;
+  text-align: center;
+}
+
+.img_service3 .line-1-service-2 {
+  top:-121px;
+}
+
+.img_service3 .line-2-service-2 {
+  top:25px;
+}
+
+.img_service3 .line-3-service-2 {
+  top:173px;
+}
+
+.img_service3 .row .col-md-3 .img-1-infographic-2 {
+  float: right;
+  margin: 0 11px 0 0;
+}
+
+.img_service3 .row .col-md-3 .img-2-infographic-2 {
+  margin: 0 0 0 37px;
+}
+
+.img_service3 .row .col-md-3 .img-3-infographic-2 {
+  margin: 8px 51px 0 0;
+}
+
+.img_service3 .row .col-md-3 .img-4-infographic-2 {
+  margin: 8px 0 0 6px;
+  float: left;
+}
+
 .img_service3 h5 {
   font-size: 20px;
-  color: #fff;
 }
 
 .img_service3 p {
   font-size: 14px;
   line-height: 20px;
-  color: #fff;
   margin: 0;
 }
 
@@ -1626,80 +1692,124 @@ i:before {
   margin: 45px 30px 0 0;
 }
 
+.img_service3 .row .mrg-serv1-info {
+  margin: 0 0 10px 0;
+  text-align: left;
+}
+
 .img_service3 .row .mrg-serv2-info {
-  margin: 109px 0 0 30px;
+  margin: 0 0 10px 0;
+  text-align: right;
 }
 
 .img_service3 .row .mrg-serv3-info {
-  margin: 84px 30px 0 0;
+  margin: 10px 0 0 0;
+  text-align: left;
 }
 
 .img_service3 .row .mrg-serv4-info {
-  margin: 85px 0 0 30px;
+  margin: 10px 0 0 0;
+  text-align: right;
 }
 
 /* Service 3 */
 
+.container-infographic-3 {
+  margin: 50px 0 317px 0;
+}
+
+.img_service4 {
+  background: url(../img/what-we-do/services/infographics/img-services-infogra_3.svg) no-repeat scroll center center;
+  background-size: cover;
+  width: 1048px;
+  height: 263px;
+  margin: 0 auto;
+}
+
 .img_service4 h5 {
   font-size: 20px;
-  color: #fff;
 }
 
 .img_service4 p {
   font-size: 14px;
   line-height: 20px;
-  color: #fff;
   margin: 0;
+  text-align: justify;
 }
 
-.img_service4 .row .content-info-service {
-  max-width: 540px;
+.img_service4 .row {
+  position: relative;
   text-align: center;
-  margin: 47px 30px 0 0;
 }
 
-.img_service4 .row .mrg-serv2-info {
-  margin: 109px 0 0 30px;
+.img_service4 .line-2-service-3 {
+  top:13px;
+  width: 1013px;
+  margin: 0 auto;
 }
 
-.img_service4 .row .mrg-serv3-info {
-  margin: 73px 30px 0 0;
-}
-
-.img_service4 .row .mrg-serv4-info {
-  margin: 65px 0 0 30px;
+.img_service4 .line-3-service-3 {
+  top:191px;
+  width: 1013px;
+  margin: 0 auto;
 }
 
 /* Service 4 */
 
+.img_service5 {
+  background: url(../img/what-we-do/services/infographics/img-services-infogra_4.svg) no-repeat scroll center center;
+  background-size: cover;
+  width: 1009px;
+  height: 594px;
+  margin: 0 auto;
+}
+
 .img_service5 h5 {
   font-size: 20px;
-  color: #fff;
 }
 
 .img_service5 p {
   font-size: 14px;
   line-height: 20px;
-  color: #fff;
   margin: 0;
 }
 
 .img_service5 .row .content-info-service {
-  max-width: 540px;
-  text-align: center;
-  margin: 47px 30px 0 0;
+  max-width: 770px;
+  text-align: left;
+}
+
+.img_service5 .row .mrg-serv1-info {
+  margin: 32px 0 0 12px;
 }
 
 .img_service5 .row .mrg-serv2-info {
-  margin: 109px 0 0 30px;
+  margin: 43px 0 0 12px;
 }
 
 .img_service5 .row .mrg-serv3-info {
-  margin: 83px 30px 0 0;
+  margin: 47px 30px 0 12px;
 }
 
 .img_service5 .row .mrg-serv4-info {
-  margin: 84px 0 0 30px;
+  margin: 49px 0 0 12px;
+}
+
+.img_service5 .row .col-md-2 .img-1-infographic-4 {
+  float: left;
+  margin: 59px 0 0 45px;
+}
+.img_service5 .row .col-md-2 .img-2-infographic-4 {
+  float: left;
+  margin: 60px 0 0 57px;
+}
+.img_service5 .row .col-md-2 .img-3-infographic-4 {
+  float: left;
+  margin: 69px 0 0 45px;
+}
+.img_service5 .row .col-md-2 .img-4-infographic-4 {
+  float: left;
+  margin: 62px 0 0 47px;
 }
 
 .services_itens img {

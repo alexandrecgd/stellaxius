@@ -395,61 +395,157 @@ Author E-mail: alexandre.duarte@stellaxius.com
     .static_area {
         padding: 60px 0px;
     }
-    .img_service2,
-    .img_service3,
-    .img_service4,
+    .img_service2 {
+        background: url(../img/what-we-do/services/infographics/img-services-1-infogra-mobile.svg) no-repeat scroll center center;
+        height: 1040px;
+        width: 300px;
+    }
+    .img_service3 {
+        background: url(../img/what-we-do/services/infographics/img-services-infogra_2-mobile.svg) no-repeat scroll center center;
+        height: 1040px;
+        width: 300px;
+    }
+    .img_service4 {
+        background: url(../img/what-we-do/services/infographics/img-services-infogra_3-mobile.svg) no-repeat scroll center center;
+        height: 1160px;
+        width: 300px;
+    }
     .img_service5 {
-        background: none;
-        height: auto;
-        width: auto;
+        background: url(../img/what-we-do/services/infographics/img-services-infogra_4-mobile.svg) no-repeat scroll center center;
+        height: 1040px;
+        width: 300px;
     }
-    .img_service2 h5,
-    .img_service2 p,
-    .img_service3 h5,
-    .img_service3 p,
-    .img_service4 h5,
-    .img_service4 p,
-    .img_service5 h5,
-    .img_service5 p {
-        color: inherit;
+    /* Service 1 */
+    .img_service2 .row .col-md-7 .mrg-serv1-info {
+       margin: 24px 0 30px 0;
+       padding: 0 10px;
     }
-    .img_service2 .row .content-info-service,
-    .img_service2 .row .mrg-serv2-info,
-    .img_service2 .row .mrg-serv3-info,
-    .img_service2 .row .mrg-serv4-info,
-    .img_service3 .row .content-info-service,
-    .img_service3 .row .mrg-serv2-info,
-    .img_service3 .row .mrg-serv3-info,
-    .img_service3 .row .mrg-serv4-info,
-    .img_service4 .row .content-info-service,
-    .img_service4 .row .mrg-serv2-info,
-    .img_service4 .row .mrg-serv3-info,
-    .img_service4 .row .mrg-serv4-info,
-    .img_service5 .row .content-info-service,
-    .img_service5 .row .mrg-serv2-info,
-    .img_service5 .row .mrg-serv3-info,
-    .img_service5 .row .mrg-serv4-info {
-            margin: 20px 0px 10px 0;
+    .img_service2 .row .col-md-7 .mrg-serv2-info{
+       margin: 39px 0 29px 0;
+       padding: 0 10px;
     }
-    .img_service2 .row .col-md-4,
-    .img_service3 .row .col-md-4,
-    .img_service4 .row .col-md-4,
-    .img_service5 .row .col-md-4 {
-        text-align: left!important;
+    .img_service2 .row .col-md-7 .mrg-serv3-info{
+       margin: 38px 0 30px 0;
+       padding: 0 10px;
     }
-    .img_service2 .row .col-md-4 .align-right-service,
-    .img_service3 .row .col-md-4 .align-right-service,
-    .img_service4 .row .col-md-4 .align-right-service,
-    .img_service5 .row .col-md-4 .align-right-service {
+    .img_service2 .row .col-md-7 .mrg-serv4-info{
+       margin: 35px 0 0 0;
+       padding: 0 10px;
+    }
+    /* Service 2 */
+    .container-infographic-2 {
+        margin: 0;
+    }
+    .img_service3 .line-1-service-2,
+    .img_service3 .line-2-service-2,
+    .img_service3 .line-3-service-2 {
+        top: 0;
+    }
+    .img_service3 .row .content-info-service {
+        text-align: center;
+    }
+    .img_service3 h5 {
+        font-size: 20px;
+        color: #fff;
+    }
+    .img_service3 p {
+        font-size: 14px;
+        line-height: 20px;
+        color: #fff;
+        margin: 0;
+    }
+    .img_service3 .row .col-md-6 .mrg-serv1-info{
+       margin: 33px 0 41px 0;
+       padding: 0 10px;
+    }
+    .img_service3 .row .col-md-6 .mrg-serv2-info{
+       margin: 38px 0 30px 0;
+       padding: 0 10px;
+    }
+    .img_service3 .row .col-md-6 .mrg-serv3-info{
+       margin: 38px 0 30px 0;
+       padding: 0 10px;
+    }
+    .img_service3 .row .col-md-6 .mrg-serv4-info{
+       margin: 37px 0 0 0;
+       padding: 0 10px;
+    }
+    /* Service 3 */
+    .container-infographic-3 {
+        margin: 0;
+    }
+    .img_service4 .line-1-service-3 {
+      width: auto;
+    }
+
+    .img_service4 .line-2-service-3 {
+      width: auto;
+    }
+
+    .img_service4 h5 {
+        font-size: 20px;
+        color: #fff;
+    }
+    .img_service4 p {
+        font-size: 14px;
+        line-height: 20px;
+        color: #fff;
+        margin: 0;
+        text-align: center;
+    }
+
+    .img_service4 .line-3-service-3 {
+      width: auto;
+      top: 0;
+    }
+    .img_service4 .row .col-md-3 {
         padding: 0;
     }
-    .img_service2 .row .col-md-4,
-    .img_service3 .row .col-md-4,
-    .img_service4 .row .col-md-4,
-    .img_service5 .row .col-md-4 {
-        height: auto;
-        margin-bottom: 20px;
-        padding-top: 20px;
+    .img_service4 .row .col-md-3 .mrg-serv1-info{
+       margin: 34px 0 40px 0;
+       padding: 0 10px;
+    }
+    .img_service4 .row .col-md-3 .mrg-serv2-info{
+       margin: 36px 0 32px 0;
+       padding: 0 10px;
+    }
+    .img_service4 .row .col-md-3 .mrg-serv3-info{
+       margin: 47px 0 41px 0;
+       padding: 0 10px;
+    }
+    .img_service4 .row .col-md-3 .mrg-serv4-info{
+       margin: 32px 0 0 0;
+       padding: 0 10px;
+    }
+    /* Service 4 */
+    .img_service5 h5 {
+        font-size: 20px;
+        color: #fff;
+    }
+    .img_service5 p {
+        font-size: 14px;
+        line-height: 20px;
+        color: #fff;
+        margin: 0;
+    }
+    .img_service5 .row .content-info-service {
+        text-align: center;
+    }
+    .img_service5 .row .col-md-10 .mrg-serv1-info{
+       margin: 30px 0 40px 0;
+       padding: 0 10px;
+    }
+    .img_service5 .row .col-md-10 .mrg-serv2-info{
+       margin: 36px 0 32px 0;
+       padding: 0 10px;
+    }
+    .img_service5 .row .col-md-10 .mrg-serv3-info{
+        margin: 45px 0 43px 0;
+        padding: 0 10px;
+    }
+    .img_service5 .row .col-md-10 .mrg-serv4-info {
+        margin: 44px 0 0 0;
+        padding: 0 10px;
     }
     .right_sidebar_area {
         margin-bottom: -45px;
