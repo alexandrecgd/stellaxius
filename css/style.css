@@ -1537,7 +1537,6 @@ i:before {
   max-width: 630px;
   position: absolute;
   right: 0;
-  text-align: right;;
 }
 
 .services_itens_sfci .row .itens_sfci .service_item_box {
@@ -1734,7 +1733,6 @@ i:before {
   font-size: 14px;
   line-height: 20px;
   margin: 0;
-  text-align: justify;
 }
 
 .img_service4 .row {
@@ -2852,6 +2850,30 @@ iframe form.form p label!important {
   background: #1E1E27;
 }
 
+.info_mobile {
+    width: 60px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.23);
+    display: block;
+    border-radius: 0 0 0 5px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 9px;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 13px;
+    text-align: center;
+    transition: .5s ease;
+}
+
+.info_mobile i {
+  color: #fff;
+  font-size: 18px;
+  padding: 5px 0 0 0;
+  display: block;
+}
+
 .tetris_img,
 .tetris_img2 {
   position: absolute;
@@ -2929,11 +2951,12 @@ iframe form.form p label!important {
   display: block;
   width: 100%;
   height: auto;
-  transition: .5s ease;
+  transition: .3s ease;
   backface-visibility: hidden;
 }
 
-.photo_infos_team:hover img {
+.photo_infos_team:hover img,
+.photo_infos_team:active img {
   opacity: 0.5;
   webkit-filter: blur(4px);
   /* Chrome, Safari, Opera */
@@ -2941,6 +2964,10 @@ iframe form.form p label!important {
   -webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
   transform: scale(1.05);
+}
+
+.photo_infos_team:hover .info_mobile {
+  display: none;
 }
 
 .photo_infos_team:hover .infos_photo_team {
