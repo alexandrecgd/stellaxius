@@ -251,6 +251,19 @@ Author E-mail: alexandre.duarte@stellaxius.com
         max-width: none;
         width: 93%;
     }
+    .static_service_area .container h2,
+    .static_service_area .container p,
+    .service_feature_area .container h2,
+    .service_feature_area .container p {
+        text-align: left!important;
+    }
+    .services_itens_sfci .row .itens_sfci p,
+    .img_service2 .row .col-md-7 .content-info-service p,
+    .img_service3 .row .col-md-6 .content-info-service p,
+    .img_service4 .row .col-md-3 p,
+    .img_service5 .row .col-md-10 .content-info-service p {
+        text-align: center!important;
+    }
     .indus_text,
     .service_feature_area .indus_text,
     .service_feature_area2 .indus_text {
