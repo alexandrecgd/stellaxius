@@ -1528,7 +1528,12 @@ i:before {
   -webkit-filter: none;
   filter: none;
 }
-
+.service_feature_area .indus_text p,
+.static_service_area .text-center,
+.service_feature_area2 .indus_text p,
+.service_feature_area .text-center {
+  line-height: 31px;
+}
 .service_feature_area .indus_text {
   max-width: 630px;
 }
@@ -1611,7 +1616,7 @@ i:before {
 .img_service2 .row .content-info-service {
   max-width: 540px;
   text-align: center;
-  margin: 37px 30px 0 0;
+  margin: 37px 0px 0px 41px;
 }
 
 .img_service2 .row .mrg-serv2-info {
