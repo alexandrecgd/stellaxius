@@ -376,6 +376,13 @@ Author E-mail: alexandre.duarte@stellaxius.com
     .r_cv_widget {
         max-width: 100%;
     }
+    .our_skill_inner {
+        text-align: center;
+    }
+    .our_skill_inner .single_skill {
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
 }
 
 @media(max-width: 767px) {

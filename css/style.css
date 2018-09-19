@@ -725,6 +725,11 @@ i:before {
   background-size: cover;
 }
 
+.banner_certifications {
+  background: url(../img/certifications/banner/banner_imagem_1.jpg) no-repeat scroll center 33%;
+  background-size: cover;
+}
+
 .banner_knowledg_post {
   background: url(../img/knowledge/banner/banner_imagem_1.jpg) no-repeat scroll center center;
 }
@@ -1004,6 +1009,11 @@ i:before {
   }
 }
 
+.industries_area .indus_text .read_btn {
+  width: 300px;
+  margin: 0 auto;
+}
+
 .indus_text .read_btn {
   width: 180px;
   margin-top: 40px;
@@ -1014,13 +1024,10 @@ i:before {
 }
 
 .our_skill_inner .single_skill {
-  margin-bottom: 30px;
-}
-
-.our_skill_inner .single_skill span {
-  color: #232d37;
-  font-weight: 500;
-  font-size: 14px;
+  margin-bottom: 50px;
+  margin-right: 19px;
+  position: relative;
+  display: inline-block;
 }
 
 .our_skill_inner .single_skill .progress .progress-bar span {
@@ -1050,6 +1057,58 @@ i:before {
 
 .our_skill_inner .single_skill:last-child {
   margin-bottom: 0px;
+  margin-right: 0;
+}
+
+.our_skill_inner .single_skill .badge-certification-1 {
+  color: #fff;
+  background-color: #3498DB;
+  min-width: 120px;
+  padding: 6px 10px;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  margin-left: -60px;
+  bottom: 12px;
+}
+.our_skill_inner .single_skill .badge-certification-2 {
+  color: #fff;
+  background-color: #2ECC71;
+  min-width: 120px;
+  padding: 6px 10px;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  margin-left: -83px;
+  bottom: 12px;
+}
+.our_skill_inner .single_skill .badge-certification-3 {
+  color: #fff;
+  background-color: #9B59B6;
+  min-width: 120px;
+  padding: 6px 10px;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  margin-left: -70px;
+  bottom: 12px;
+}
+#shiva {
+  position: relative;
+  background: url(../img/home/img_graphic_home.svg) no-repeat;
+  width:150px;
+  height:150px;
+}
+.count {
+  line-height: 150px;
+  color: #1e1e27;
+  font-size: 44px;
+  text-align: center;
+  width: 100%;
+  display: block;
 }
 
 /* Project Area css
@@ -1164,36 +1223,27 @@ i:before {
   font-weight: 600;
   font-size: 13px;
   text-transform: uppercase;
-  background-image: -moz-linear-gradient(45deg, #ff416c 0%, #ff416c 38%, #8c2424 100%);
-  background-image: -webkit-linear-gradient(45deg, #ff416c 0%, #ff416c 38%, #8c2424 100%);
-  background-image: -ms-linear-gradient(45deg, #ff416c 0%, #ff416c 38%, #8c2424 100%);
-  text-align: center;
-  position: relative;
-  background-size: 200% auto;
-  z-index: 2;
   display: block;
+  text-align: center;
+  border-left: 2px solid #ff416c;
+  border-right: 2px solid #8c2424;
+  background-position: 0 0, 0 100%;
+  background-repeat: no-repeat;
+  -webkit-background-size: 100% 20px;
+  -moz-background-size: 100% 20px;
+  background-size: 100% 2px;
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgeG1sbnM9Imh0d…0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2xlc3NoYXQtZ2VuZXJhdGVkKSIgLz48L3N2Zz4=),url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgeG1sbnM9Imh0d…0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2xlc3NoYXQtZ2VuZXJhdGVkKSIgLz48L3N2Zz4=);
+  background-image: -webkit-linear-gradient(to right, #ff416c 0%, #ff416c 100%), linear-gradient(to right, #ff416c 0%, #8c2424 100%);
+  background-image: -moz-linear-gradient(to right, #ff416c 0%, #ff416c 100%), linear-gradient(to right, #ff416c 0%, #8c2424 100%);
+  background-image: -o-linear-gradient(to right, #ff416c 0%, #ff416c 100%), linear-gradient(to right, #ff416c 0%, #8c2424 100%);
+  background-image: linear-gradient(to right, #ff416c 0%, #ff416c 100%), linear-gradient(to right, #ff416c 0%, #8c2424 100%);
   -webkit-transition: all 400ms ease-out;
   -o-transition: all 400ms ease-out;
   transition: all 400ms ease-out;
 }
 
-.read_btn:before {
-  content: "";
-  background: #f7f7f7;
-  position: absolute;
-  left: 2px;
-  top: 2px;
-  width: 98%;
-  height: 42px;
-  z-index: -1;
-  -webkit-transition: all 400ms linear 0s;
-  -o-transition: all 400ms linear 0s;
-  transition: all 400ms linear 0s;
-}
-
 .read_btn:hover {
-  background-position: right center;
-  color: #232d37;
+  color: #8c2424;
 }
 
 .tp_btn {
@@ -2355,6 +2405,12 @@ ul li a {
   color: #d80f2c;
 }
 
+/* Certification Area css
+============================================================================================ */
+
+.certification_area {
+  padding: 100px 0px;
+}
 
 /* Contact Us Area css
 ============================================================================================ */

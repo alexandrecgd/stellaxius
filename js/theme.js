@@ -30,55 +30,69 @@
     function AnimateScroll() {
       // Slider 1
       $('#h1-slider').css('opacity', 0);
-      $('#h1-slider').waypoint(function() {
+        $('#h1-slider').waypoint(function() {
           $('#h1-slider').addClass('bounceIn');
       }, { offset: '100%' });
       // Slider 2
       $('#p-slider').css('opacity', 0);
-      $('#p-slider').waypoint(function() {
+        $('#p-slider').waypoint(function() {
           $('#p-slider').addClass('fadeIn');
       }, { offset: '100%' });
       // BTN Slider 1
       $('#btn-1-slider').css('opacity', 0);
-      $('#btn-1-slider').waypoint(function() {
+        $('#btn-1-slider').waypoint(function() {
           $('#btn-1-slider').addClass('fadeIn');
       }, { offset: '100%' });
       // BTN Slider 2
       $('#btn-2-slider').css('opacity', 0);
-      $('#btn-2-slider').waypoint(function() {
+        $('#btn-2-slider').waypoint(function() {
           $('#btn-2-slider').addClass('fadeIn');
       }, { offset: '100%' });
       // Box 1
       $('#img-fadeIn1').css('opacity', 0);
-      $('#img-fadeIn1').waypoint(function() {
+        $('#img-fadeIn1').waypoint(function() {
           $('#img-fadeIn1').addClass('fadeIn');
       }, { offset: '100%' });
       // Box 2
       $('#img-fadeIn2').css('opacity', 0);
-      $('#img-fadeIn2').waypoint(function() {
+        $('#img-fadeIn2').waypoint(function() {
           $('#img-fadeIn2').addClass('fadeIn');
       }, { offset: '100%' });
       // Box 3
       $('#img-fadeIn3').css('opacity', 0);
-      $('#img-fadeIn3').waypoint(function() {
+        $('#img-fadeIn3').waypoint(function() {
           $('#img-fadeIn3').addClass('fadeIn');
       }, { offset: '100%' });
       // Box 4
       $('#img-fadeIn4').css('opacity', 0);
-      $('#img-fadeIn4').waypoint(function() {
+        $('#img-fadeIn4').waypoint(function() {
           $('#img-fadeIn4').addClass('fadeIn');
       }, { offset: '100%' });
-
       // Image 1
       $('#img-fadeInRight').css('opacity', 0);
-      $('#img-fadeInRight').waypoint(function() {
-          $('#img-fadeInRight').addClass('fadeInRight');
+        $('#img-fadeInRight').waypoint(function() {
+          $('#img-fadeInRight').addClass('fadeIn');
       }, { offset: '90%' });
       // Image 2
       $('#img-fadeInLeft').css('opacity', 0);
-      $('#img-fadeInLeft').waypoint(function() {
-          $('#img-fadeInLeft').addClass('fadeInLeft');
+        $('#img-fadeInLeft').waypoint(function() {
+          $('#img-fadeInLeft').addClass('fadeIn');
       }, { offset: '90%' });
+      // Certification 1
+      $('#cert-1').css('opacity', 0);
+        $('#cert-1').waypoint(function() {
+          $('#cert-1').addClass('fadeIn');
+      }, { offset: '100%' });
+      // Certification 2
+      $('#cert-2').css('opacity', 0);
+        $('#cert-2').waypoint(function() {
+          $('#cert-2').addClass('fadeIn');
+      }, { offset: '100%' });
+      // Certification 3
+      $('#cert-3').css('opacity', 0);
+        $('#cert-3').waypoint(function() {
+          $('#cert-3').addClass('fadeIn');
+      }, { offset: '100%' });
     };
     AnimateScroll();
 
@@ -232,26 +246,37 @@
     /*  Skill Slider
     /*----------------------------------------------------*/
     function progressBarConfig() {
-        var progressBar = $('.progress');
-        if (progressBar.length) {
-            progressBar.each(function() {
-                var Self = $(this);
-                Self.appear(function() {
-                    var progressValue = Self.data('value');
+        $(function($, win) {
+          $.fn.inViewport = function(cb) {
+            return this.each(function(i,el){
+              function visPx(){
+                var H = $(this).height(),
+                    r = el.getBoundingClientRect(), t=r.top, b=r.bottom;
+                return cb.call(el, Math.max(0, t>0? H-t : (b<H?b:H)));  
+              } visPx();
+              $(win).on("resize scroll", visPx);
+            });
+          };
+        }(jQuery, window));
 
-                    Self.find('.progress-bar').animate({
-                        width: progressValue + '%'
-                    }, 1000);
 
-                    Self.find('.number').countTo({
-                        from: 0,
-                        to: progressValue,
-                        speed: 1000,
-                        refreshInterval: 50
-                    });
-                });
-            })
-        }
+        jQuery(function($) {
+
+          $(".count").inViewport(function(px) { 
+            if(px>0 && !this.initNumAnim) { 
+              this.initNumAnim = true;
+              $(this).prop('Counter',0).animate({
+                Counter: $(this).text()
+              }, {
+                duration: 1000,
+                step: function (now) {
+                  $(this).text(Math.ceil(now));
+                }
+              });         
+            }
+          });
+
+        });
     }
     progressBarConfig();
 
