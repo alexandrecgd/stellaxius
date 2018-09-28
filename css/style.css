@@ -143,6 +143,10 @@ i:before {
   padding: 0px 0px 100px 0px;
 }
 
+.mt-15 {
+  margin-top: 15px!important;
+}
+
 .center_item {
   margin: auto;
   margin-top: 50px;
@@ -485,7 +489,7 @@ i:before {
 }
 
 .nav-link-4 {
-  display: none!important;
+  display: inline-block;
 }
 
 .nav-link-5 {
@@ -727,6 +731,11 @@ i:before {
 
 .banner_certifications {
   background: url(../img/certifications/banner/banner_imagem_1.jpg) no-repeat scroll center 33%;
+  background-size: cover;
+}
+
+.banner_sucess_stories {
+  background: url(../img/sucess-stories/banner/banner_imagem_1.png) no-repeat scroll center 0%;
   background-size: cover;
 }
 
@@ -1023,11 +1032,71 @@ i:before {
   margin-top: 45px;
 }
 
+.our_skill_inner .col-md-4 {
+  margin-top: 45px!important;
+}
+
 .our_skill_inner .single_skill {
   margin-bottom: 50px;
   margin-right: 19px;
   position: relative;
   display: inline-block;
+}
+
+.our_skill_inner .margin-lb {
+  margin-bottom: 50px!important;
+  margin-right: 19px!important;
+}
+
+.our_skill_inner .single_skill .accordion {
+  margin-top: 10px;
+}
+
+.card-header {
+  padding: 0 0 5px 0;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom: 0;
+  text-align: left;
+}
+
+.card-header  .btn-link {
+  font-weight: 600;
+  color: #212529;
+  white-space: normal;
+  padding: 0;
+}
+
+.certifi-area .our_skill_inner .single_skill ul {
+  padding: 0;
+  margin: 20px 0 0 0;
+}
+
+.certifi-area .our_skill_inner .single_skill ul li  {
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.certifi-area .our_skill_inner .single_skill .accordion span {
+  background: #3498db;
+  color: #fff;
+  border-radius: 50px;
+  width: 30px;
+  display: inline-block;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  margin-right: 5px;
+}
+
+.certifi-area .our_skill_inner .single_skill .accordion i {
+  font-size: 11px;
+  color: #909090;
+}
+
+.certifi-area .our_skill_inner .single_skill .accordion img {
+  max-width: 200px;
+  margin-bottom: 20px;
 }
 
 .our_skill_inner .single_skill .progress .progress-bar span {
@@ -1072,6 +1141,20 @@ i:before {
   margin-left: -60px;
   bottom: 12px;
 }
+.certifi-area .our_skill_inner .single_skill .badge-g-certification-1 {
+  color: #fff;
+  background-color: #3498db;
+  width: 190px;
+  padding: 6px 10px;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  margin-left: 4px;
+  left: 0;
+  bottom: 12px;
+  line-height: 16px;
+  white-space: normal;
+}
 .our_skill_inner .single_skill .badge-certification-2 {
   color: #fff;
   background-color: #2ECC71;
@@ -1083,6 +1166,20 @@ i:before {
   left: 50%;
   margin-left: -83px;
   bottom: 12px;
+}
+.certifi-area .our_skill_inner .single_skill .badge-g-certification-2 {
+  color: #fff;
+  background-color: #2ECC71;
+  width: 190px;
+  padding: 6px 10px;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  margin-left: 4px;
+  left: 0;
+  bottom: 12px;
+  line-height: 16px;
+  white-space: normal;
 }
 .our_skill_inner .single_skill .badge-certification-3 {
   color: #fff;
@@ -1096,11 +1193,33 @@ i:before {
   margin-left: -70px;
   bottom: 12px;
 }
+.certifi-area .our_skill_inner .single_skill .badge-g-certification-3 {
+  color: #fff;
+  background-color: #9B59B6;
+  width: 190px;
+  padding: 6px 10px;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  margin-left: 4px;
+  left: 0;
+  bottom: 12px;
+  line-height: 16px;
+  white-space: normal;
+}
 #shiva {
   position: relative;
   background: url(../img/home/img_graphic_home.svg) no-repeat;
   width:150px;
   height:150px;
+}
+.certifi-area .our_skill_inner .single_skill #shiva {
+  position: relative;
+  background: url(../img/home/img_graphic_home.svg) no-repeat;
+  background-size: 200px;
+  width:200px;
+  height:200px;
+  margin: 0 auto;
 }
 .count {
   line-height: 150px;
@@ -1109,6 +1228,18 @@ i:before {
   text-align: center;
   width: 100%;
   display: block;
+}
+.certifi-area .our_skill_inner .single_skill .count {
+  line-height: 191px;
+  color: #1e1e27;
+  font-size: 64px;
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+
+.certifi-area .our_skill_inner .col-md-4 {
+  text-align: center;
 }
 
 /* Project Area css
@@ -2017,15 +2148,17 @@ i:before {
 }
 
 .l_news_item .l_news_content h4 {
-  font-size: 18px;
+  font-size: 20px;
   color: #232d37;
+  margin-bottom: 0;
   font-weight: 500;
   -webkit-transition: all 400ms linear 0s;
   -o-transition: all 400ms linear 0s;
   transition: all 400ms linear 0s;
 }
 
-.l_news_item .l_news_content h4:hover {
+.l_news_item .l_news_content h4:hover,
+.l_news_item .l_news_content p:hover {
   color: #d80f2c;
 }
 
@@ -2035,6 +2168,14 @@ i:before {
   color: #51545f;
   font-weight: 400;
   padding: 15px 0px 10px 0px;
+  -webkit-transition: all 400ms linear 0s;
+  -o-transition: all 400ms linear 0s;
+  transition: all 400ms linear 0s;
+}
+
+.l_news_item .l_news_content span {
+  font-size: 12px;
+  color: #f41e3d;
 }
 
 .l_news_item:hover {
@@ -2405,11 +2546,63 @@ ul li a {
   color: #d80f2c;
 }
 
+/* Sucess Stories Area css
+============================================================================================ */
+
+.sucess_stories_area {
+  padding: 100px 0px 50px 0px;
+}
+
+.sucess_stories_area_bg {
+    background: #fff;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.filter_team .card .row .col-md-4 .select2-container {
+  width: 100%!important;
+}
+
+
 /* Certification Area css
 ============================================================================================ */
 
 .certification_area {
-  padding: 100px 0px;
+  padding: 100px 0px 0px 0px;
+}
+
+.certification_area_bg {
+    background: #f3fafc;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.certification_area_bg2 {
+    background: #e3f3f8;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.certification_area_bg3 {
+    background: #ffffff;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.certifi-area {
+  margin: 20px 0 40px 0;
 }
 
 /* Contact Us Area css
@@ -3086,10 +3279,15 @@ iframe form.form p label!important {
   top: 6px;
 }
 
-.filter_team .card .row .col-md-6 label {
+.filter_team .card .row .col-md-6 label,
+.filter_team .card .row .col-md-4 label {
   width: 100%;
   font-weight: 500;
   margin-bottom: 0;
+}
+
+.filter_team .card .row .col-md-4 label {
+  text-align: left;
 }
 
 
