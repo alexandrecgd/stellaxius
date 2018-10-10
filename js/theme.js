@@ -119,6 +119,21 @@
     BlockBodyMenu();
 
     /*----------------------------------------------------*/
+    /*  Show Flags in Dropdown js
+    /*----------------------------------------------------*/
+    function selectpicker112() {
+    $('.selectpicker').selectpicker();
+
+    $(document).on('change', '.selectpicker', function(e){
+        e.preventDefault();
+
+        window.location = $(this).find('option:selected').val();
+    });
+
+    }
+    progressBarConfig();
+
+    /*----------------------------------------------------*/
     /*  Show Hide Empty State js
     /*----------------------------------------------------*/
     function cards() {
@@ -353,6 +368,28 @@
         }
         return false
     });
+
+
+    /*----------------------------------------------------*/
+    /* Show and Close button in Team Cards js
+    /*----------------------------------------------------*/
+    $('.team_member').click( function(){
+    if ( $(".close_mobile").hasClass('info_close_none') ) {
+        $(".close_mobile").removeClass('info_close_none');
+        $('.close_mobile').addClass('info_close_block'); 
+        $('.info_mobile').hasClass('info_close_block');
+        $('.info_mobile').removeClass('info_close_block');
+        $('.info_mobile').addClass('info_close_none');
+    } else {
+        $('.close_mobile').hasClass('info_close_block');
+        $('.close_mobile').removeClass('info_close_block');
+        $('.close_mobile').addClass('info_close_none');
+        $('.info_mobile').hasClass('info_close_none');
+        $('.info_mobile').removeClass('info_close_none');
+        $('.info_mobile').addClass('info_close_block');
+    }
+    });
+
 
 
 

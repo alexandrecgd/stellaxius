@@ -31,6 +31,9 @@
       <meta property="business:contact_data:country_name" content="Portugal">
       <!-- End Open Graph -->
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+      <!-- Flag Icons -->
+      <link href="css/flag-icon.min.css" rel="stylesheet">
+      <link href="css/bootstrap-select.min.css" rel="stylesheet">
       <!-- Bootstrap -->
       <link href="css/bootstrap.min.css" rel="stylesheet">
       <!-- Animate -->
@@ -566,6 +569,12 @@
                         <a href="tel:+351210126195"><i class="fas fa-phone"></i> +351 21 012 6195</a>  -  
                         <a href="contact-us.html"><i class="fas fa-envelope"></i> global@stellaxius.com</a>
                         <p><a href="https://goo.gl/maps/WuJgw5foW4G2" target="_blank"><i class="fas fa-location-arrow"></i> Avenida António Serpa, 36 - 6º and 9º floor. 1050-027 Lisbon, Portugal</a></p>
+                        <!-- Dropdown Language Selector -->
+                        <select class="selectpicker" data-width="fit" onchange="location = this.value;">
+                           <option value="index1.html" data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>
+                           <option value="index2.html" data-content='<span class="flag-icon flag-icon-pt"></span> Português'>Português</option>
+                        </select>
+                        <!-- End Dropdown Language Selector -->
                      </aside>
                   </div>
                </div>
@@ -603,6 +612,7 @@
       <!-- Include all compiled plugins (below), or include individual files as needed -->
       <script src="js/popper.min.js"></script>
       <script src="js/bootstrap.min.js"></script>
+      <script src="js/bootstrap-select.min.js"></script>
       <!-- Extra plugin css -->
       <script src="vendors/counterup/jquery.waypoints.min.js"></script>
       <script src="vendors/counterup/jquery.counterup.min.js"></script>

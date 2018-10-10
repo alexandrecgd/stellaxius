@@ -257,6 +257,9 @@ Author E-mail: alexandre.duarte@stellaxius.com
     .service_feature_area .container p {
         text-align: left!important;
     }
+    .cta_service_page .container h2{
+        text-align: center!important;
+    }
     .services_itens_sfci .row .itens_sfci p,
     .img_service2 .row .col-md-7 .content-info-service p,
     .img_service3 .row .col-md-6 .content-info-service p,
@@ -378,6 +381,7 @@ Author E-mail: alexandre.duarte@stellaxius.com
     }
     .our_skill_inner {
         text-align: center;
+        margin-bottom: 20px;
     }
     .our_skill_inner .single_skill {
         margin-right: 0px;
@@ -389,6 +393,12 @@ Author E-mail: alexandre.duarte@stellaxius.com
     }
     .certifi-area {
         margin: 20px 0 0px 0;
+    }
+    .contact_widget .dropdown .btn-light {
+        margin-bottom: 20px;
+    }
+    .info_close_block {
+        display: block;
     }
 }
 
