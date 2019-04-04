@@ -1,11 +1,10 @@
 User-Agent: *
 Allow: /
-Disallow: /PrivacyPolicy
-Disallow: /JoinUs/
-Disallow: /JoinUsPosition?position=TechnicalArchitectAndDeveloper
-Disallow: /JoinUsPosition?position=ITProjectManagerAndBusinessAnalyst
-Disallow: /JoinUsPosition?position=JuniorDeveloper
-Disallow: /JoinUsPosition?position=JuniorBusinessAnalyst
-Disallow: /JoinUsPosition?position=GeneralApplication
+Disallow: /privacy-policy
+Disallow: /join-us
+Disallow: /join-us/position/
+Disallow: /pt/politica-de-privacidade
+Disallow: /pt/carreiras
+Disallow: /pt/carreiras/oportunidades/
 
 Sitemap: https://www.stellaxius.com/sitemap.xml

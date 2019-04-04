@@ -1,0 +1,8 @@
+#Redirects das antigas URLs para as novas
+Redirect 301 /WhoWeAre /who-we-are
+Redirect 301 /SalesforceConsultingImplementation /salesforce-consulting-and-implementation
+Redirect 301 /SoftwareDevelopmentSystemsIntegration /software-development-and-systems-integration
+Redirect 301 /ProcessAndBusinessAnalysis /process-and-business-analysis
+Redirect 301 /ProgramAndProjectManagement /program-and-project-management
+Redirect 301 /ContactUs /contact-us
+Redirect 301 /OurCredentials /our-credentials

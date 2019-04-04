@@ -119,6 +119,26 @@
     BlockBodyMenu();
 
     /*----------------------------------------------------*/
+    /*  Show / Hide Cookie Bar js
+    /*----------------------------------------------------*/
+    function CookieBar() {
+
+        if(window.location.href.indexOf("https://www.stellaxius.com/") > -1){
+          $('#cookies-en').show();
+        } else {
+          $('#cookies-en').hide();
+        }
+
+        if(window.location.href.indexOf("https://www.stellaxius.com/PaginaInicial") > -1){
+          $('#cookies-pt').show();
+        } else {
+          $('#cookies-pt').hide();
+        }
+
+    };
+    CookieBar();
+
+    /*----------------------------------------------------*/
     /*  Show Flags in Dropdown js
     /*----------------------------------------------------*/
     function selectpicker112() {
