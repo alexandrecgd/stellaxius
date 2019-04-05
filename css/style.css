@@ -1091,7 +1091,7 @@ i:before {
 }
 
 .industries_area .indus_text .read_btn {
-  width: 320px;
+  width: 290px;
   margin: 0 auto;
 }
 
@@ -1109,8 +1109,6 @@ i:before {
 }
 
 .our_skill_inner .single_skill {
-  margin-bottom: 50px;
-  margin-right: 19px;
   position: relative;
   display: inline-block;
 }
@@ -2724,8 +2722,29 @@ ul li a {
   display: inline;
 }
 
+.divider {
+  width: 20%;
+  display: -webkit-box;
+  margin: 0 auto;
+  border-bottom: 1px solid #b7b0b0;
+  height: 1px;
+  margin-top: 40px;
+}
+
+.success-content h3,
+.success-content h4 {
+  margin-bottom: 1rem;
+  margin-top: 2.4rem;
+  color: #51545f;
+}
+
+.success-content h2 {
+  font-size: 2.5rem;
+}
+
 .success-content h3 {
   font-size: 2rem;
+  color: #212529 !important;
 }
 
 .content-inner {
@@ -2734,14 +2753,24 @@ ul li a {
 
 .success-content .our_skill_inner {
   text-align: center;
+  margin-top: 30px;
+}
+
+.success-content .our_skill_inner .margin-lb {
+  margin-bottom: 0px !important;
+}
+
+.success-content .read_btn {
+  margin-top: 30px;
+  margin-bottom: 40px;
 }
 
 .gallery-success {
-  padding: 10px 0 50px 0;
+  padding: 10px 0;
 }
 
 .right_sidebar_area .cv_item .center_item {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .right_widget .cv_inner .cv_item .label_success {

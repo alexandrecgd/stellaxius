@@ -381,9 +381,13 @@ Author E-mail: alexandre.duarte@stellaxius.com
     text-align: center;
     margin-bottom: 20px;
   }
-  .our_skill_inner .single_skill {
-    margin-right: 0px;
-    margin-bottom: 30px;
+  .our_skill_inner .single_skill,
+  .our_skill_inner .margin-lb {
+    margin-right: 0px !important;
+    margin-bottom: 30px !important;
+  }
+  .success-content .our_skill_inner .margin-lb {
+    margin-bottom: 30px !important;
   }
   .certifi-area .our_skill_inner .single_skill {
     margin-right: 0px !important;
@@ -763,8 +767,13 @@ Author E-mail: alexandre.duarte@stellaxius.com
     line-height: 40px;
   }
   .static_area h2 {
-    font-size: 28px;
-    line-height: 40px;
+    font-size: 1.6rem;
+  }
+  .static_area h3 {
+    font-size: 1.4rem;
+  }
+  .static_area h4 {
+    font-size: 1.2rem;
   }
   .l_news_item .l_news_content {
     padding: 20px 25px;

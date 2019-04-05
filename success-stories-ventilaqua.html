@@ -159,14 +159,16 @@
                      <li><a><i class="fa fa-angle-right" aria-hidden="true"></i>VentilAQUA</a></li>
                   </ul>
                </div>
-               
+
+               <div class="success-content">
+                  <h2>How VentilAQUA increased lead generation by 15x with Pardot marketing automation</h3>
+                  <p class="">VentilAQUA was able to increase organic traffic, lead generation and pipeline velocity with a new website and the implementation of Pardot and Sales Cloud for lead, opportunity and client management.</p>
+                  <div class="divider"></div>
+               </div>
+
                <div class="row">
                   <div class="col-lg-9">
                      <div class="static_main_content success-content">
-                           <div class="content-inner">
-                              <h3>How VentilAQUA increased lead generation by 15x with Pardot marketing automation</h3>
-                              <p class="">VentilAQUA was able to increase organic traffic, lead generation and pipeline velocity with a new website and the implementation of Pardot and Sales Cloud for lead, opportunity and client management.</p>
-                           </div>
                            <h4>A company building technology to treat and save water</h4>
 
                            <p>VentilAQUA is a 20-year-old company at the forefront of wastewater treatment technology development. Their main goals are to be the reference in wastewater treatment solutions for health and industrial sectors and to contribute to prevent black waters from contaminating our planet’s resources.  And they are doing pretty well, as these days, VentilAQUA counts with highly efficient distributors across 22 countries and is proud to have more than 700 water treatment plants built for clients all around the world. </p>
@@ -203,6 +205,8 @@
 
                            <p>The urge for betting on an online strategy was real and Stellaxius accepted the challenge to develop a  digital strategy to improve online brand awareness, brand authority and lead generation, alongside with the implementation of Pardot and Sales Cloud to support new lead, opportunity and client management processes, that would help VentilAQUA to better understand lead lifecycle, business pipeline and, ultimately, increase conversion.</p>
 
+                           <div class="divider"></div>
+
                            <div class="media">
                               <img class="img-test d-flex rounded-circle" src="img/home/stella-hristova.png" alt="Stella Hristova">
                               <div class="media-body">
@@ -211,6 +215,8 @@
                                  <span><p>Stella Hristova</p> - Principal Testing Outsourcing Manager - Vodafone Roaming Services</span>
                               </div>
                            </div>
+
+                           <div class="divider"></div>
 
                            <h4>How did Stellaxius helped?</h4>
 
@@ -230,6 +236,16 @@
 
                            <p>With a fully optimized website, VentilAQUA was able to increase in 48% organic search traffic, reduce bounce rate in 83% and increase the number of pages viewed per session by 30%.</p>
 
+                           <a class="read_btn center_item" href="https://www.ventilaqua.com" target="_blank">View Website</a>
+
+                           <h4>Pardot as the marketing automation tool to support lead management</h4>
+
+                           <p>With the implementation of Pardot, VentilAQUA is now able to manage the lead lifecycle from lead generation to conversion, implementing new lead nurturing and opportunity follow-up strategies. Adding this to the use of a grading and scoring system to better qualify leads, the approach to new opportunities is better prioritized and pipeline velocity can be increased.</p>
+
+                           <p>Using the Pardot and Salesforce connection, VentilAQUA is now able to manage leads and opportunities in Salesforce using engagement activity data from Pardot to leverage conversations with potential clients.</p>
+
+                           <p>VentilAQUA is now using Salesforce campaigns to develop multi-touch campaign attribution reports to measure the success of each marketing initiative and the impact of marketing campaigns in lead generation and client conversion.</p>
+
                            <div class="our_skill_inner">
                               <div class="single_skill margin-lb animated">
                                  <div id="shiva"><span class="count">44</span></div>
@@ -246,14 +262,6 @@
                                  <span class="badge badge-pill badge-certification-default">Lorem ipsum dolor</span>
                               </div>
                            </div>
-
-                           <h4>Pardot as the marketing automation tool to support lead management</h4>
-
-                           <p>With the implementation of Pardot, VentilAQUA is now able to manage the lead lifecycle from lead generation to conversion, implementing new lead nurturing and opportunity follow-up strategies. Adding this to the use of a grading and scoring system to better qualify leads, the approach to new opportunities is better prioritized and pipeline velocity can be increased.</p>
-
-                           <p>Using the Pardot and Salesforce connection, VentilAQUA is now able to manage leads and opportunities in Salesforce using engagement activity data from Pardot to leverage conversations with potential clients.</p>
-
-                           <p>VentilAQUA is now using Salesforce campaigns to develop multi-touch campaign attribution reports to measure the success of each marketing initiative and the impact of marketing campaigns in lead generation and client conversion.</p>
 
                            <h4>Using Sales Cloud for Opportunity and Account management</h4>
 
@@ -291,7 +299,7 @@
                                  </div>
                               </div>
                               <div class="cv_item">
-                                 <a class="read_btn center_item" href="https://www.ventilaqua.com" target="_blank">View Website</a>
+                                 <a class="bg_btn center_item" href="#" target="_blank">Download Case Studie</a>
                               </div>
                            </div>
                         </aside>
@@ -436,16 +444,22 @@
           // Slider Imagens
            $(document).ready(function() {
             $('#image-gallery').lightSlider({
-                gallery:true,
+                gallery:false,
                 item:1,
-                thumbItem:10,
-                autoWidth:true,
-                adaptiveHeight:true,
-                slideMargin: 0,
+                slideMove:1,
+                pauseOnHover: true,
                 speed:500,
                 pause:4000,
-                auto:true,
                 loop:true,
+                responsive: [
+                     {
+                         breakpoint:480,
+                         settings: {
+                             item:1,
+                             slideMove:1,
+                           }
+                     }
+                 ],
                 onSliderLoad: function() {
                     $('#image-gallery').removeClass('cS-hidden');
                 }  
