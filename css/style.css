@@ -1215,17 +1215,13 @@ i:before {
 
 .our_skill_inner .single_skill .badge-certification-default {
   color: #fff;
-  background-color: #51545F;
-  min-width: 120px;
+  background-color: #51545f;
   padding: 6px 10px;
   font-size: 14px;
   font-weight: 400;
-  position: absolute;
-  bottom: 12px;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
+  position: relative;
+  bottom: 37px;
+  min-width: 150px;
 }
 
 .certifi-area .our_skill_inner .single_skill .badge-g-certification-1 {
@@ -1304,6 +1300,7 @@ i:before {
   background: url(../img/home/img_graphic_home.svg) no-repeat;
   width: 150px;
   height: 150px;
+  margin: 0 auto;
 }
 
 .certifi-area .our_skill_inner .single_skill #shiva {
@@ -2722,6 +2719,24 @@ ul li a {
   display: inline;
 }
 
+.success-content .our_skill_inner .number,
+.success-content .our_skill_inner .count {
+  line-height: 150px;
+  color: #1e1e27;
+  font-size: 44px;
+  text-align: center;
+  width: 100%;
+  display: inline;
+}
+
+.success-content .our_skill_inner .fa-long-arrow-alt-up,
+.success-content .our_skill_inner .fa-long-arrow-alt-down {
+  font-size: 23px;
+  color: #16cc32;
+  position: relative;
+  top: -6px;
+}
+
 .divider {
   width: 20%;
   display: -webkit-box;
@@ -2729,6 +2744,23 @@ ul li a {
   border-bottom: 1px solid #b7b0b0;
   height: 1px;
   margin-top: 40px;
+  position: relative;
+}
+
+.divider i {
+  padding: 8px;
+  width: 30px;
+  background: #ffffff;
+  border-radius: 60px;
+  text-align: center;
+  position: absolute;
+  top: -13px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  color: #b7b0b0;
+  font-size: 12px;
 }
 
 .success-content h3,
