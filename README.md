@@ -49,7 +49,6 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 ## Authors
 
 * **Alexandre Duarte** - *Designer* - [alexandrecgd](https://github.com/alexandrecgd)
-* **Ana Silva** - *Developer* - [AnaSilva4](https://github.com/AnaSilva4)
 
 
 ## License
