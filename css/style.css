@@ -1376,6 +1376,18 @@ i:before {
   margin-top: 0;
 }
 
+.indice-exce {
+  padding: 20px;
+  background: #f3fafc;
+  border-radius: 10px;
+  margin: 50px 0 50px;
+}
+
+.indice-exce p {
+  font-size: 16px;
+  margin: 5px 0 0 0;
+}
+
 .project_inner {
   text-align: center;
 }
@@ -2777,6 +2789,30 @@ ul li a {
 .success-content h3 {
   font-size: 2rem;
   color: #212529 !important;
+}
+
+.success-content .media .media-body p {
+  font-size: 18px;
+  color: #51545f;
+  line-height: 30px;
+  font-weight: 400;
+  padding: 35px 0 20px 0;
+}
+
+.success-content .media .media-body span {
+  font-size: 14px;
+  color: #b5aec4;
+  font-weight: 400;
+}
+
+.success-content .media .media-body span p {
+  font-size: 16px;
+  color: #232d37;
+  font-weight: 500;
+  line-height: normal;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
 }
 
 .content-inner {
