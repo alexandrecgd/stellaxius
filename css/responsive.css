@@ -878,4 +878,7 @@ Author E-mail: alexandre.duarte@stellaxius.com
   .media .media-body {
     padding-left: 0px;
   }
+  .industries_area .indus_text .read_btn {
+    width: 290px;
+  }
 }

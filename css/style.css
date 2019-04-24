@@ -1091,8 +1091,11 @@ i:before {
 }
 
 .industries_area .indus_text .read_btn {
-  width: 290px;
+  width: 320px;
   margin: 0 auto;
+  height: auto;
+  line-height: normal;
+  padding: 14px 0px;
 }
 
 .indus_text .read_btn {
@@ -2362,6 +2365,7 @@ i:before {
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: .25rem;
   margin-bottom: 20px;
+  min-height: 461px;
 }
 
 .l_news_item .l_news_img {
@@ -2401,8 +2405,7 @@ i:before {
   transition: all 400ms linear 0s;
 }
 
-.l_news_item .l_news_content h4:hover,
-.l_news_item .l_news_content p:hover {
+.l_news_item .l_news_content h4:hover {
   color: #d80f2c;
 }
 
