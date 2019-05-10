@@ -69,13 +69,19 @@ Author E-mail: alexandre.duarte@stellaxius.com
   .main_menu_area .navbar .navbar-toggler {
     border: none;
     padding: 0px;
-    padding-right: 15px;
+    padding-left: 15px;
     cursor: pointer;
+    position: relative;
+    z-index: 2;
   }
   .main_menu_area .navbar .navbar-brand {
-    padding-top: 18px;
-    padding-bottom: 18px;
-    padding-left: 15px;
+    padding-right: 0px;
+    width: 100%;
+    position: absolute;
+    margin: 0;
+    text-align: center;
+    z-index: 1;
+    top: 6px;
   }
   /*.right_widget .cv_inner .read_btn {
     display: none;
@@ -153,22 +159,33 @@ Author E-mail: alexandre.duarte@stellaxius.com
     height: 100vh;
     overflow-y: scroll;
     padding-bottom: 20px;
+    margin-top: 20px;
   }
   .navbar_fixed .navbar {
     background-color: rgba(0, 0, 0, 0.7) !important;
     -webkit-box-shadow: 0px 7px 5px -3px rgba(0, 0, 0, 0.15);
     -moz-box-shadow: 0px 7px 5px -3px rgba(0, 0, 0, 0.15);
     box-shadow: 0px 7px 5px -3px rgba(0, 0, 0, 0.15);
+    position: relative;
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+  .main_menu_area .navbar {
+    padding: 18px 0;
   }
   .mega-dropdown i.fa-caret-up {
-    top: 205px;
+    top: 214px;
     right: 244px;
+  }
+  .navbar .dropdown-menu.mega-menu {
+    background: transparent;
   }
   .service_item_submenu {
     margin-bottom: 0;
     border: 0.5px solid #dfdfdf;
     border-radius: 10px;
     padding: 20px;
+    background: #fff;
   }
   .service_item_submenu h4 {
     padding: 0;
@@ -385,6 +402,7 @@ Author E-mail: alexandre.duarte@stellaxius.com
   .our_skill_inner .margin-lb {
     margin-right: 0px !important;
     margin-bottom: 30px !important;
+    width: 100% !important;
   }
   .success-content .our_skill_inner .margin-lb {
     margin-bottom: 30px !important;
@@ -433,6 +451,7 @@ Author E-mail: alexandre.duarte@stellaxius.com
   }
   .project_area {
     padding: 60px 0px;
+    background-position: right -40px;
   }
   .static_area {
     padding: 20px 0px;
@@ -685,6 +704,7 @@ Author E-mail: alexandre.duarte@stellaxius.com
   .l_news_item {
     max-width: 369px;
     margin: 0px auto 30px;
+    min-height: auto;
   }
   .contact_widget {
     margin-left: 0px;
@@ -880,5 +900,38 @@ Author E-mail: alexandre.duarte@stellaxius.com
   }
   .industries_area .indus_text .read_btn {
     width: 290px;
+  }
+  .industries_area h2,
+  .industries_area p {
+    text-align: center;
+  }
+  .latest_news_area .b_center_title {
+    padding-bottom: 20px;
+  }
+  .box-subscription {
+    padding: 20px !important;
+    background: #fff;
+  }
+  .box-subscription h2 {
+    font-size: 22px;
+  }
+  .box-subscription p {
+    width: 100%;
+  }
+  .box-subscription form {
+    padding: 10px;
+  }
+  .box-subscription .email-input {
+    width: 100% !important;
+  }
+  .box-subscription .submit-button {
+    width: 100%;
+  }
+  .banner_home_show .banner-home-mobi {
+    display: block;
+    margin: 0 auto;
+  }
+  .banner_home_show .banner-home-desk {
+    display: none;
   }
 }

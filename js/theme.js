@@ -321,7 +321,7 @@
     /*----------------------------------------------------*/
     if ($(window).width() > 992) {
         $('.service_area').parallax("50%", 0.4);
-        $('.project_area').parallax("50%", 0.4);
+        // $('.project_area').parallax("50%", 0.4);
         $('.project_area2').parallax("50%", 0.4);
     }
 

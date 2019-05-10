@@ -1006,7 +1006,7 @@ i:before {
 
 /* Creative Area css
 ============================================================================================ */
-.creative_area {
+/*.creative_area {
   overflow: hidden;
   padding-top: 0px;
   display: -webkit-box;
@@ -1014,12 +1014,72 @@ i:before {
   display: -ms-flexbox;
   display: flex;
   background: #F3FAFC;
+}*/
+.box-subscription {
+  background: #fff url(https://stellaxius.com/knowledgecenter/wp-content/uploads/2019/04/subscribe_bg.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 40px;
+  border-radius: 5px;
+  border: 1px solid #e3ebff;
+}
+
+.box-subscription h2 {
+  margin: 0 0 10px 0;
+}
+
+.box-subscription p {
+  width: 70%;
+}
+
+.box-subscription form {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  background: rgba(19, 39, 88, 0.04);
+  border-radius: 5px;
+}
+
+.box-subscription form label {
+  margin: 0 0 5px 0;
+  display: block;
+}
+
+.box-subscription .email-input {
+  width: 50% !important;
+  display: inline-block;
+  height: 47px;
+  border: 1px solid #e5e5e5;
+  padding: 0px 20px !important;
+}
+
+.box-subscription .hidden {
+  display: none;
+}
+
+.box-subscription .submit-button {
+  display: inline-block;
+}
+
+.box-subscription .label-check {
+  margin: 20px 0 0 0;
+  display: inline-flex;
+  font-size: 13px;
+  line-height: 23px;
+  width: 92%;
+}
+
+.box-subscription .optedin-check {
+  float: left;
+  margin: 5px 10px 0 0;
 }
 
 /* Certifield Area css
 ============================================================================================ */
 .certifield_area {
   border-bottom: 0.5px solid #ECF0F1;
+  padding: 50px 0;
+  background: #DDF7FD;
 }
 
 .certifield_area .row {
@@ -1039,7 +1099,7 @@ i:before {
 ============================================================================================ */
 .industries_area {
   overflow: hidden;
-  padding: 100px 0;
+  padding: 100px 0 50px 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1340,14 +1400,15 @@ i:before {
 /* Project Area css
 ============================================================================================ */
 .project_area {
-  background: url(../img/home/project-bg.jpg) no-repeat fixed center center;
-  background-size: cover;
+  background: #DDF7FD url(../img/home/bg_box_areas.png) no-repeat;
+  background-size: auto;
   position: relative;
-  z-index: 3;
-  padding: 115px 0px;
+  padding: 100px 0 50px 0;
+  border-bottom: 1px solid #bae8f7;
+  background-position: 0px -50px;
 }
 
-.project_area:before {
+/*.project_area:before {
   content: "";
   height: 100%;
   width: 100%;
@@ -1356,8 +1417,7 @@ i:before {
   position: absolute;
   z-index: -1;
   background: rgba(4, 8, 29, 0.7);
-}
-
+}*/
 .project_area2 {
   background: url(../img/who-we-are/banner/ready-start-project.jpg) no-repeat fixed center center;
   background-size: cover;
@@ -1393,6 +1453,14 @@ i:before {
 
 .project_inner {
   text-align: center;
+}
+
+.cta-home-1 .center_title h2 {
+  color: #212529;
+}
+
+.project_inner .center_title p {
+  color: #212529;
 }
 
 .metodology-who {
@@ -2442,8 +2510,44 @@ i:before {
   color: #51545f;
 }
 
-/* Latest News Area css
+.latest_news_area .center_item {
+  margin-top: 20px !important;
+}
+
+/* Banner Area css
 ============================================================================================ */
+.banner_home_show .banner-home-desk {
+  display: block;
+  border-radius: 5px;
+  -webkit-transition: all 400ms linear 0s;
+  -o-transition: all 400ms linear 0s;
+  transition: all 400ms linear 0s;
+}
+
+.banner_home_show .banner-home-desk:hover {
+  -webkit-transition: all 400ms linear 0s;
+  -o-transition: all 400ms linear 0s;
+  transition: all 400ms linear 0s;
+  -webkit-box-shadow: 0px 25px 49px 0px rgba(58, 74, 88, 0.1);
+  box-shadow: 0px 25px 49px 0px rgba(58, 74, 88, 0.1);
+}
+
+.banner_home_show .banner-home-mobi {
+  display: none;
+  border-radius: 5px;
+  -webkit-transition: all 400ms linear 0s;
+  -o-transition: all 400ms linear 0s;
+  transition: all 400ms linear 0s;
+}
+
+.banner_home_show .banner-home-mobi:hover {
+  -webkit-transition: all 400ms linear 0s;
+  -o-transition: all 400ms linear 0s;
+  transition: all 400ms linear 0s;
+  -webkit-box-shadow: 0px 25px 49px 0px rgba(58, 74, 88, 0.1);
+  box-shadow: 0px 25px 49px 0px rgba(58, 74, 88, 0.1);
+}
+
 /* Static Area css
 ============================================================================================ */
 .static_area {
@@ -4045,7 +4149,7 @@ iframe form.form p label {
   position: absolute;
   color: #fff;
   top: -16px;
-  right: 172px;
+  right: 356px;
   font-size: 24px;
 }
 
