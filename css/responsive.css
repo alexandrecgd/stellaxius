@@ -1,21 +1,14 @@
-/*=====================================================================
-@Template Name: Stellaxius
-@Author: Alexandre Duarte
-@Developed By: Stellaxius
-@Developer URL: http://stellaxius.com
-Author E-mail: alexandre.duarte@stellaxius.com
-=====================================================================*/
 @media (max-width: 1330px) {
-  .testimonials_slider .owl-prev,
-  .certifications_slider .owl-prev {
+  .certifications_slider .owl-prev,
+  .testimonials_slider .owl-prev {
     left: -37px;
   }
-  .testimonials_slider .owl-next,
-  .certifications_slider .owl-next {
+  .certifications_slider .owl-next,
+  .testimonials_slider .owl-next {
     right: -36px;
   }
   .main_menu_area {
-    padding: 0px 40px;
+    padding: 0 40px;
   }
   .tp-mask-wrap .sub_text {
     margin-top: 133px !important;
@@ -43,8 +36,8 @@ Author E-mail: alexandre.duarte@stellaxius.com
   .indus_img,
   .service_feature_area .indus_img,
   .service_feature_area2 .indus_img {
-    padding-right: 0px;
-    padding-left: 0px;
+    padding-right: 0;
+    padding-left: 0;
   }
 }
 
@@ -61,21 +54,21 @@ Author E-mail: alexandre.duarte@stellaxius.com
 
 @media (max-width: 991px) {
   .main_menu_area {
-    padding: 0px 0px;
+    padding: 0 0;
   }
   .b_center_title h2 {
     font-size: 30px;
   }
   .main_menu_area .navbar .navbar-toggler {
     border: none;
-    padding: 0px;
+    padding: 0;
     padding-left: 15px;
     cursor: pointer;
     position: relative;
     z-index: 2;
   }
   .main_menu_area .navbar .navbar-brand {
-    padding-right: 0px;
+    padding-right: 0;
     width: 100%;
     position: absolute;
     margin: 0;
@@ -83,9 +76,6 @@ Author E-mail: alexandre.duarte@stellaxius.com
     z-index: 1;
     top: 6px;
   }
-  /*.right_widget .cv_inner .read_btn {
-    display: none;
-  }*/
   .carousel-item {
     height: 100vh;
   }
@@ -141,11 +131,11 @@ Author E-mail: alexandre.duarte@stellaxius.com
     line-height: 50px;
   }
   .main_menu_area .navbar .navbar-toggler span:last-child {
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
   .main_menu_area .navbar .navbar-nav li {
     display: block;
-    margin-right: 0px;
+    margin-right: 0;
   }
   .navbar_fixed .navbar .navbar-nav {
     display: block;
@@ -163,9 +153,9 @@ Author E-mail: alexandre.duarte@stellaxius.com
   }
   .navbar_fixed .navbar {
     background-color: rgba(0, 0, 0, 0.7) !important;
-    -webkit-box-shadow: 0px 7px 5px -3px rgba(0, 0, 0, 0.15);
-    -moz-box-shadow: 0px 7px 5px -3px rgba(0, 0, 0, 0.15);
-    box-shadow: 0px 7px 5px -3px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 7px 5px -3px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 7px 5px -3px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 7px 5px -3px rgba(0, 0, 0, 0.15);
     position: relative;
     padding-top: 18px;
     padding-bottom: 18px;
@@ -178,11 +168,11 @@ Author E-mail: alexandre.duarte@stellaxius.com
     right: 244px;
   }
   .navbar .dropdown-menu.mega-menu {
-    background: transparent;
+    background: 0 0;
   }
   .service_item_submenu {
     margin-bottom: 0;
-    border: 0.5px solid #dfdfdf;
+    border: .5px solid #dfdfdf;
     border-radius: 10px;
     padding: 20px;
     background: #fff;
@@ -196,7 +186,7 @@ Author E-mail: alexandre.duarte@stellaxius.com
   }
   .sub-menu {
     padding: 10px;
-    margin-top: 0px !important;
+    margin-top: 0 !important;
   }
   .sub-menu:first-child {
     margin-top: 10px !important;
@@ -208,7 +198,7 @@ Author E-mail: alexandre.duarte@stellaxius.com
     display: none;
   }
   .main_menu_area .navbar .navbar-nav li a {
-    padding: 0px 20px;
+    padding: 0 20px;
   }
   .navbar-brand img {
     max-width: 200px;
@@ -220,10 +210,10 @@ Author E-mail: alexandre.duarte@stellaxius.com
     display: none;
   }
   .c_feature_box {
-    padding: 45px 0px 25px 0px;
+    padding: 45px 0 25px 0;
   }
   .d_feature_img {
-    padding-left: 0px;
+    padding-left: 0;
   }
   .d_feature_img img {
     max-width: 100%;
@@ -266,20 +256,20 @@ Author E-mail: alexandre.duarte@stellaxius.com
     max-width: none;
     width: 93%;
   }
-  .static_service_area .container h2,
-  .static_service_area .container p,
   .service_feature_area .container h2,
-  .service_feature_area .container p {
+  .service_feature_area .container p,
+  .static_service_area .container h2,
+  .static_service_area .container p {
     text-align: left !important;
   }
   .cta_service_page .container h2 {
     text-align: center !important;
   }
-  .services_itens_sfci .row .itens_sfci p,
   .img_service2-n .row .col-md-7 .content-info-service p,
   .img_service3 .row .col-md-6 .content-info-service p,
   .img_service4 .row .col-md-3 p,
-  .img_service5 .row .col-md-10 .content-info-service p {
+  .img_service5 .row .col-md-10 .content-info-service p,
+  .services_itens_sfci .row .itens_sfci p {
     text-align: center !important;
   }
   .indus_text,
@@ -301,7 +291,7 @@ Author E-mail: alexandre.duarte@stellaxius.com
     min-height: auto;
   }
   .p_0_100 {
-    padding: 0px 0px 50px 0px;
+    padding: 0 0 50px 0;
   }
   .service_item {
     margin-bottom: 50px;
@@ -310,21 +300,21 @@ Author E-mail: alexandre.duarte@stellaxius.com
     margin-bottom: -30px;
   }
   .service_area {
-    padding: 20px 0px;
+    padding: 20px 0;
   }
   .testimonials_area .testimonials_slider {
-    padding: 0px 40px;
+    padding: 0 40px;
   }
   .testimonials_slider .item .media .media-body {
     padding-left: 15px;
-    padding-right: 0px;
+    padding-right: 0;
     margin-top: 10px;
   }
   .testimonials_slider .owl-prev {
-    left: 0px;
+    left: 0;
   }
   .testimonials_slider .owl-next {
-    right: 0px;
+    right: 0;
   }
   .certifield_area .row img {
     padding: 5px;
@@ -336,10 +326,10 @@ Author E-mail: alexandre.duarte@stellaxius.com
     margin-bottom: -30px;
   }
   .categories_widget {
-    margin-left: 0px;
+    margin-left: 0;
   }
   .footer_widgets_area {
-    padding: 40px 0px 0px 0px;
+    padding: 40px 0 0 0;
   }
   .f_widgets_inner .col-md-6 {
     margin-bottom: 40px;
@@ -366,16 +356,16 @@ Author E-mail: alexandre.duarte@stellaxius.com
   }
   .static_main_content .static_social {
     position: relative;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
   }
   .static_social ul li {
-    margin-bottom: 0px;
+    margin-bottom: 0;
     display: inline-block;
     margin-right: 10px;
   }
   .static_social ul li:last-child {
-    margin-right: 0px;
+    margin-right: 0;
   }
   .static_main_content .static_social {
     margin-bottom: 30px;
@@ -398,9 +388,9 @@ Author E-mail: alexandre.duarte@stellaxius.com
     text-align: center;
     margin-bottom: 20px;
   }
-  .our_skill_inner .single_skill,
-  .our_skill_inner .margin-lb {
-    margin-right: 0px !important;
+  .our_skill_inner .margin-lb,
+  .our_skill_inner .single_skill {
+    margin-right: 0 !important;
     margin-bottom: 30px !important;
     width: 100% !important;
   }
@@ -408,11 +398,11 @@ Author E-mail: alexandre.duarte@stellaxius.com
     margin-bottom: 30px !important;
   }
   .certifi-area .our_skill_inner .single_skill {
-    margin-right: 0px !important;
+    margin-right: 0 !important;
     margin-bottom: 30px !important;
   }
   .certifi-area {
-    margin: 20px 0 0px 0;
+    margin: 20px 0 0 0;
   }
   .contact_widget .dropdown .btn-light {
     margin-bottom: 20px;
@@ -444,17 +434,20 @@ Author E-mail: alexandre.duarte@stellaxius.com
     margin: 0 0 20px 0;
   }
   .p_100 {
-    padding: 60px 0px;
+    padding: 60px 0;
   }
   .p_100_50 {
     padding: 50px 0;
   }
+  .mt-100 {
+    margin-top: 50px;
+  }
   .project_area {
-    padding: 60px 0px;
+    padding: 60px 0;
     background-position: right -40px;
   }
   .static_area {
-    padding: 20px 0px;
+    padding: 20px 0;
   }
   .img_service2-n {
     display: none;
@@ -486,14 +479,12 @@ Author E-mail: alexandre.duarte@stellaxius.com
     height: 1040px;
     width: 300px;
   }
-  /* Service 1 */
   .container-img-service-2n {
     position: relative;
     width: 290px;
     height: 1040px;
     margin: 0 auto;
   }
-  /* Box Text 1 */
   .container-img-service-2n .img-1-infographic-1,
   .container-img-service-2n .img-2-infographic-1,
   .container-img-service-2n .img-3-infographic-1,
@@ -531,7 +522,6 @@ Author E-mail: alexandre.duarte@stellaxius.com
     margin: 0;
     text-align: center !important;
   }
-  /* Box Text 2 */
   .container-img-service-2n .row-line-2 {
     background-color: rgba(130, 125, 220, 0);
     width: 290px;
@@ -547,7 +537,6 @@ Author E-mail: alexandre.duarte@stellaxius.com
     color: #fff;
     padding: 10px;
   }
-  /* Box Text 3 */
   .container-img-service-2n .row-line-3 {
     background-color: rgba(130, 125, 220, 0);
     width: 290px;
@@ -563,7 +552,6 @@ Author E-mail: alexandre.duarte@stellaxius.com
     color: #fff;
     padding: 10px;
   }
-  /* Box Text 4 */
   .container-img-service-2n .row-line-4 {
     background-color: rgba(130, 125, 220, 0);
     width: 290px;
@@ -579,7 +567,6 @@ Author E-mail: alexandre.duarte@stellaxius.com
     color: #fff;
     padding: 10px;
   }
-  /* Service 2 */
   .container-infographic-2 {
     margin: 0;
   }
@@ -617,7 +604,6 @@ Author E-mail: alexandre.duarte@stellaxius.com
     margin: 37px 0 0 0;
     padding: 0 10px;
   }
-  /* Service 3 */
   .container-infographic-3 {
     margin: 0;
   }
@@ -661,7 +647,6 @@ Author E-mail: alexandre.duarte@stellaxius.com
     margin: 32px 0 0 0;
     padding: 0 10px;
   }
-  /* Service 4 */
   .img_service5 h5 {
     font-size: 20px;
     color: #fff;
@@ -697,33 +682,39 @@ Author E-mail: alexandre.duarte@stellaxius.com
   }
   .right_sidebar_area {
     margin-bottom: -45px;
-    padding-left: 0px;
+    padding-left: 0;
     margin-top: 20px;
-    top: 0px;
+    top: 0;
   }
   .l_news_item {
     max-width: 369px;
-    margin: 0px auto 30px;
+    margin: 0 auto 30px;
     min-height: auto;
   }
   .contact_widget {
-    margin-left: 0px;
+    margin-left: 0;
   }
-  .banner_text_inner h1 {
+  .banner_text_inner h1,
+  .banner_text_inner_services h1 {
     font-size: 28px;
   }
-  .banner_text_inner {
+  .banner_text_inner,
+  .banner_text_inner_services {
     padding-top: 135px;
     padding-bottom: 60px;
   }
   .banner_area {
     min-height: auto;
   }
+  .banner_pardot_services_1 {
+    background: url(../img/what-we-do/banner/banner_pardot_services.png) no-repeat scroll -480px 0px;
+    background-size: cover;
+  }
   .banner_404 {
     min-height: 71px;
   }
   .page_content_404 {
-    padding: 40px 0px;
+    padding: 40px 0;
   }
   .page_content_404 .service_item_inner {
     margin-top: 10px;
@@ -734,14 +725,14 @@ Author E-mail: alexandre.duarte@stellaxius.com
   .page_content_404 p {
     font-size: 16px;
   }
+  .banner_contact,
+  .banner_joinus,
+  .banner_knowledg_post,
   .banner_what_we_do,
   .banner_what_we_do2,
   .banner_what_we_do3,
   .banner_what_we_do4,
-  .banner_who_we_are,
-  .banner_knowledg_post,
-  .banner_contact,
-  .banner_joinus {
+  .banner_who_we_are {
     background-position: center center;
     background-size: cover;
   }
@@ -783,7 +774,7 @@ Author E-mail: alexandre.duarte@stellaxius.com
 
 @media (max-width: 575px) {
   .c_feature_box {
-    margin-top: 0px;
+    margin-top: 0;
   }
   .creative_feature_area {
     padding-top: 50px;
@@ -821,37 +812,37 @@ Author E-mail: alexandre.duarte@stellaxius.com
   .certifield_area .row .col-md-4 {
     text-align: center;
   }
-  .testimonials_area .testimonials_slider,
-  .clients_area .certifications_slider {
-    padding: 0px 0px;
+  .clients_area .certifications_slider,
+  .testimonials_area .testimonials_slider {
+    padding: 0 0;
     padding-bottom: 30px;
   }
-  .testimonials_slider .owl-prev,
-  .testimonials_slider .owl-next,
+  .certifications_slider .owl-next,
   .certifications_slider .owl-prev,
-  .certifications_slider .owl-next {
+  .testimonials_slider .owl-next,
+  .testimonials_slider .owl-prev {
     display: none;
   }
-  .testimonials_slider .item .media .media-body p,
-  .certifications_slider .item .media .media-body p {
+  .certifications_slider .item .media .media-body p,
+  .testimonials_slider .item .media .media-body p {
     font-size: 16px;
-    padding: 10px 0px 20px 0px;
+    padding: 10px 0 20px 0;
   }
   .testimonials_slider .item .media .media-body {
     padding: 0;
   }
   .p_100_0 {
-    padding: 50px 0px 0px 0px;
+    padding: 50px 0 0 0;
   }
-  .testimonials_slider .owl-next,
-  .certifications_slider .owl-next {
+  .certifications_slider .owl-next,
+  .testimonials_slider .owl-next {
     right: auto;
     left: 50%;
     transform: translateX(-50%);
     margin-left: 20px;
   }
   .testimonials_area {
-    background: #ffffff;
+    background: #fff;
   }
   .certifications_slider .item {
     opacity: 1;
@@ -868,7 +859,7 @@ Author E-mail: alexandre.duarte@stellaxius.com
   }
   .main_slider_area #main_slider ul li .slider_button .bg_btn {
     display: block;
-    margin-right: 0px;
+    margin-right: 0;
     margin-bottom: 7px;
   }
   .tp_btn {
@@ -884,7 +875,7 @@ Author E-mail: alexandre.duarte@stellaxius.com
     line-height: 20px;
   }
   .copy_right_area .float-md-right .nav li i {
-    line-height: 0px;
+    line-height: 0;
   }
 }
 
@@ -896,7 +887,7 @@ Author E-mail: alexandre.duarte@stellaxius.com
     margin-bottom: -10px;
   }
   .media .media-body {
-    padding-left: 0px;
+    padding-left: 0;
   }
   .industries_area .indus_text .read_btn {
     width: 290px;
@@ -933,5 +924,18 @@ Author E-mail: alexandre.duarte@stellaxius.com
   }
   .banner_home_show .banner-home-desk {
     display: none;
+  }
+  .banner_content,
+  .menu-breadcrumbie {
+    display: none;
+  }
+  .services-content .services-pardot-1-col .box-content-col {
+    padding: 20px;
+  }
+  .services-content .services-pardot-1-col .box-2-col {
+    margin-top: 20px;
+  }
+  .cta_contact {
+    margin-left: 20px;
   }
 }
